@@ -1,0 +1,79 @@
+---
+title: "MakingOurFirstGraph"
+format: html
+execute:
+  echo: false
+  warning: false
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this, and run it here using the green arrow.
+
+```{r}
+1 + 1
+```
+
+We will explore this more with Chapter 2. For today, let's make our first graph.
+
+The first thing done is to call a library. R has thousands that allow you to do all sorts of things. The tidyverse was designed to make data analysis easier, as a collection of libraries that work well together.
+
+```{r}
+library(tidyverse)
+```
+
+You'll notice that everything called on a *code chunk* is run below in the Console. This is where you can see the output of your code.
+
+Now, let's make our first graph. The first thing we will need is data.
+
+```{r}
+## <- is called an assignment - it lets you define something once and be done with it
+counts <- c(7,2)
+options <- c("Best Parking Spot", "Traffic Lights")
+
+## data.frame is a way to take in a list of vectors and makes a table
+
+wouldyourather1 <- data.frame(options, counts)
+
+```
+
+Now that we have data, we can make a graph. The ggplot function is used to make graphs. It is part of the ggplot2 library, which is part of the tidyverse.
+
+Chapter 1 talks about the "Grammar of Graphics". The idea here is that you can break down a graph into its components, and then build it back up. ggplot was built with the grammar of graphics in mind.
+
+Let's build it layer by layer (we don't have to do this, but it will help us understand)
+
+```{r}
+## aes is short for aesthetics. It tells ggplot what to put on the x and y axis
+ggplot(wouldyourather1, aes(x = options, y = counts))
+
+## this function tells ggplot what data to use (data), what to put on the x and y axis (aes), but we haven't told it what kind of graph to make
+
+```
+
+```{r}
+ggplot(wouldyourather1, aes(x = options, y = counts)) +
+  geom_col()
+```
+
+```{r}
+ggplot(wouldyourather1, aes(x = options, y = counts)) +
+  geom_col() + 
+  labs(title = "Would You Rather Opener", 
+       subtitle= "Week 1",
+       x = "Options Given", y = "Counts of Votes")
+```
+
+```{r}
+ggplot(wouldyourather1, aes(x = options, y = counts, fill=options)) +
+  geom_col() + 
+  labs(title = "Would You Rather Opener", 
+       subtitle= "Week 1",
+       x = "Options Given", y = "Counts of Votes")
+```
+
+

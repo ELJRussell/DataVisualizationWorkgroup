@@ -1,0 +1,200 @@
+---
+title: "Chapter 3 - Data Visualization Primer"
+format: html
+---
+## Load Libraries
+
+```{r}
+library(gapminder)
+library(tidyverse)
+```
+
+## 3.3 Mappings link data to things you see
+
+```{r}
+## Tiny reminder - you won't see this in the environment because it's a database that is in the gapminder library. Most databases that you create show up in your box in the upper right to remind you that they exist :)
+gapminder
+```
+
+
+```{r}
+p <- ggplot(data = gapminder)
+## Notice that the plot is saved, instead of showing it. If you wanted to see it, you can now just call p, either here or in the console. This ggplot is completely blank, as no x or y axis has been defined, or a geom
+```
+
+
+```{r}
+p <- ggplot(data = gapminder,
+            mapping = aes(x = gdpPercap,
+                          y = lifeExp))
+```
+
+
+```{r}
+p
+```
+
+```{r}
+p + geom_point() 
+```
+
+
+## 3.4 Build your plots layer by layer
+
+```{r}
+
+p <- ggplot(data = gapminder,
+            mapping = aes(x = gdpPercap,
+                          y=lifeExp))
+p + geom_smooth()
+
+```
+
+```{r fig.cap='Life Expectancy vs GDP, showing both points and a GAM smoother.', fig.width=8, fig.height=5}
+
+p <- ggplot(data = gapminder,
+            mapping = aes(x = gdpPercap,
+                          y=lifeExp))
+p + geom_point() + geom_smooth() 
+
+```
+
+```{r fig.cap='Life Expectancy vs GDP, points and an ill-advised linear fit.', fig.width=8, fig.height=5}
+p <- ggplot(data = gapminder,
+            mapping = aes(x = gdpPercap,
+                          y=lifeExp))
+p + geom_point() + geom_smooth(method = "lm") 
+```
+
+
+```{r fig.cap='Life Expectancy vs GDP scatterplot, with a GAM smoother and a log scale on the x-axis.', fig.width=8, fig.height=5}
+
+p <- ggplot(data = gapminder,
+            mapping = aes(x = gdpPercap,
+                          y=lifeExp))
+p + geom_point() +
+    geom_smooth(method = "gam") +
+    scale_x_log10()
+
+```
+
+```{r fig.cap='Life Expectancy vs GDP scatterplot, with a GAM smoother and a log scale on the x-axis, with better labels on the tick marks.', fig.width=8, fig.height=5}
+
+p <- ggplot(data = gapminder, mapping = aes(x = gdpPercap, y=lifeExp))
+p + geom_point() +
+    geom_smooth(method = "gam") +
+    scale_x_log10(labels = scales::dollar)
+```
+
+
+## 3.5 Mapping aesthetics vs setting them
+
+```{r fig.cap='What has gone wrong here?', fig.width=8, fig.height=5}
+
+p <- ggplot(data = gapminder,
+            mapping = aes(x = gdpPercap,
+                          y = lifeExp,
+                          color = "purple"))
+p + geom_point() +
+    geom_smooth(method = "loess") +
+    scale_x_log10()
+```
+
+
+```{r fig.cap='Setting the color attribute of the points directly.', fig.width=8, fig.height=5}
+
+p <- ggplot(data = gapminder,
+            mapping = aes(x = gdpPercap,
+                          y = lifeExp))
+p + geom_point(color = "purple") +
+    geom_smooth(method = "loess") +
+    scale_x_log10()
+```
+
+```{r fig.cap='Setting some other arguments.', fig.width=8, fig.height=5, fig.margin=TRUE}
+
+p <- ggplot(data = gapminder,
+            mapping = aes(x = gdpPercap,
+                          y = lifeExp)) 
+p + geom_point(alpha = 0.3) +
+    geom_smooth(color = "orange", se = FALSE, size = 8, method = "lm") +
+    scale_x_log10()
+```
+
+
+```{r fig.cap='A more polished plot of Life Expectancy vs GDP.', fig.width=8, fig.height=5.25, layout = 'l-page'}
+
+p <- ggplot(data = gapminder, mapping = aes(x = gdpPercap, y=lifeExp))
+p + geom_point(alpha = 0.3) + geom_smooth(method = "gam") +
+    scale_x_log10(labels = scales::dollar) +
+    labs(x = "GDP Per Capita", y = "Life Expectancy in Years",
+         title = "Economic Growth and Life Expectancy",
+         subtitle = "Data points are country-years",
+         caption = "Source: Gapminder.")
+```
+
+
+
+```{r fig.cap='Mapping the continent variable to the color aesthetic.', fig.width=8.5, fig.height=5}
+
+p <- ggplot(data = gapminder,
+            mapping = aes(x = gdpPercap,
+                          y = lifeExp,
+                          color = continent))
+p + geom_point() +
+    geom_smooth(method = "loess") +
+    scale_x_log10()
+```
+
+```{r fig.cap='Mapping the continent variable to the color aesthetic, and correcting the error bars using the fill aesthetic.', fig.width=8.5, fig.height=5}
+
+p <- ggplot(data = gapminder,
+            mapping = aes(x = gdpPercap,
+                          y = lifeExp,
+                          color = continent,
+                          fill = continent))
+p + geom_point() +
+    geom_smooth(method = "loess") +
+    scale_x_log10()
+```
+
+## 3.6 Aesthetics can be mapped per geom
+
+```{r fig.cap='Mapping aesthetics on a per-geom basis. Here color is mapped to continent for the points but not the smoother.', fig.width=8.5, fig.height=5}
+
+p <- ggplot(data = gapminder, mapping = aes(x = gdpPercap, y = lifeExp))
+p + geom_point(mapping = aes(color = continent)) +
+    geom_smooth(method = "loess") +
+    scale_x_log10()
+```
+
+
+```{r fig.cap='Mapping a continuous variable to color.', out.width="100%", fig.width=8.5, fig.height=5}
+
+p <- ggplot(data = gapminder,
+            mapping = aes(x = gdpPercap,
+                          y = lifeExp))
+p + geom_point(mapping = aes(color = log(pop))) +
+    scale_x_log10()    
+```
+
+## 3.7 Save your work
+
+```{r}
+knitr::opts_chunk$set(fig.width=8, fig.height=5) 
+```
+
+
+```{r}
+ggsave(filename = "figures/my_figure.png")
+```
+
+
+```{r}
+p_out <- p + geom_point(mapping = aes(color = log(pop))) +
+    scale_x_log10()
+
+ggsave(filename = "figures/lifexp_vs_gdp_gradient.pdf", plot = p_out)
+
+ggsave(filename="figures/lifexp_vs_gdp_gradient.png", plot = p_out)
+```
