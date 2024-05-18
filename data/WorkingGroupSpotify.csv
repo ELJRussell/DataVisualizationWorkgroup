@@ -1,10 +1,10 @@
-"","song","track.artists_name","key","mode","key_mode","danceability","energy","loudness","speechiness","acousticness","instrumentalness","liveness","valence","tempo"
-"1","Seven Nation Army","The White Stripes","E","Minor","E Minor",0.743,0.446,-7.807,0.0683,0.0039,0.118,0.337,0.278,123.596
-"2","Run the World (Girls)","Beyoncé","C","Major","C Major",0.732,0.899,-4.237,0.143,0.00496,0.0000464,0.372,0.759,127.091
-"3","CAN'T STOP THE FEELING! (from DreamWorks Animation's ""TROLLS"")","Justin Timberlake","C","Major","C Major",0.669,0.832,-5.721,0.0682,0.0106,0,0.0968,0.7,113.035
-"4","Freedom! '90","George Michael","F","Major","F Major",0.675,0.873,-7.697,0.0441,0.0998,0.0000148,0.0541,0.817,91.77
-"5","Enter Sandman (Remastered)","Metallica","F#","Minor","F# Minor",0.566,0.834,-8.412,0.0298,0.00277,0.008,0.0625,0.621,123.296
-"6","Walking On Sunshine","Katrina & The Waves","A#","Major","A# Major",0.597,0.87,-11.97,0.0371,0.0119,0.166,0.0678,0.944,109.901
-"7","Good To Be Alive (Hallelujah)","Andy Grammer","F","Major","F Major",0.791,0.901,-3.675,0.0509,0.0382,0,0.642,0.662,120.02
-"8","Boss Bitch","Doja Cat","A#","Minor","A# Minor",0.707,0.955,-4.593,0.222,0.127,0,0.202,0.575,125.989
-"9","Hear Me Coming","Yung Joc","F#","Major","F# Major",0.772,0.799,-5.562,0.0532,0.0484,0,0.203,0.723,99.957
+"song","track.artists_name","key","mode","key_mode","danceability","energy","loudness","speechiness","acousticness","instrumentalness","liveness","valence","tempo"
+"Seven Nation Army","The White Stripes","E","Minor","E Minor",0.743,0.446,-7.807,0.0683,0.0039,0.118,0.337,0.278,123.596
+"Run the World (Girls)","Beyoncé","C","Major","C Major",0.732,0.899,-4.237,0.143,0.00496,0.0000464,0.372,0.759,127.091
+"CAN'T STOP THE FEELING! (from DreamWorks Animation's ""TROLLS"")","Justin Timberlake","C","Major","C Major",0.669,0.832,-5.721,0.0682,0.0106,0,0.0968,0.7,113.035
+"Freedom! '90","George Michael","F","Major","F Major",0.675,0.873,-7.697,0.0441,0.0998,0.0000148,0.0541,0.817,91.77
+"Enter Sandman (Remastered)","Metallica","F#","Minor","F# Minor",0.566,0.834,-8.412,0.0298,0.00277,0.008,0.0625,0.621,123.296
+"Walking On Sunshine","Katrina & The Waves","A#","Major","A# Major",0.597,0.87,-11.97,0.0371,0.0119,0.166,0.0678,0.944,109.901
+"Good To Be Alive (Hallelujah)","Andy Grammer","F","Major","F Major",0.791,0.901,-3.675,0.0509,0.0382,0,0.642,0.662,120.02
+"Boss Bitch","Doja Cat","A#","Minor","A# Minor",0.707,0.955,-4.593,0.222,0.127,0,0.202,0.575,125.989
+"Hear Me Coming","Yung Joc","F#","Major","F# Major",0.772,0.799,-5.562,0.0532,0.0484,0,0.203,0.723,99.957
