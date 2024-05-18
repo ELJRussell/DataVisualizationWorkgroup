@@ -1,0 +1,87 @@
+---
+title: "Spotify Explorations 1"
+format: html
+execute:
+  echo: FALSE
+  warning: FALSE
+---
+
+```{r}
+library(tidyverse)
+library(gapminder)
+
+RollingStone500 <- read.csv("https://raw.githubusercontent.com/ELJRussell/DataVisualizationWorkgroup/main/data/RollingStones.csv")
+
+Workgroup <- read.csv("https://raw.githubusercontent.com/ELJRussell/DataVisualizationWorkgroup/main/data/WorkingGroupSpotify.csv")
+
+```
+
+## Examples from gapminder dataset
+### A bar plot (which is good for understanding counts of a categorical variable)
+```{r}
+ggplot(data=gapminder, mapping=aes(x=continent)) +
+  geom_bar()
+```
+
+### A histogram (which is good for understanding the distribution of a continuous variable)
+```{r}
+ggplot(data=gapminder, mapping=aes(x=lifeExp)) +
+  geom_histogram()
+```
+
+### Scatter plots from Chapter 3 with the extra aesthetics
+
+This is the polished Gapminder data found on pg. 
+
+```{r}
+ggplot(data = gapminder, mapping = aes(x = gdpPercap, y=lifeExp)) +
+  geom_point(alpha = 0.3) +
+  geom_smooth(method = "gam") +
+  scale_x_log10(labels = scales::dollar) +
+  labs(x = "GDP Per Capita", y = "Life Expectancy in Years",
+       title = "Economic Growth and Life Expectancy",
+       subtitle = "Data points are country-years",
+       caption = "Source: Gapminder.")
+```
+
+This is the gapminder plot where, because color is coded in the ggplot() call, it is true for all geoms afterwards.
+
+```{r}
+ggplot(data = gapminder,
+       mapping = aes(x = gdpPercap,
+       y = lifeExp,
+       color = continent,
+       fill = continent)) +
+  geom_point() + 
+  geom_smooth(method = "loess") + 
+  scale_x_log10()
+```
+
+Here is it with color only coded to the points.
+
+```{r}
+ggplot(data = gapminder,
+       mapping = aes(x = gdpPercap,
+       y = lifeExp)) +
+  geom_point(mapping=aes(color=continent)) + 
+  geom_smooth(method = "loess") + 
+  scale_x_log10()
+```
+
+## Your own exploration of Spotify Datasets
+
+You have 2 datasets you can play with:  
+1. `RollingStone500` which is a list of the top 500 best songs of all time according to Rolling Stone Magazine, updated in February 2024.
+2. `Workgroup` which is a list of the songs that we chose in our opener for the last Chapter.
+
+Each of these were pulled using a package in R called spotifyr, which allows R to access the Spotify system (if you are curious, the script to do this can be found in the Data Visualization Github). Spotify defines many variables that are intrinsic to the music itself, such as `danceability`, `energy`, `key`, `loudness`, `mode`, `speechiness`, `acousticness`, `instrumentalness`, `liveness`, `valence`, and `tempo`. These can be found [here](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/).
+
+Your task is to create graphs that explore the relationship between two of the continuous variables using a scatterplot, in a similar way to the Gapminder work of Chapter 3. You can also use "mode" as a color variable, which tells you if the song is in a Major or Minor key. You can do multiple explorations below - just remember to make a new code block for each plot.
+
+If you have extra time, feel free to explore other elements of the data, or to use the bar and histogram code above to explore other questions (for instance, what is the frequency of major versus minor keys in the top 500 songs?)
+
+```{r}
+
+
+```
+
