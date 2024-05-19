@@ -57,7 +57,7 @@ ggplot(data = gapminder,
   scale_x_log10()
 ```
 
-Here is it with color only coded to the points.
+Here is it with color only coded to the points. Notice that color was added as an aesthetic to the geom_point() call.
 
 ```{r}
 ggplot(data = gapminder,
