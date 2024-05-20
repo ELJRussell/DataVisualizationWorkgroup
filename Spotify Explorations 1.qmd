@@ -31,12 +31,12 @@ ggplot(data=gapminder, mapping=aes(x=lifeExp)) +
 
 ### Scatter plots from Chapter 3 with the extra aesthetics
 
-This is the polished Gapminder data found on pg. 
+This is the polished Gapminder data found on pg. 65. Tiny note - in the book they say that it used GAM, but the figure is actually a Generalized Linear Model (GLM), which is easier to interpret.
 
 ```{r}
 ggplot(data = gapminder, mapping = aes(x = gdpPercap, y=lifeExp)) +
   geom_point(alpha = 0.3) +
-  geom_smooth(method = "gam") +
+  geom_smooth(method = "glm") +
   scale_x_log10(labels = scales::dollar) +
   labs(x = "GDP Per Capita", y = "Life Expectancy in Years",
        title = "Economic Growth and Life Expectancy",
