@@ -1,501 +1,501 @@
-"","top_500_number","song","artist","key","mode","key_mode","danceability","energy","loudness","speechiness","acousticness","instrumentalness","liveness","valence","tempo"
-"1",1,"Respect","Aretha Franklin","C","Major","C Major",0.805,0.558,-5.226,0.041,0.164,2.2e-05,0.0546,0.965,114.95
-"2",2,"Fight The Power","Public Enemy","D","Major","D Major",0.797,0.582,-12.97,0.255,0.00484,2.04e-06,0.517,0.415,105.974
-"3",3,"A Change Is Gonna Come","Sam Cooke","A#","Major","A# Major",0.214,0.4,-10.042,0.0342,0.756,0,0.325,0.508,169.683
-"4",4,"Like a Rolling Stone","Bob Dylan","C","Major","C Major",0.482,0.721,-6.839,0.0321,0.731,0,0.189,0.557,95.263
-"5",5,"Smells Like Teen Spirit","Nirvana","C#","Major","C# Major",0.502,0.912,-4.556,0.0564,2.55e-05,0.000173,0.106,0.72,116.761
-"6",6,"What's Going On","Marvin Gaye","C#","Minor","C# Minor",0.245,0.833,-5.555,0.116,0.105,0,0.359,0.805,205.375
-"7",7,"Strawberry Fields Forever - Remastered","The Beatles","A#","Major","A# Major",0.39,0.502,-12.277,0.178,0.336,0.000138,0.0713,0.289,97.871
-"8",8,"Get Ur Freak On","Missy Elliott","C","Major","C Major",0.797,0.75,-9.369,0.247,0.533,0.108,0.095,0.74,177.87
-"9",9,"Dreams - 2004 Remaster","Fleetwood Mac","C","Major","C Major",0.828,0.492,-9.744,0.0276,0.0644,0.00428,0.128,0.789,120.151
-"10",10,"Hey Ya!","Outkast","E","Minor","E Minor",0.727,0.974,-2.261,0.0664,0.103,0.000532,0.174,0.965,79.526
-"11",11,"God Only Knows - Mono","The Beach Boys","F#","Minor","F# Minor",0.524,0.487,-7.525,0.0299,0.253,0,0.0579,0.482,117.108
-"12",12,"Superstition - Single Version","Stevie Wonder","G#","Major","G# Major",0.633,0.634,-12.115,0.0725,0.038,0.0064,0.0385,0.872,100.499
-"13",13,"Gimme Shelter","The Rolling Stones","C#","Minor","C# Minor",0.63,0.616,-8.128,0.0309,0.463,0.0408,0.173,0.509,118.65
-"14",14,"Waterloo Sunset","The Kinks","C#","Minor","C# Minor",0.513,0.683,-7.996,0.0246,0.268,0,0.173,0.467,107.866
-"15",15,"I Want To Hold Your Hand - Remastered","The Beatles","G","Major","G Major",0.492,0.722,-6.348,0.0395,0.581,4.47e-06,0.354,0.926,130.97
-"16",16,"Crazy In Love (feat. Jay-Z)","Beyoncé","D","Minor","D Minor",0.646,0.77,-6.596,0.226,0.00249,0,0.0715,0.681,99.165
-"17",17,"Bohemian Rhapsody - Remastered 2011","Queen","C","Minor","C Minor",0.411,0.404,-9.928,0.0511,0.271,0,0.3,0.226,71.068
-"18",18,"Purple Rain","Prince","A#","Major","A# Major",0.367,0.452,-10.422,0.0307,0.0353,0.00228,0.689,0.189,113.066
-"19",19,"Imagine - Remastered 2010","John Lennon","C","Major","C Major",0.547,0.257,-12.358,0.0252,0.907,0.183,0.0935,0.169,75.752
-"20",20,"Dancing On My Own","Robyn","F#","Major","F# Major",0.678,0.871,-4.781,0.0342,0.0587,0.249,0.0928,0.28,117.029
-"21",21,"Strange Fruit","Billie Holiday","F#","Major","F# Major",0.313,0.0437,-22.627,0.0315,0.989,0.148,0.209,0.0625,100.827
-"22",22,"Be My Baby","The Ronettes","E","Major","E Major",0.511,0.769,-7.032,0.042,0.181,0,0.0921,0.818,129.657
-"23",23,"Heroes - 2017 Remaster","David Bowie","G","Major","G Major",0.489,0.758,-6.491,0.0297,0.000678,0.49,0.092,0.435,112.113
-"24",24,"A Day In The Life - Remastered","The Beatles","E","Minor","E Minor",0.364,0.457,-14.162,0.0675,0.29,0.000106,0.922,0.175,163.219
-"25",25,"Runaway","Kanye West","C#","Minor","C# Minor",0.374,0.568,-3.825,0.109,0.219,0.00219,0.513,0.111,84.733
-"26",26,"A Case of You","Joni Mitchell Tribute by Strings Attached","C","Major","C Major",0.283,0.182,-11.548,0.0292,0.686,0,0.169,0.129,69.261
-"27",27,"Born to Run","Bruce Springsteen","E","Major","E Major",0.27,0.944,-4.199,0.0975,0.00501,2.05e-05,0.116,0.606,146.347
-"28",28,"Once in a Lifetime","Talking Heads","D","Major","D Major",0.646,0.88,-7.753,0.0637,0.0623,0.157,0.355,0.802,116.916
-"29",29,"Nuthin' But A ""G"" Thang","Dr. Dre","B","Minor","B Minor",0.669,0.821,-4.37,0.29,0.00182,0,0.147,0.684,94.895
-"30",30,"Royals","Lorde","G","Major","G Major",0.674,0.426,-9.504,0.122,0.12,0,0.132,0.337,84.876
-"31",31,"(I Can't Get No) Satisfaction - Mono Version / Remastered 2002","The Rolling Stones","D","Major","D Major",0.725,0.853,-7.842,0.0353,0.0348,0.127,0.196,0.904,136.282
-"32",32,"Juicy - 2007 Remaster","The Notorious B.I.G.","A","Major","A Major",0.873,0.816,-4.645,0.256,0.483,0,0.146,0.79,96.067
-"33",33,"Johnny B. Goode","Chuck Berry","A#","Major","A# Major",0.516,0.798,-9.049,0.083,0.738,0.000128,0.305,0.969,168.195
-"34",34,"Papa's Got A Brand New Bag - Pt. 1","James Brown","E","Major","E Major",0.728,0.535,-9.2,0.0882,0.305,6.1e-06,0.0904,0.931,127.897
-"35",35,"Tutti Frutti","Little Richard","A#","Major","A# Major",0.534,0.433,-10.135,0.0635,0.566,0,0.0514,0.963,184.899
-"36",36,"Seven Nation Army","The White Stripes","C","Major","C Major",0.726,0.463,-7.828,0.0799,0.00817,0.447,0.255,0.321,123.881
-"37",37,"When Doves Cry","Prince","A","Minor","A Minor",0.729,0.989,-4.613,0.049,0.0102,4.45e-05,0.443,0.84,126.47
-"38",38,"(Sittin' On) the Dock of the Bay","Otis Redding","D","Major","D Major",0.768,0.367,-11.226,0.0315,0.683,1.79e-05,0.081,0.532,103.621
-"39",39,"B.O.B. - Bombs Over Baghdad","Outkast","A","Major","A Major",0.746,0.978,-5.324,0.0978,0.0555,4.11e-05,0.026,0.653,153.809
-"40",40,"All Along the Watchtower","Jimi Hendrix","G#","Major","G# Major",0.438,0.805,-6.237,0.0624,0.00255,5.69e-05,0.0842,0.564,113.253
-"41",41,"Love Will Tear Us Apart - 2010 Remaster","Joy Division","D","Major","D Major",0.525,0.902,-8.662,0.0368,0.000989,0.691,0.137,0.907,146.83
-"42",42,"Redemption Song","Bob Marley & The Wailers","G","Major","G Major",0.671,0.256,-10.743,0.0387,0.608,0,0.0737,0.694,115.871
-"43",43,"My Girl","The Temptations","C","Major","C Major",0.572,0.418,-10.738,0.0349,0.635,0,0.0961,0.694,104.566
-"44",44,"Billie Jean","Michael Jackson","B","Minor","B Minor",0.92,0.654,-3.051,0.0401,0.0236,0.0153,0.036,0.847,117.046
-"45",45,"Alright","Kendrick Lamar","G","Major","G Major",0.796,0.766,-5.974,0.238,0.0742,0,0.0827,0.558,110.034
-"46",46,"Paper Planes","M.I.A.","D","Major","D Major",0.447,0.848,-6.175,0.222,0.033,7.46e-05,0.65,0.485,172.253
-"47",47,"Tiny Dancer","Elton John","C","Major","C Major",0.414,0.428,-11.097,0.0278,0.382,0.000243,0.148,0.282,145.075
-"48",48,"Idioteque","Radiohead","D#","Major","D# Major",0.615,0.931,-7.8,0.273,0.0352,2.23e-05,0.0915,0.525,137.544
-"49",49,"Doo Wop (That Thing)","Ms. Lauryn Hill","D","Minor","D Minor",0.535,0.505,-8.926,0.245,0.0393,0,0.0923,0.495,99.935
-"50",50,"Gasolina","Daddy Yankee","C","Major","C Major",0.852,0.797,-6.543,0.0614,0.322,2.69e-06,0.0845,0.741,96.008
-"51",51,"Walk on By","Dionne Warwick","F","Major","F Major",0.7,0.33,-9.027,0.0303,0.719,8.6e-05,0.136,0.524,98.605
-"52",52,"I Feel Love","Donna Summer","C","Major","C Major",0.689,0.675,-16.248,0.0434,0.0127,0.647,0.0987,0.937,128.1
-"53",53,"Good Vibrations - Remastered 2001","The Beach Boys","A#","Minor","A# Minor",0.396,0.473,-7.67,0.0345,0.326,0.000124,0.109,0.385,133.449
-"54",54,"The Tracks Of My Tears","Smokey Robinson & The Miracles","G","Major","G Major",0.502,0.333,-10.914,0.0264,0.699,0,0.222,0.729,96.982
-"55",55,"Like a Prayer","Madonna","F","Major","F Major",0.625,0.842,-5.285,0.0376,0.264,2.12e-05,0.181,0.26,111.038
-"56",56,"Work It","Missy Elliott","C#","Major","C# Major",0.884,0.677,-5.603,0.283,0.0778,0,0.0732,0.584,101.868
-"57",57,"Family Affair - Single Version","Sly & The Family Stone","D","Minor","D Minor",0.819,0.605,-13.83,0.132,0.669,0.0163,0.199,0.797,108.892
-"58",58,"The Weight - Remastered","The Band","A","Major","A Major",0.63,0.519,-10.997,0.0528,0.225,4.3e-06,0.0974,0.502,143.942
-"59",59,"The Message - Extended Version","Grandmaster Flash & The Furious Five","C#","Major","C# Major",0.947,0.626,-10.106,0.205,0.0227,3.37e-06,0.0853,0.724,100.6
-"60",60,"Running Up That Hill (A Deal With God) - 2018 Remaster","Kate Bush","A#","Minor","A# Minor",0.625,0.533,-11.903,0.0596,0.659,0.00266,0.0546,0.139,108.296
-"61",61,"Stairway to Heaven - Remaster","Led Zeppelin","A","Minor","A Minor",0.338,0.34,-12.049,0.0339,0.58,0.0032,0.116,0.197,82.433
-"62",62,"One","U2","C","Major","C Major",0.511,0.536,-8.661,0.0302,0.256,0.00265,0.122,0.357,90.358
-"63",63,"Jolene","Dolly Parton","C#","Minor","C# Minor",0.674,0.537,-10.971,0.0363,0.566,0,0.131,0.809,110.578
-"64",64,"Blitzkrieg Bop","Ramones","A","Major","A Major",0.547,0.733,-6.558,0.0433,0.0103,0.131,0.117,0.962,176.198
-"65",65,"September","Earth, Wind & Fire","A","Major","A Major",0.697,0.832,-7.264,0.0298,0.168,0.00131,0.269,0.979,125.926
-"66",66,"Bridge Over Troubled Water","Simon & Garfunkel","D#","Major","D# Major",0.149,0.206,-13.888,0.0323,0.822,0.000649,0.115,0.264,79.764
-"67",67,"Tangled up in Blue","Bob Dylan","A","Major","A Major",0.421,0.661,-13.126,0.0433,0.414,1.16e-06,0.0962,0.554,100.965
-"68",68,"Good Times","CHIC","D","Major","D Major",0.87,0.657,-7.32,0.0522,0.149,0.0102,0.053,0.893,110.596
-"69",69,"All Too Well (10 Minute Version) (Taylor's Version) (From The Vault)","Taylor Swift","C","Major","C Major",0.631,0.518,-8.771,0.0303,0.274,0,0.088,0.205,93.023
-"70",70,"Suspicious Minds","Elvis Presley","G","Major","G Major",0.541,0.722,-5.067,0.0262,0.0517,1.15e-05,0.122,0.632,115.209
-"71",71,"Fast Car","Tracy Chapman","E","Minor","E Minor",0.711,0.292,-15.523,0.037,0.313,0,0.131,0.194,103.951
-"72",72,"Yesterday - Remastered","The Beatles","F","Major","F Major",0.332,0.179,-11.83,0.0326,0.879,0,0.0886,0.315,96.529
-"73",73,"Formation","Beyoncé","F","Minor","F Minor",0.896,0.621,-6.857,0.237,0.00532,0,0.196,0.818,121.966
-"74",74,"Hallelujah","Leonard Cohen","C","Major","C Major",0.28,0.344,-12.577,0.0293,0.715,0.00642,0.133,0.232,171.143
-"75",75,"Common People - Full Length Version","Pulp","C","Major","C Major",0.314,0.797,-9.026,0.038,0.0057,5.59e-05,0.0718,0.569,145.393
-"76",76,"I Walk the Line","Johnny Cash","A","Major","A Major",0.713,0.258,-14.59,0.0384,0.877,0.00606,0.0967,0.56,98.805
-"77",77,"Roadrunner","The Modern Lovers","D","Major","D Major",0.462,0.84,-6.666,0.0346,4.98e-05,6.47e-05,0.0893,0.804,75.54
-"78",78,"Reach Out I'll Be There","Four Tops","D#","Minor","D# Minor",0.607,0.599,-8.908,0.0282,0.0253,0,0.188,0.735,119.846
-"79",79,"Back To Black","Amy Winehouse","A#","Major","A# Major",0.49,0.725,-3.304,0.0392,0.123,2.68e-05,0.0983,0.335,123.28
-"80",80,"What'd I Say, Pt. 1 & 2","Ray Charles","E","Major","E Major",0.54,0.681,-5.44,0.0508,0.808,0,0.162,0.794,88.385
-"81",81,"I'm Waiting For The Man","The Velvet Underground","G","Major","G Major",0.678,0.646,-9.765,0.0442,0.0324,0.869,0.152,0.826,125.844
-"82",82,"Rolling in the Deep","Adele","G#","Major","G# Major",0.73,0.769,-5.114,0.0298,0.138,0,0.0473,0.507,104.948
-"83",83,"Desolation Row","Bob Dylan","E","Major","E Major",0.432,0.605,-6.941,0.0306,0.673,0,0.129,0.647,109.227
-"84",84,"Let's Stay Together","Al Green","G","Minor","G Minor",0.756,0.401,-10.702,0.0526,0.582,0.011,0.0541,0.514,101.954
-"85",85,"Kiss","Prince","G","Major","G Major",0.898,0.271,-12.238,0.091,0.0135,0.00138,0.0461,0.742,111.485
-"86",86,"Tumbling Dice","The Rolling Stones","B","Major","B Major",0.616,0.91,-4.248,0.0347,0.5,0.504,0.281,0.77,111.017
-"87",87,"All My Friends","LCD Soundsystem","D","Major","D Major",0.701,0.788,-5.611,0.0425,0.148,0.625,0.0977,0.795,142.584
-"88",88,"Sweet Child O' Mine","Guns N' Roses","F#","Major","F# Major",0.445,0.952,-5.321,0.0522,0.09,0.0843,0.112,0.624,125.304
-"89",89,"Hey Jude - Remastered","The Beatles","A#","Major","A# Major",0.394,0.566,-9.435,0.0261,0.0304,3.64e-05,0.101,0.631,148.029
-"90",90,"(You Make Me Feel Like) A Natural Woman","Aretha Franklin","F","Major","F Major",0.603,0.271,-10.083,0.0284,0.679,0,0.141,0.405,110.89
-"91",91,"Int'l Players Anthem (I Choose You) (feat. Outkast)","UGK","E","Minor","E Minor",0.675,0.68,-5.01,0.256,0.0655,0,0.354,0.845,155.698
-"92",92,"Good Golly Miss Molly","Little Richard","G","Major","G Major",0.557,0.873,-9.129,0.0444,0.481,0.00021,0.395,0.967,166.189
-"93",93,"Since U Been Gone","Kelly Clarkson","C","Major","C Major",0.662,0.741,-5.406,0.0334,0.00165,0.0303,0.114,0.404,131
-"94",94,"I Will Always Love You","Whitney Houston","E","Major","E Major",0.332,0.214,-12.518,0.0349,0.845,5.62e-06,0.0839,0.11,67.531
-"95",95,"Wonderwall","Oasis","D","Major","D Major",0.41,0.854,-5.609,0.0366,0.00236,0,0.133,0.456,174.584
-"96",96,"99 Problems","JAY-Z","F#","Minor","F# Minor",0.494,0.887,-4.297,0.398,0.00661,0,0.103,0.548,89.554
-"97",97,"Gloria: In Excelsis Deo","Patti Smith","A","Major","A Major",0.422,0.814,-7.365,0.195,0.118,5.3e-06,0.115,0.411,147.065
-"98",98,"In My Life - Remastered","The Beatles","A","Major","A Major",0.688,0.435,-11.359,0.0323,0.449,0,0.113,0.435,103.239
-"99",99,"Stayin' Alive","Bee Gees","A#","Minor","A# Minor",0.703,0.827,-7.179,0.0343,0.032,0.00636,0.179,0.944,103.564
-"100",100,"Blowin' in the Wind","Bob Dylan","D","Major","D Major",0.38,0.0993,-20.567,0.0509,0.914,2.32e-05,0.0605,0.44,174.874
-"101",101,"Maps","Yeah Yeah Yeahs","G","Major","G Major",0.502,0.941,-5.194,0.0716,0.000346,0.319,0.553,0.124,119.783
-"102",102,"Maybellene - Single Version","Chuck Berry","A#","Minor","A# Minor",0.768,0.851,-6.935,0.0959,0.829,0,0.131,0.775,117.523
-"103",103,"You Oughta Know","Alanis Morissette","E","Major","E Major",0.66,0.831,-8.195,0.0557,0.204,0,0.736,0.43,105.32
-"104",104,"I Want You Back","The Jackson 5","G#","Major","G# Major",0.469,0.538,-13.559,0.0575,0.305,0.000114,0.37,0.885,196.606
-"105",105,"Life on Mars? - 2015 Remaster","David Bowie","A#","Major","A# Major",0.445,0.384,-14.642,0.0417,0.635,7.74e-05,0.0539,0.216,123.295
-"106",106,"Sympathy For The Devil","The Rolling Stones","A","Major","A Major",0.566,0.673,-10.814,0.306,0.565,1.13e-06,0.0438,0.583,114.385
-"107",107,"C.R.E.A.M. (Cash Rules Everything Around Me) (feat. Method Man, Raekwon, Inspectah Deck & Buddha Monk)","Wu-Tang Clan","B","Minor","B Minor",0.512,0.514,-11.562,0.387,0.555,0.00958,0.126,0.565,181.033
-"108",108,"Just like Heaven","The Cure","A","Major","A Major",0.43,0.971,-3.845,0.0524,0.0271,2.16e-05,0.185,0.764,151.219
-"109",109,"Everyday People","Sly & The Family Stone","G","Major","G Major",0.813,0.619,-8.203,0.0294,0.245,0.0151,0.113,0.774,114.58
-"110",110,"Something - Remastered 2009","The Beatles","C","Major","C Major",0.406,0.338,-10.872,0.0303,0.195,2.57e-06,0.138,0.379,132.875
-"111",111,"Thunder Road","Bruce Springsteen","F","Major","F Major",0.369,0.758,-5.871,0.0364,0.623,1.78e-05,0.531,0.663,140.71
-"112",112,"Losing My Religion","R.E.M.","A","Minor","A Minor",0.666,0.855,-5.051,0.0295,0.179,1.2e-06,0.0987,0.803,125.639
-"113",113,"Higher Ground","Stevie Wonder","G#","Major","G# Major",0.716,0.85,-9.949,0.0426,0.0631,0.00133,0.189,0.821,125.474
-"114",114,"Toxic","Britney Spears","F","Minor","F Minor",0.774,0.838,-3.914,0.114,0.0249,0.025,0.242,0.924,143.04
-"115",115,"At Last","Etta James","F","Major","F Major",0.274,0.348,-8.631,0.0293,0.547,0.0133,0.334,0.328,87.43
-"116",116,"It Takes Two","Rob Base & DJ EZ Rock","D","Major","D Major",0.8,0.723,-9.719,0.158,0.00228,0,0.26,0.651,111.593
-"117",117,"I Say a Little Prayer","Aretha Franklin","A","Major","A Major",0.592,0.355,-14.051,0.0352,0.478,0,0.0585,0.499,133.032
-"118",118,"Creep","Radiohead","G","Major","G Major",0.515,0.43,-9.935,0.0372,0.0097,0.000133,0.129,0.104,91.844
-"119",119,"I Heard It Through The Grapevine","Marvin Gaye","G#","Minor","G# Minor",0.729,0.324,-13.017,0.0393,0.195,0,0.101,0.679,116.855
-"120",120,"Oh Bondage Up Yours!","X-Ray Spex","D","Major","D Major",0.138,0.937,-2.436,0.0984,0.0273,0.821,0.903,0.291,174.391
-"121",121,"Let It Be - Remastered","The Beatles","C","Major","C Major",0.443,0.403,-8.339,0.0322,0.631,0,0.111,0.41,143.462
-"122",122,"People Get Ready - Single Version","The Impressions","C#","Major","C# Major",0.423,0.227,-15.978,0.0414,0.486,0.000242,0.246,0.37,143.346
-"123",123,"This Must Be the Place (Naive Melody) - 2005 Remaster","Talking Heads","G","Major","G Major",0.942,0.641,-10.15,0.0333,0.331,0.179,0.028,0.966,114.443
-"124",124,"That'll Be The Day","Buddy Holly","D","Major","D Major",0.536,0.637,-7.774,0.0343,0.467,0,0.0838,0.798,115.24
-"125",125,"Anarchy In The UK","Sex Pistols","C","Major","C Major",0.359,0.949,-7.649,0.101,0.0556,0.000396,0.236,0.212,134.118
-"126",126,"Freedom! '90","George Michael","F","Major","F Major",0.675,0.873,-7.697,0.0441,0.0998,1.48e-05,0.0541,0.817,91.77
-"127",127,"Waterfalls","TLC","C#","Major","C# Major",0.769,0.505,-7.345,0.0829,0.311,7.49e-05,0.0777,0.757,171.804
-"128",128,"Whole Lotta Love - 1990 Remaster","Led Zeppelin","A","Major","A Major",0.412,0.902,-11.6,0.405,0.0484,0.131,0.405,0.422,89.74
-"129",129,"Hold On, We're Going Home","Drake","F#","Minor","F# Minor",0.777,0.414,-7.44,0.0946,0.00421,2.73e-05,0.0724,0.287,100.002
-"130",130,"Dancing In The Street","Martha Reeves & The Vandellas","D","Major","D Major",0.557,0.578,-9.423,0.0395,0.0121,0.000488,0.121,0.292,126.019
-"131",131,"Stand By Me","Ben E. King","A","Major","A Major",0.65,0.306,-9.443,0.0393,0.57,7.07e-06,0.0707,0.605,118.068
-"132",132,"Paid In Full","Eric B. & Rakim","G","Major","G Major",0.878,0.851,-8.971,0.232,0.00228,0.00125,0.0509,0.404,99.014
-"133",133,"Don't Stop Believin'","Journey","E","Major","E Major",0.5,0.748,-9.072,0.0363,0.127,0,0.447,0.514,118.852
-"134",134,"What's Love Got to Do with It","Tina Turner","C#","Major","C# Major",0.851,0.406,-11.631,0.0661,0.219,6.41e-06,0.0853,0.792,97.84
-"135",135,"She Loves You - Mono Version / Remastered 2009","The Beatles","G","Major","G Major",0.321,0.895,-5.157,0.0463,0.389,0,0.177,0.904,149.807
-"136",136,"Try a Little Tenderness","Otis Redding","A","Minor","A Minor",0.587,0.133,-15.151,0.0565,0.186,2.26e-05,0.258,0.068,102.938
-"137",137,"thank u, next","Ariana Grande","C#","Major","C# Major",0.72,0.654,-5.634,0.0647,0.227,0,0.101,0.411,106.976
-"138",138,"Heart Of Glass","Blondie","E","Major","E Major",0.77,0.654,-6.107,0.0361,0.0548,0.000498,0.0819,0.686,114.82
-"139",139,"Vogue","Madonna","F#","Major","F# Major",0.737,0.88,-6.449,0.0433,0.00379,0.00351,0.417,0.329,115.997
-"140",140,"No Woman No Cry","Bob Marley & The Wailers","C","Major","C Major",0.863,0.433,-11.1,0.0383,0.0699,0,0.0553,0.712,97.067
-"141",141,"Maggie May","Rod Stewart","D","Major","D Major",0.603,0.574,-10.536,0.0371,0.56,0.114,0.0684,0.535,129.42
-"142",142,"He Stopped Loving Her Today","George Jones","G#","Major","G# Major",0.43,0.173,-18.597,0.0321,0.594,0.000111,0.224,0.365,72.103
-"143",143,"London Calling - Remastered","The Clash","C","Major","C Major",0.651,0.801,-7.34,0.0514,0.123,0,0.0825,0.776,133.769
-"144",144,"Jumpin' Jack Flash - Mono","The Rolling Stones","D#","Major","D# Major",0.596,0.901,-7.373,0.0482,0.0361,0.755,0.0698,0.621,137.359
-"145",145,"Ms. Jackson","Outkast","E","Minor","E Minor",0.843,0.806,-5.946,0.269,0.143,0,0.0771,0.613,94.948
-"146",146,"Fire and Rain","James Taylor","F","Major","F Major",0.611,0.35,-14.48,0.0356,0.499,7.84e-06,0.0844,0.36,76.064
-"147",147,"Blueberry Hill - Non Stop Edit","Fats Domino","B","Major","B Major",0.368,0.362,-11.538,0.0308,0.503,4.14e-06,0.127,0.672,92.769
-"148",148,"Kashmir - 1990 Remaster","Led Zeppelin","D","Major","D Major",0.48,0.536,-11.166,0.0427,0.488,4.22e-05,0.155,0.581,80.617
-"149",149,"Rocket Man (I Think It's Going To Be A Long, Long Time)","Elton John","A#","Major","A# Major",0.601,0.532,-9.119,0.0286,0.433,5.95e-06,0.0925,0.342,136.576
-"150",150,"Basket Case","Green Day","D#","Major","D# Major",0.442,0.943,-3.205,0.0602,0.00293,8.71e-06,0.091,0.781,85.064
-"151",151,"Will You Love Me Tomorrow","The Shirelles","C","Major","C Major",0.55,0.382,-6.429,0.0263,0.312,1.11e-05,0.221,0.464,136.128
-"152",152,"Proud Mary","Creedence Clearwater Revival","D","Major","D Major",0.699,0.641,-7.564,0.0289,0.13,0.000218,0.0601,0.728,120.745
-"153",153,"Super Freak","Rick James","A","Minor","A Minor",0.838,0.794,-8.245,0.0531,0.22,0,0.0575,0.962,132.446
-"154",154,"Spoonful","Howlin' Wolf","C","Major","C Major",0.821,0.376,-13.622,0.0487,0.669,1.39e-05,0.106,0.824,119.039
-"155",155,"Last Nite","The Strokes","C","Major","C Major",0.624,0.899,-5.709,0.0296,0.0221,0.000137,0.0975,0.79,104.061
-"156",156,"Louie Louie","The Kingsmen","C#","Minor","C# Minor",0.623,0.709,-9.818,0.0636,0.102,0,0.0967,0.948,122.394
-"157",157,"Teen Age Riot (Album Version)","Sonic Youth","G","Major","G Major",0.286,0.907,-9.67,0.0374,0.000277,0.202,0.0837,0.746,156.395
-"158",158,"Cissy Strut","The Meters","C","Major","C Major",0.507,0.763,-12.732,0.0945,0.172,0.886,0.324,0.708,176.193
-"159",159,"Baba O'Riley","The Who","F","Major","F Major",0.489,0.724,-8.367,0.0352,0.313,0.185,0.287,0.15,117.292
-"160",160,"Nightswimming","R.E.M.","G","Major","G Major",0.566,0.385,-11.272,0.0304,0.796,7.63e-06,0.103,0.571,114.227
-"161",161,"Into the Groove","Madonna","A#","Minor","A# Minor",0.731,0.856,-4.164,0.0351,0.0664,0.00857,0.0691,0.805,116.472
-"162",162,"Pink Moon","Nick Drake","D#","Major","D# Major",0.642,0.427,-8.471,0.0402,0.871,0.0904,0.124,0.404,82.344
-"163",163,"Landslide","Fleetwood Mac","G","Minor","G Minor",0.414,0.161,-22.32,0.0318,0.883,0.000223,0.117,0.423,159.375
-"164",164,"Mr. Tambourine Man","Bob Dylan","F","Major","F Major",0.39,0.31,-14.545,0.0676,0.794,0,0.379,0.584,177.515
-"165",165,"I'm So Lonesome I Could Cry","Hank Williams","E","Major","E Major",0.526,0.257,-14.827,0.0286,0.828,0.00153,0.318,0.352,111.919
-"166",166,"All the Young Dudes","Mott The Hoople","E","Minor","E Minor",0.429,0.668,-7.539,0.044,0.208,0,0.538,0.398,77.737
-"167",167,"Lose Yourself","Eminem","D","Major","D Major",0.692,0.744,-4.565,0.257,0.00868,0.000423,0.359,0.0612,171.374
-"168",168,"Son of a Preacher Man","Dusty Springfield","E","Major","E Major",0.401,0.498,-10.682,0.0757,0.394,0,0.13,0.816,181.701
-"169",169,"American Girl","Tom Petty and the Heartbreakers","D","Major","D Major",0.55,0.824,-5.988,0.0334,0.448,0.000127,0.366,0.777,114.512
-"170",170,"In The Still of the Night","The Five Satins","F#","Major","F# Major",0.43,0.33,-10.621,0.0353,0.876,0,0.105,0.316,108.824
-"171",171,"What A Wonderful World","Louis Armstrong","F","Major","F Major",0.271,0.165,-20.652,0.0351,0.726,1.54e-06,0.118,0.202,77.082
-"172",172,"Mississippi Goddam","Nina Simone","E","Minor","E Minor",0.598,0.274,-15.065,0.0623,0.389,0,0.979,0.789,147.218
-"173",173,"Marquee Moon","Television","G","Major","G Major",0.49,0.536,-10.83,0.0382,0.0391,0.371,0.116,0.732,118.008
-"174",174,"Radio Free Europe","R.E.M.","E","Major","E Major",0.367,0.685,-14.831,0.0464,0.00304,0.0478,0.109,0.854,154.953
-"175",175,"I Only Have Eyes for You","The Flamingos","F","Major","F Major",0.552,0.313,-12.41,0.0296,0.916,0.0017,0.12,0.303,88.554
-"176",176,"You Really Got Me","The Kinks","G#","Major","G# Major",0.575,0.948,-6.173,0.0945,0.333,0,0.0656,0.948,137.408
-"177",177,"Jump - 2015 Remaster","Van Halen","C","Major","C Major",0.572,0.835,-6.219,0.0317,0.171,0.000377,0.0702,0.795,129.981
-"178",178,"bad guy","Billie Eilish","G","Major","G Major",0.701,0.425,-10.965,0.375,0.328,0.13,0.1,0.562,135.128
-"179",179,"Comfortably Numb","Pink Floyd","B","Minor","B Minor",0.472,0.366,-12.595,0.0286,0.15,0.312,0.0837,0.171,127.163
-"180",180,"Walk On the Wild Side","Lou Reed","C","Major","C Major",0.575,0.318,-16.729,0.109,0.683,0.000202,0.0934,0.385,104.522
-"181",181,"Eight Miles High","The Byrds","A","Major","A Major",0.365,0.77,-10.492,0.0764,0.21,0.136,0.503,0.37,130.603
-"182",182,"The Sound of Silence - Acoustic Version","Simon & Garfunkel","F#","Major","F# Major",0.525,0.216,-13.551,0.0301,0.837,0,0.107,0.328,106.761
-"183",183,"You Are The Sunshine Of My Life","Stevie Wonder","B","Major","B Major",0.519,0.46,-14.53,0.0688,0.823,5.97e-05,0.243,0.675,132.082
-"184",184,"Nothing Compares 2 U","Sinéad O'Connor","F","Major","F Major",0.511,0.574,-7.016,0.0273,0.0425,2.33e-05,0.105,0.161,119.917
-"185",185,"Beat It","Michael Jackson","D#","Minor","D# Minor",0.762,0.8,-6.244,0.0449,0.027,5.83e-05,0.17,0.9,138.823
-"186",186,"I'll Take You There","The Staple Singers","C","Major","C Major",0.846,0.595,-8.372,0.0439,0.0904,1.96e-06,0.063,0.78,101.632
-"187",187,"Subterranean Homesick Blues","Bob Dylan","E","Minor","E Minor",0.576,0.727,-9.973,0.05,0.702,0,0.324,0.751,173.854
-"188",188,"Little Wing","Jimi Hendrix","F#","Major","F# Major",0.515,0.534,-8.045,0.0768,0.181,0.00278,0.0547,0.426,70.776
-"189",189,"Space Oddity - 2015 Remaster","David Bowie","C","Major","C Major",0.31,0.403,-13.664,0.0326,0.0726,9.27e-05,0.139,0.466,134.48
-"190",190,"Fuck Tha Police","N.W.A.","G#","Minor","G# Minor",0.859,0.75,-8.325,0.303,0.0193,0,0.0538,0.857,98.691
-"191",191,"Ode To Billie Joe","Bobbie Gentry","G","Major","G Major",0.637,0.189,-10.726,0.0471,0.721,0,0.0939,0.695,120.142
-"192",192,"Mind Playing Tricks on Me","Geto Boys","A#","Minor","A# Minor",0.886,0.512,-11.825,0.237,0.207,0,0.0991,0.454,93.997
-"193",193,"Wild Horses - 2009 Mix","The Rolling Stones","G","Major","G Major",0.432,0.389,-6.517,0.0255,0.687,0.0109,0.0788,0.158,139.462
-"194",194,"Rid Of Me","PJ Harvey","A","Minor","A Minor",0.715,0.0885,-20.682,0.0521,0.00485,0.00694,0.155,0.544,125.383
-"195",195,"Crazy - Single Version","Patsy Cline","A#","Major","A# Major",0.471,0.021,-24.385,0.0366,0.931,1.19e-06,0.103,0.356,107.765
-"196",196,"Get Up (I Feel Like Being A) Sex Machine - Pt. 1 & 2","James Brown","A#","Minor","A# Minor",0.835,0.692,-6.514,0.114,0.248,0.000161,0.295,0.829,108.296
-"197",197,"I Can't Stand the Rain","Ann Peebles","C#","Major","C# Major",0.727,0.387,-12.333,0.0412,0.248,0.0102,0.0625,0.966,160.395
-"198",198,"Sexual Healing","Marvin Gaye","C","Minor","C Minor",0.805,0.602,-9.7,0.0579,0.119,0.000122,0.0581,0.744,94.382
-"199",199,"Dream On","Aerosmith","C#","Major","C# Major",0.307,0.433,-10.057,0.029,0.388,9.08e-05,0.332,0.224,160.9
-"200",200,"Changes - 2015 Remaster","David Bowie","C","Major","C Major",0.559,0.308,-11.75,0.0376,0.505,0,0.109,0.414,113.633
-"201",201,"Ring of Fire","Johnny Cash","G","Major","G Major",0.661,0.518,-8.004,0.0269,0.267,0.000158,0.431,0.676,104.565
-"202",202,"Your Song - Remastered","Elton John","D#","Major","D# Major",0.555,0.336,-9.916,0.0296,0.821,2.17e-06,0.089,0.303,127.792
-"203",203,"Signed, Sealed, Delivered (I'm Yours)","Stevie Wonder","F","Major","F Major",0.675,0.597,-11.329,0.0337,0.0534,0,0.0986,0.828,108.875
-"204",204,"Young Americans - 2016 Remaster","David Bowie","E","Minor","E Minor",0.614,0.763,-8.949,0.133,0.171,0,0.119,0.885,84.236
-"205",205,"...Baby One More Time","Britney Spears","C","Minor","C Minor",0.759,0.699,-5.745,0.0307,0.202,0.000131,0.443,0.907,92.96
-"206",206,"Wichita Lineman - Remastered 2001","Glen Campbell","F","Major","F Major",0.192,0.392,-11.667,0.0327,0.326,0.000199,0.248,0.392,172.312
-"207",207,"Killing In The Name","Rage Against The Machine","G","Major","G Major",0.466,0.833,-4.215,0.304,0.0266,0,0.0327,0.661,88.785
-"208",208,"Doll Parts","Hole","G","Major","G Major",0.245,0.542,-7.159,0.0324,0.147,4.05e-06,0.102,0.365,204.824
-"209",209,"The Boys Of Summer","Don Henley","F#","Major","F# Major",0.516,0.549,-13.741,0.0373,0.501,0.00572,0.184,0.907,176.941
-"210",210,"One Nation Under a Groove","Funkadelic","E","Minor","E Minor",0.788,0.852,-8.157,0.0419,0.416,0.00116,0.288,0.869,122.375
-"211",211,"With Or Without You","U2","D","Major","D Major",0.54,0.429,-11.822,0.0285,0.000202,0.355,0.141,0.113,110.171
-"212",212,"More Than a Feeling","Boston","G","Major","G Major",0.377,0.681,-8.039,0.0298,0.00088,0.0023,0.0504,0.285,108.789
-"213",213,"Paint It, Black","The Rolling Stones","C#","Major","C# Major",0.464,0.795,-9.267,0.0926,0.0493,0.00244,0.399,0.612,158.691
-"214",214,"Deacon Blues","Steely Dan","C","Major","C Major",0.745,0.586,-12.487,0.0359,0.457,0.000295,0.119,0.604,115.857
-"215",215,"Shook Ones, Pt. II","Mobb Deep","A#","Minor","A# Minor",0.763,0.786,-6.472,0.229,0.0146,0.0114,0.0817,0.504,93.857
-"216",216,"Jailhouse Rock","Elvis Presley","A#","Minor","A# Minor",0.647,0.582,-9.538,0.0755,0.41,1.93e-06,0.0715,0.915,167.396
-"217",217,"Edge of Seventeen","Stevie Nicks","C","Major","C Major",0.59,0.828,-6.28,0.0439,0.277,5.57e-06,0.0868,0.636,111.353
-"218",218,"In the Midnight Hour","Wilson Pickett","E","Major","E Major",0.75,0.444,-8.63,0.0403,0.12,3.69e-06,0.118,0.849,111.919
-"219",219,"Free Fallin'","Tom Petty","F","Major","F Major",0.623,0.449,-13.333,0.0253,0.212,0,0.0613,0.573,84.383
-"220",220,"Bizarre Love Triangle","New Order","A#","Major","A# Major",0.613,0.885,-7.463,0.052,0.0804,0.746,0.0997,0.919,118.506
-"221",221,"River Deep - Mountain High","Ike & Tina Turner","G#","Major","G# Major",0.621,0.972,-3.791,0.0724,0.472,0.000585,0.195,0.866,155.113
-"222",222,"Suite: Judy Blue Eyes - 2005 Remaster","Crosby, Stills & Nash","A","Major","A Major",0.458,0.364,-13.126,0.0431,0.467,0,0.197,0.3,154.215
-"223",223,"Stan","Eminem","F#","Minor","F# Minor",0.78,0.768,-4.325,0.238,0.0371,2.34e-06,0.518,0.507,80.063
-"224",224,"Layla - 40th Anniversary Version / 2010 Remastered","Derek & The Dominos","C#","Major","C# Major",0.404,0.903,-3.88,0.0668,0.577,0.297,0.287,0.498,115.672
-"225",225,"Both Sides Now - Live","Joni Mitchell","G","Major","G Major",0.599,0.522,-7.753,0.0421,0.83,0,0.95,0.54,104.181
-"226",226,"There Is a Light That Never Goes Out - 2011 Remaster","The Smiths","E","Major","E Major",0.523,0.769,-5.855,0.0269,0.04,0,0.136,0.876,136.162
-"227",227,"Fortunate Son","Creedence Clearwater Revival","C","Major","C Major",0.64,0.663,-7.516,0.0374,0.201,0.00806,0.152,0.663,132.77
-"228",228,"Single Ladies (Put a Ring on It)","Beyoncé","C#","Major","C# Major",0.426,0.584,-5.293,0.296,0.0383,0,0.188,0.272,193.437
-"229",229,"This Land is Your Land","Woody Guthrie","D#","Major","D# Major",0.606,0.0977,-15.668,0.0451,0.962,0.00148,0.126,0.551,105.593
-"230",230,"Mr. Tambourine Man","The Byrds","D","Major","D Major",0.456,0.47,-9.564,0.0294,0.513,3.76e-05,0.444,0.639,120.336
-"231",231,"I Wanna Dance with Somebody (Who Loves Me)","Whitney Houston","C#","Major","C# Major",0.709,0.824,-8.824,0.0453,0.207,0.000307,0.0888,0.867,118.818
-"232",232,"My Generation - Stereo Version","The Who","D","Minor","D Minor",0.412,0.782,-9.186,0.058,0.308,0.00822,0.0775,0.705,96.732
-"233",233,"Groove Is in the Heart","Deee-Lite","C#","Minor","C# Minor",0.694,0.881,-4.053,0.0701,0.0153,0.0196,0.0851,0.924,121.554
-"234",234,"You Keep Me Hangin' On","The Supremes","G#","Minor","G# Minor",0.682,0.612,-7.004,0.0381,0.284,0,0.0783,0.845,127.647
-"235",235,"Blue Monday","New Order","C","Major","C Major",0.762,0.651,-13.34,0.0655,0.00198,0.856,0.111,0.941,130.395
-"236",236,"Lean on Me","Bill Withers","C","Major","C Major",0.619,0.22,-13.843,0.0672,0.782,1.19e-05,0.124,0.426,75.143
-"237",237,"Your Cheatin' Heart","Hank Williams","C","Major","C Major",0.669,0.219,-12.028,0.0285,0.879,0.00047,0.233,0.671,127.878
-"238",238,"Are You That Somebody","Aaliyah","A","Minor","A Minor",0.85,0.657,-7.078,0.166,0.14,0.0192,0.0939,0.843,137.971
-"239",239,"September Gurls","Big Star","E","Major","E Major",0.373,0.85,-4.567,0.0342,0.000199,0.0077,0.124,0.629,114.029
-"240",240,"I Want It That Way","Backstreet Boys","F#","Minor","F# Minor",0.689,0.694,-5.83,0.027,0.257,0,0.148,0.482,99.039
-"241",241,"The Humpty Dance","Digital Underground","A#","Minor","A# Minor",0.813,0.693,-8,0.266,0.0343,0,0.121,0.618,103.508
-"242",242,"Great Balls of Fire","Jerry Lee Lewis","A#","Major","A# Major",0.592,0.627,-10.14,0.0662,0.55,0,0.43,0.909,79.567
-"243",243,"Eleanor Rigby - Remastered 2009","The Beatles","E","Minor","E Minor",0.581,0.28,-9.091,0.0381,0.936,1.56e-05,0.305,0.813,137.831
-"244",244,"Summer Babe (Winter Version)","Pavement","D","Major","D Major",0.37,0.854,-5.91,0.0288,4.84e-06,0.845,0.0617,0.568,97.51
-"245",245,"Sabotage","Beastie Boys","F#","Minor","F# Minor",0.324,0.938,-7.332,0.102,0.032,0.0321,0.0961,0.543,168.131
-"246",246,"Ooh La La","Faces","D","Major","D Major",0.601,0.574,-8.166,0.03,0.579,1.14e-05,0.216,0.8,147.964
-"247",247,"River","Joni Mitchell","C","Major","C Major",0.211,0.154,-12.572,0.0336,0.917,0.000945,0.0841,0.231,179.326
-"248",248,"Straight Outta Compton","N.W.A.","G#","Major","G# Major",0.834,0.878,-9.484,0.15,0.0461,0,0.334,0.418,102.848
-"249",249,"Bad Reputation","Joan Jett & the Blackhearts","F#","Major","F# Major",0.378,0.974,-4.055,0.194,0.00192,0.0139,0.0588,0.824,203.715
-"250",250,"Purple Haze","Jimi Hendrix","D","Major","D Major",0.527,0.891,-5.209,0.0759,0.0068,0.723,0.0618,0.458,108.57
-"251",251,"I Will Survive - Single Version","Gloria Gaynor","C","Major","C Major",0.777,0.725,-8.681,0.05,0.0131,0.00805,0.246,0.529,116.669
-"252",252,"Flash Light","Parliament","G","Minor","G Minor",0.702,0.735,-10.458,0.0465,0.243,0.117,0.474,0.687,105.177
-"253",253,"Blue Eyes Crying In the Rain","Willie Nelson","E","Major","E Major",0.626,0.04,-19.994,0.0405,0.928,0.00178,0.11,0.418,117.136
-"254",254,"Stop! In The Name Of Love","The Supremes","C","Major","C Major",0.612,0.444,-12.752,0.0293,0.531,0,0.126,0.503,114.961
-"255",255,"Coal Miner's Daughter","Loretta Lynn","A","Major","A Major",0.602,0.47,-9.333,0.0287,0.884,0.341,0.163,0.633,137.163
-"256",256,"Master of Puppets (Remastered)","Metallica","E","Minor","E Minor",0.539,0.828,-9.108,0.035,0.00067,0.421,0.154,0.562,105.25
-"257",257,"(Love Is Like A) Heat Wave","Martha Reeves & The Vandellas","C","Minor","C Minor",0.514,0.624,-9.287,0.0842,0.513,0.00517,0.307,0.755,166.726
-"258",258,"The Revolution Will Not Be Televised","Gil Scott-Heron","B","Minor","B Minor",0.56,0.767,-9.825,0.191,0.51,0,0.103,0.961,180.641
-"259",259,"Heart of Gold - 2009 Remaster","Neil Young","E","Minor","E Minor",0.541,0.459,-10.433,0.0297,0.189,0.0274,0.099,0.802,171.163
-"260",260,"Get Up, Stand Up","Bob Marley & The Wailers","F#","Minor","F# Minor",0.826,0.546,-9.518,0.385,0.321,5.13e-05,0.068,0.866,148.244
-"261",261,"Pusherman","Curtis Mayfield","A#","Major","A# Major",0.851,0.669,-9.562,0.0379,0.239,0.0852,0.108,0.911,126.624
-"262",262,"American Tune","Paul Simon","C","Major","C Major",0.383,0.208,-16.035,0.03,0.818,3.36e-05,0.189,0.219,84.699
-"263",263,"Coat of Many Colors","Dolly Parton","F","Major","F Major",0.624,0.257,-13.341,0.0444,0.93,7.56e-05,0.138,0.681,85.617
-"264",264,"Let's Get It On","Marvin Gaye","D#","Major","D# Major",0.539,0.599,-10.638,0.0483,0.0375,0,0.0754,0.636,167.7
-"265",265,"Left of the Dial - 2008 Remaster","The Replacements","A","Major","A Major",0.264,0.953,-7.531,0.098,0.00391,0.012,0.179,0.316,150.795
-"266",266,"Kill Bill","SZA","G#","Major","G# Major",0.644,0.728,-5.75,0.0351,0.0543,0.169,0.161,0.43,88.993
-"267",267,"King Tubby Meets Rockers Uptown","King Tubby","C#","Major","C# Major",0.802,0.581,-11.424,0.0435,0.0178,0.872,0.0924,0.454,131.983
-"268",268,"Take Care","Drake","C","Minor","C Minor",0.629,0.515,-10.358,0.265,0.0267,1.22e-05,0.0888,0.299,121.845
-"269",269,"Shout, Pts. 1 & 2","The Isley Brothers","A#","Major","A# Major",0.467,0.831,-7.661,0.0683,0.549,0,0.95,0.547,137.355
-"270",270,"Unchained Melody","The Righteous Brothers","C","Major","C Major",0.361,0.219,-16.553,0.0285,0.563,0,0.558,0.26,98.532
-"271",271,"Closer","Nine Inch Nails","A#","Minor","A# Minor",0.547,0.714,-8.628,0.044,0.000242,0.636,0.122,0.541,89.996
-"272",272,"A Whiter Shade of Pale - Original Single Version","Procol Harum","C","Major","C Major",0.249,0.66,-6.905,0.0342,0.504,0.0026,0.0891,0.435,149.813
-"273",273,"The Boys Are Back In Town","Thin Lizzy","G#","Major","G# Major",0.445,0.706,-9.803,0.0461,0.234,0.000252,0.205,0.768,80.823
-"274",274,"Killing Me Softly With His Song","Roberta Flack","F","Minor","F Minor",0.476,0.381,-10.238,0.0342,0.727,0,0.0614,0.33,121.948
-"275",275,"Love and Happiness","Al Green","F#","Major","F# Major",0.823,0.457,-10.961,0.234,0.206,0.000183,0.0763,0.735,99.163
-"276",276,"Sail Away - 2002 Remaster","Randy Newman","F","Major","F Major",0.341,0.161,-12.324,0.0326,0.936,0.000488,0.12,0.0961,134.75
-"277",277,"Ever Fallen in Love (With Someone You Shouldn't've?) - 1996 Remastered Version","Buzzcocks","E","Major","E Major",0.266,0.831,-9.07,0.0453,0.000862,0,0.0555,0.778,175.514
-"278",278,"Bo Diddley","Bo Diddley","C","Major","C Major",0.81,0.706,-12.5,0.055,0.187,0,0.195,0.608,105.682
-"279",279,"Pressure Drop","Toots & The Maytals","G#","Major","G# Major",0.658,0.571,-11.972,0.0432,0.106,0,0.0286,0.985,148.964
-"280",280,"Karma Police","Radiohead","G","Major","G Major",0.36,0.501,-9.129,0.0258,0.0638,9.32e-05,0.172,0.324,74.807
-"281",281,"Spring Day","BTS","G#","Major","G# Major",0.539,0.846,-3.192,0.0354,0.00631,1.71e-06,0.13,0.462,106.994
-"282",282,"Grindin'","Clipse","C#","Major","C# Major",0.592,0.77,-3.402,0.318,0.122,1.22e-06,0.103,0.361,191.692
-"283",283,"Never Tear Us Apart","INXS","C","Major","C Major",0.665,0.686,-5.849,0.0268,0.0518,0.000176,0.174,0.275,96.848
-"284",284,"Georgia on My Mind - Original Master Recording","Ray Charles","G","Major","G Major",0.138,0.399,-8.756,0.0311,0.782,3.65e-06,0.188,0.296,179.93
-"285",285,"Suzanne","Leonard Cohen","F#","Minor","F# Minor",0.409,0.172,-16.44,0.0389,0.922,0.00112,0.111,0.352,132.151
-"286",286,"Say My Name","Destiny's Child","F","Minor","F Minor",0.713,0.678,-3.525,0.102,0.273,0,0.149,0.734,138.009
-"287",287,"Dancing Queen","ABBA","A","Major","A Major",0.539,0.884,-6.53,0.0403,0.382,0.00166,0.76,0.752,100.812
-"288",288,"You Shook Me All Night Long","AC/DC","G","Major","G Major",0.532,0.767,-5.509,0.0574,0.00287,0.000513,0.39,0.755,127.361
-"289",289,"That's the Joint","Funky 4 + 1","C#","Major","C# Major",0.851,0.954,-4.994,0.0961,0.153,0,0.319,0.86,105.406
-"290",290,"Atlantic City","Bruce Springsteen","E","Major","E Major",0.475,0.429,-10.577,0.0367,0.311,0,0.376,0.34,108.034
-"291",291,"Yeah! (feat. Lil Jon & Ludacris)","USHER","D","Major","D Major",0.894,0.791,-4.699,0.112,0.0183,0,0.0388,0.583,105.018
-"292",292,"In The Air Tonight - 2015 Remastered","Phil Collins","C","Major","C Major",0.446,0.239,-13.945,0.0316,0.551,4.1e-06,0.0697,0.298,189.507
-"293",293,"Can I Kick It?","A Tribe Called Quest","C","Major","C Major",0.848,0.666,-6.547,0.274,0.173,0.000699,0.129,0.744,96.662
-"294",294,"Penny Lane","The Beatles","A","Major","A Major",0.633,0.385,-9.967,0.0358,0.411,8.72e-05,0.095,0.647,113.96
-"295",295,"School's Out","Alice Cooper","F","Major","F Major",0.294,0.745,-9.138,0.0461,0.05,0.125,0.676,0.347,134.364
-"296",296,"Sweet Jane - Full Length Version; 2015 Remaster","The Velvet Underground","D","Major","D Major",0.619,0.637,-7.369,0.0286,0.015,0,0.374,0.936,105.205
-"297",297,"Won't Get Fooled Again - Original Album Version","The Who","D","Major","D Major",0.686,0.92,-6.231,0.0566,0.301,0.27,0.0807,0.225,135.027
-"298",298,"Rebel Girl","Bikini Kill","G#","Minor","G# Minor",0.435,0.939,-3.845,0.111,0.0122,0.00466,0.0614,0.559,134.938
-"299",299,"Wouldn't It Be Nice","The Beach Boys","F","Major","F Major",0.392,0.629,-7.056,0.0334,0.718,3.65e-06,0.129,0.72,124.511
-"300",300,"Jungleland","Bruce Springsteen","F","Major","F Major",0.299,0.584,-5.984,0.0334,0.374,0.126,0.073,0.183,133.712
-"301",301,"I Put a Spell On You","Screamin' Jay Hawkins","A#","Minor","A# Minor",0.733,0.399,-12.086,0.094,0.59,0.0254,0.0766,0.9,173.781
-"302",302,"Rock Lobster","The B-52's","G#","Major","G# Major",0.6,0.814,-11.51,0.0481,0.0462,0.0268,0.0509,0.482,92.225
-"303",303,"Night Moves","Bob Seger","C#","Major","C# Major",0.705,0.743,-6.631,0.042,0.432,0.0133,0.103,0.374,118.552
-"304",304,"Wish You Were Here","Pink Floyd","G","Major","G Major",0.481,0.262,-15.73,0.0414,0.735,0.0114,0.832,0.375,122.861
-"305",305,"No Scrubs","TLC","G#","Minor","G# Minor",0.743,0.675,-4.267,0.0953,0.0251,0.000717,0.0685,0.59,92.909
-"306",306,"Trans-Europe Express - 2009 Remaster","Kraftwerk","C#","Major","C# Major",0.878,0.611,-12.221,0.118,0.0559,0.838,0.0527,0.718,107.65
-"307",307,"Every Breath You Take - Remastered 2003","The Police","C#","Major","C# Major",0.82,0.452,-9.796,0.0348,0.543,0.00294,0.0701,0.74,117.401
-"308",308,"Chain of Fools","Aretha Franklin","A#","Major","A# Major",0.721,0.567,-9.516,0.0389,0.221,0,0.465,0.914,116.643
-"309",309,"Crazy","Gnarls Barkley","G#","Major","G# Major",0.836,0.741,-1.609,0.0339,0.0172,0.0583,0.0826,0.611,111.963
-"310",310,"Divorce Song - 2018 Remaster","Liz Phair","C#","Major","C# Major",0.635,0.805,-4.776,0.0268,0.0581,0,0.191,0.744,120.384
-"311",311,"Ain't No Sunshine","Bill Withers","E","Minor","E Minor",0.527,0.415,-11.451,0.122,0.457,1.72e-05,0.117,0.515,78.169
-"312",312,"Light My Fire","The Doors","D#","Minor","D# Minor",0.413,0.725,-5.787,0.0324,0.369,2.16e-05,0.0905,0.44,124.618
-"313",313,"Hotel California - 2013 Remaster","Eagles","D","Major","D Major",0.579,0.508,-9.484,0.027,0.00574,0.000494,0.0575,0.609,147.125
-"314",314,"Walk On By","Isaac Hayes","F#","Major","F# Major",0.261,0.604,-10.634,0.0844,0.0654,0.145,0.066,0.508,69.606
-"315",315,"The Tears Of A Clown","Smokey Robinson & The Miracles","C#","Major","C# Major",0.593,0.607,-9.886,0.0283,0.147,0,0.128,0.953,128.365
-"316",316,"I Wanna Be Your Dog","The Stooges","E","Major","E Major",0.527,0.871,-8.708,0.0354,0.0229,0.155,0.419,0.107,120.722
-"317",317,"A Love Supreme Pt. I - Acknowledgement - Live In Juan-les-Pins, France/1965","John Coltrane","F","Minor","F Minor",0.256,0.582,-8.403,0.0522,0.433,6.36e-05,0.255,0.516,78.185
-"318",318,"Leader Of The Pack","The Shangri-Las","C","Major","C Major",0.417,0.546,-8.71,0.0858,0.725,0,0.543,0.31,126.224
-"319",319,"Visions of Johanna","Bob Dylan","A","Major","A Major",0.59,0.484,-10.424,0.0339,0.321,0,0.0625,0.652,93.428
-"320",320,"Hound Dog","Big Mama Thornton","A","Major","A Major",0.563,0.542,-10.862,0.0962,0.706,3.59e-05,0.355,0.785,133.285
-"321",321,"Everybody Wants To Rule The World","Tears For Fears","G","Major","G Major",0.645,0.795,-12.095,0.0527,0.347,0.00389,0.104,0.535,112.067
-"322",322,"California Love - Original Version","2Pac","G","Major","G Major",0.761,0.847,-3.068,0.0417,0.0292,2.26e-06,0.39,0.765,91.519
-"323",323,"Blank Space","Taylor Swift","F","Major","F Major",0.753,0.678,-5.421,0.0644,0.085,1.64e-06,0.13,0.583,96.006
-"324",324,"I Still Haven't Found What I'm Looking For - Remastered 2007","U2","C#","Major","C# Major",0.565,0.764,-9.43,0.0351,0.0139,0.00488,0.079,0.686,100.891
-"325",325,"After the Goldrush","Neil Young","D#","Major","D# Major",0.216,0.0282,-21.51,0.042,0.971,0.00471,0.133,0.0765,171.817
-"326",326,"All I Have to Do Is Dream","The Everly Brothers","E","Major","E Major",0.534,0.462,-8.172,0.0266,0.839,0,0.129,0.534,96.195
-"327",327,"Scenes from an Italian Restaurant","Billy Joel","F","Major","F Major",0.415,0.931,-4.988,0.126,0.407,0.000501,0.114,0.339,97.953
-"328",328,"Lust For Life","Iggy Pop","A","Major","A Major",0.387,0.97,-5.61,0.0432,0.0306,1.22e-06,0.0981,0.689,104.028
-"329",329,"Portions for Foxes","Rilo Kiley","D","Major","D Major",0.474,0.807,-3.635,0.035,0.000938,0.0121,0.154,0.302,138.913
-"330",330,"Real Love","Mary J. Blige","C","Major","C Major",0.769,0.781,-5.472,0.0797,0.12,0.00037,0.0506,0.826,95.021
-"331",331,"Under the Bridge","Red Hot Chili Peppers","E","Major","E Major",0.559,0.345,-13.496,0.0459,0.0576,0.000105,0.141,0.458,84.581
-"332",332,"Safaera","Bad Bunny","D","Major","D Major",0.607,0.829,-4.074,0.379,0.0103,0,0.107,0.685,96.172
-"333",333,"Big Poppa - 2007 Remaster","The Notorious B.I.G.","A","Minor","A Minor",0.765,0.671,-5.249,0.278,0.344,0,0.0506,0.798,84.5
-"334",334,"Please Mr. Postman - Single Version / Mono","The Marvelettes","D","Major","D Major",0.785,0.776,-5.259,0.0312,0.729,0,0.181,0.967,121.505
-"335",335,"Umbrella","Rihanna","C#","Major","C# Major",0.585,0.828,-4.603,0.124,0.00906,0,0.0426,0.584,174.034
-"336",336,"Papa Was A Rollin' Stone - Single Version","The Temptations","A#","Minor","A# Minor",0.817,0.405,-13.513,0.0811,0.451,0.0507,0.0468,0.898,121.467
-"337",337,"Ripple - 2020 Remaster","Grateful Dead","G","Major","G Major",0.603,0.44,-13.284,0.0328,0.392,0.000144,0.578,0.671,128.021
-"338",338,"Move Your Body","Marshall Jefferson","E","Minor","E Minor",0.791,0.801,-6.344,0.07,0.00531,0.189,0.509,0.609,124.985
-"339",339,"She's Gone","Daryl Hall & John Oates","E","Major","E Major",0.523,0.341,-14.034,0.0388,0.313,0.000114,0.621,0.355,77.487
-"340",340,"Believe","Cher","F#","Major","F# Major",0.652,0.917,-6.72,0.0548,0.0082,0,0.0509,0.459,132.975
-"341",341,"Paranoid - 2012 - Remaster","Black Sabbath","E","Minor","E Minor",0.412,0.658,-12.051,0.0708,4.52e-05,0.000774,0.176,0.454,163.071
-"342",342,"1999","Prince","F","Major","F Major",0.866,0.73,-8.201,0.0767,0.137,0,0.0843,0.625,118.523
-"343",343,"(White Man) in Hammersmith Palais","The Clash","A","Major","A Major",0.692,0.694,-6.398,0.0369,0.132,5.88e-06,0.0855,0.832,102.769
-"344",344,"I'm a Believer - 2006 Remaster","The Monkees","C","Major","C Major",0.526,0.775,-6.05,0.0352,0.707,2.05e-05,0.217,0.962,80.106
-"345",345,"Promised Land","Chuck Berry","C","Major","C Major",0.477,0.895,-6.63,0.0586,0.723,0,0.791,0.963,167.201
-"346",346,"What a Fool Believes","The Doobie Brothers","G#","Minor","G# Minor",0.758,0.378,-15.308,0.0449,0.284,0,0.049,0.985,120.736
-"347",347,"Iron Man","Black Sabbath","A","Major","A Major",0.332,0.769,-11.503,0.0765,0.00367,0.00413,0.0372,0.525,157.378
-"348",348,"It's Too Late","Carole King","A","Minor","A Minor",0.45,0.442,-12.718,0.0353,0.493,0.00564,0.134,0.812,208.282
-"349",349,"Dynamite","BTS","F#","Minor","F# Minor",0.746,0.765,-4.41,0.0993,0.0112,0,0.0936,0.737,114.044
-"350",350,"Heartbreak Hotel","Elvis Presley","E","Major","E Major",0.696,0.21,-11.922,0.067,0.84,1.62e-06,0.107,0.717,93.543
-"351",351,"Virginia Plain","Roxy Music","F#","Major","F# Major",0.588,0.708,-7.823,0.0352,0.442,3.67e-05,0.293,0.579,131.195
-"352",352,"Time of the Season","The Zombies","E","Minor","E Minor",0.536,0.696,-6.818,0.0365,0.134,3.17e-06,0.287,0.683,117.179
-"353",353,"Angel from Montgomery","John Prine","C","Major","C Major",0.617,0.421,-14.231,0.0318,0.541,0.00227,0.125,0.39,131.653
-"354",354,"Ponta De Lança Africano","Jorge Ben Jor","C#","Minor","C# Minor",0.651,0.91,-3.834,0.2,0.253,0,0.472,0.654,96.792
-"355",355,"It Was A Good Day","Ice Cube","G","Minor","G Minor",0.798,0.744,-5.328,0.136,0.33,0.000106,0.292,0.794,82.356
-"356",356,"Sweet Dreams (Are Made of This) - Remastered","Eurythmics","C","Minor","C Minor",0.692,0.711,-7.498,0.0317,0.225,0,0.12,0.875,125.135
-"357",357,"Rock with You - Single Version","Michael Jackson","C#","Major","C# Major",0.808,0.535,-12.521,0.0353,0.179,9.91e-05,0.158,0.848,114.031
-"358",358,"Don't Leave Me This Way","Thelma Houston","C","Minor","C Minor",0.553,0.839,-5.844,0.116,0.153,6e-05,0.13,0.673,121.819
-"359",359,"Surrender","Cheap Trick","C","Major","C Major",0.524,0.955,-7.081,0.0411,0.00717,8.77e-06,0.659,0.869,133.849
-"360",360,"Because the Night","Patti Smith","B","Minor","B Minor",0.466,0.763,-7.748,0.0391,0.0542,0,0.119,0.473,123.539
-"361",361,"Killing Me Softly With His Song","Fugees","E","Minor","E Minor",0.765,0.289,-17.125,0.147,0.0268,1.77e-06,0.562,0.501,92.413
-"362",362,"Little Red Corvette - Single Version","Prince","C#","Major","C# Major",0.777,0.7,-11.046,0.0869,0.235,8.02e-06,0.836,0.802,122.941
-"363",363,"The Harder They Come","Jimmy Cliff","C#","Major","C# Major",0.668,0.65,-6.292,0.0583,0.7,0,0.125,0.848,103.512
-"364",364,"Merry Go 'Round","Kacey Musgraves","F#","Major","F# Major",0.651,0.466,-9.403,0.0305,0.541,0.0027,0.116,0.326,86.953
-"365",365,"Could You Be Loved","Bob Marley & The Wailers","C","Major","C Major",0.916,0.72,-8.548,0.1,0.36,0.00016,0.0958,0.761,103.314
-"366",366,"Box of Rain - 2013 Remaster","Grateful Dead","D","Major","D Major",0.52,0.49,-12.828,0.0286,0.413,0,0.121,0.76,117.755
-"367",367,"God Save the Queen","Sex Pistols","A","Major","A Major",0.274,0.908,-5.419,0.0691,0.00103,0.00219,0.154,0.483,148.246
-"368",368,"Da Doo Ron Ron (When He Walked Me Home)","The Crystals","D#","Major","D# Major",0.535,0.797,-7.533,0.0459,0.48,3.42e-05,0.141,0.613,148.835
-"369",369,"Thinkin Bout You","Frank Ocean","C","Major","C Major",0.721,0.339,-11.195,0.0532,0.409,0.00153,0.0973,0.2,129.83
-"370",370,"Black Hole Sun","Soundgarden","F#","Major","F# Major",0.35,0.828,-5.373,0.041,0.000217,0.000161,0.0774,0.147,105.435
-"371",371,"Just What I Needed","The Cars","E","Major","E Major",0.62,0.579,-9.307,0.0473,0.0152,6.4e-05,0.0858,0.691,127.215
-"372",372,"Peggy Sue","Buddy Holly","A","Major","A Major",0.676,0.424,-8.132,0.0329,0.947,0.000494,0.119,0.493,148.373
-"373",373,"Bennie And The Jets - Remastered 2014","Elton John","C","Major","C Major",0.665,0.673,-7.95,0.0493,0.259,7.62e-06,0.497,0.779,132.642
-"374",374,"I Can't Make You Love Me","Bonnie Raitt","G","Minor","G Minor",0.588,0.149,-16.728,0.0319,0.846,9.65e-05,0.236,0.113,124.689
-"375",375,"Hotline Bling","Drake","D","Major","D Major",0.891,0.628,-7.863,0.0551,0.00258,0.00019,0.0504,0.552,134.966
-"376",376,"Be Thankful for What You Got","William DeVaughn","B","Minor","B Minor",0.866,0.493,-13.017,0.122,0.675,0.384,0.0891,0.868,91.982
-"377",377,"Up on the Roof","The Drifters","G#","Major","G# Major",0.584,0.489,-6.182,0.0277,0.755,0,0.133,0.777,121.891
-"378",378,"Mama Tried","Merle Haggard","D","Major","D Major",0.738,0.538,-10.118,0.0374,0.719,1.35e-05,0.0653,0.81,97.487
-"379",379,"Pictures of You - 2010 Remaster","The Cure","A","Major","A Major",0.484,0.776,-6.48,0.0312,0.00371,0.109,0.131,0.495,171.935
-"380",380,"drivers license","Olivia Rodrigo","A#","Major","A# Major",0.561,0.431,-8.81,0.0578,0.768,1.42e-05,0.106,0.137,143.875
-"381",381,"Mr. Brightside","The Killers","C#","Major","C# Major",0.352,0.911,-5.23,0.0747,0.00121,0,0.0995,0.236,148.033
-"382",382,"Untitled (How Does It Feel)","D'Angelo","E","Minor","E Minor",0.838,0.304,-9.975,0.0626,0.16,0.0267,0.0828,0.221,112.618
-"383",383,"Radiation Vibe","Fountains Of Wayne","A","Major","A Major",0.593,0.78,-6.281,0.0253,0.000125,0.000164,0.166,0.507,109.529
-"384",384,"Typical Girls","The Slits","A","Major","A Major",0.488,0.714,-9.835,0.0432,2.43e-05,0.6,0.0672,0.726,157.604
-"385",385,"Paper Bag","Fiona Apple","C","Major","C Major",0.709,0.446,-9.904,0.037,0.716,2.39e-05,0.11,0.843,140.993
-"386",386,"Redbone","Childish Gambino","C#","Major","C# Major",0.745,0.353,-10.614,0.0983,0.174,0.00662,0.118,0.598,160.111
-"387",387,"I Like It","Cardi B","F","Minor","F Minor",0.816,0.726,-3.998,0.129,0.099,0,0.372,0.65,136.048
-"388",388,"I'm Coming Out","Diana Ross","F","Major","F Major",0.72,0.828,-9.211,0.0462,0.185,0.429,0.0839,0.768,110.071
-"389",389,"Lola - 2014 Remastered Version","The Kinks","A","Major","A Major",0.468,0.839,-7.406,0.0361,0.449,0.481,0.147,0.934,151.827
-"390",390,"Personality Crisis","New York Dolls","G","Major","G Major",0.429,0.914,-9.594,0.0505,0.0321,9.26e-05,0.436,0.685,155.588
-"391",391,"Party Up","DMX","B","Major","B Major",0.51,0.931,-3.302,0.337,0.0738,0,0.5,0.533,201.932
-"392",392,"Brass in Pocket - 2006 Remaster","Pretenders","A","Major","A Major",0.751,0.703,-5.687,0.0287,0.368,0.00123,0.196,0.907,97.931
-"393",393,"Enter Sandman","Metallica","F#","Minor","F# Minor",0.579,0.824,-8.71,0.03,0.00206,0.00903,0.059,0.635,123.331
-"394",394,"Springsteen","Eric Church","D","Major","D Major",0.692,0.809,-5.935,0.0255,0.1,9.91e-05,0.186,0.927,104.022
-"395",395,"Fix You","Coldplay","D#","Major","D# Major",0.209,0.417,-8.74,0.0338,0.164,0.00196,0.113,0.124,138.178
-"396",396,"Say It Loud - I'm Black And I'm Proud","James Brown","D#","Major","D# Major",0.853,0.529,-9.692,0.22,0.288,0.0118,0.0452,0.934,115.131
-"397",397,"Grace","Jeff Buckley","B","Minor","B Minor",0.546,0.867,-4.235,0.0354,0.0256,0.000229,0.221,0.189,127.988
-"398",398,"Planet Rock","Afrika Bambaataa","F#","Minor","F# Minor",0.915,0.807,-9.636,0.13,0.011,0.000122,0.201,0.708,127.35
-"399",399,"Alison","Elvis Costello","C#","Minor","C# Minor",0.557,0.32,-10.792,0.0438,0.739,3.99e-05,0.112,0.377,176.647
-"400",400,"Bring The Noise","Public Enemy","E","Minor","E Minor",0.795,0.824,-12.23,0.238,0.0668,0,0.0728,0.794,110.202
-"401",401,"Hungry Like the Wolf - 2009 Remaster","Duran Duran","C","Major","C Major",0.691,0.812,-7.772,0.0558,0.0433,1.16e-06,0.299,0.685,127.568
-"402",402,"You Make Me Feel (Mighty Real)","Sylvester","F","Minor","F Minor",0.629,0.851,-11.182,0.0294,0.0309,0.303,0.0947,0.961,130.7
-"403",403,"Station to Station - 2016 Remaster","David Bowie","G","Major","G Major",0.47,0.728,-12.031,0.0942,0.117,0.000886,0.0426,0.641,121.346
-"404",404,"Cruel Summer","Taylor Swift","A","Major","A Major",0.552,0.702,-5.707,0.157,0.117,2.06e-05,0.105,0.564,169.994
-"405",405,"Go Your Own Way - 2004 Remaster","Fleetwood Mac","F","Major","F Major",0.583,0.947,-5.12,0.0378,0.0185,0.00109,0.0679,0.803,135.448
-"406",406,"Ella Baila Sola","Eslabon Armado","F","Minor","F Minor",0.668,0.758,-5.176,0.0332,0.483,1.89e-05,0.0837,0.834,147.989
-"407",407,"Lovely Day","Bill Withers","A","Major","A Major",0.692,0.651,-8.267,0.0324,0.292,0.00241,0.105,0.706,97.923
-"408",408,"Ain't Nobody","Chaka Khan","C#","Major","C# Major",0.8,0.878,-7.109,0.0434,0.189,0.000104,0.14,0.816,104.282
-"409",409,"Rock And Roll All Nite","KISS","C#","Major","C# Major",0.654,0.929,-5.906,0.0998,0.0474,0,0.0538,0.902,144.769
-"410",410,"Amor Prohibido","Selena","G","Major","G Major",0.681,0.504,-11.099,0.0284,0.672,0,0.142,0.706,89.994
-"411",411,"Sucker M.C.'s (Krush-Groove 1)","Run–D.M.C.","F#","Major","F# Major",0.919,0.975,-5.636,0.0886,0.0898,0.00253,0.248,0.884,102.982
-"412",412,"Free Bird","Lynyrd Skynyrd","C","Major","C Major",0.249,0.834,-8.21,0.0574,0.0742,9.69e-05,0.0924,0.337,118.222
-"413",413,"Father And Son","Yusuf / Cat Stevens","G","Major","G Major",0.495,0.326,-12.29,0.0365,0.541,8.85e-05,0.0996,0.371,136.243
-"414",414,"Everlong","Foo Fighters","B","Minor","B Minor",0.413,0.881,-5.541,0.0367,5.99e-05,0.000308,0.0805,0.364,158.066
-"415",415,"Whipping Post","Allman Brothers Band","E","Minor","E Minor",0.315,0.64,-9.256,0.0339,0.329,0.341,0.0879,0.583,97.968
-"416",416,"Heavy Metal Drummer","Wilco","G","Major","G Major",0.661,0.66,-9.061,0.0373,0.0257,0.00977,0.256,0.814,120.617
-"417",417,"Buffalo Stance","Neneh Cherry","C#","Major","C# Major",0.708,0.627,-11.155,0.0614,0.0113,3.13e-05,0.338,0.764,107.246
-"418",418,"Gloria (feat. Van Morrison) - Mono Version","Them","A","Major","A Major",0.621,0.939,-6.761,0.0817,0.22,0.014,0.185,0.595,128.434
-"419",419,"Dreaming","Blondie","D","Major","D Major",0.293,0.92,-3.377,0.0562,0.0048,0.000199,0.122,0.673,161.846
-"420",420,"Essence (feat. Tems)","Wizkid","C","Major","C Major",0.849,0.707,-6.002,0.113,0.0266,8.58e-06,0.618,0.602,104.027
-"421",421,"Enjoy the Silence - 2006 Remaster","Depeche Mode","C","Minor","C Minor",0.38,0.591,-11.966,0.0321,0.348,0.0146,0.127,0.22,113.003
-"422",422,"Alive","Pearl Jam","B","Minor","B Minor",0.284,0.875,-6.069,0.0422,0.00752,0.000461,0.402,0.595,75.009
-"423",423,"Uptown Funk (feat. Bruno Mars)","Mark Ronson","C","Major","C Major",0.856,0.609,-7.223,0.0824,0.00801,8.15e-05,0.0344,0.928,114.988
-"424",424,"Green Onions","Booker T. & the M.G.'s","A#","Major","A# Major",0.816,0.514,-8.741,0.0339,0.767,0.949,0.0899,0.912,136.837
-"425",425,"Fantasy","Mariah Carey","G","Major","G Major",0.669,0.727,-7.588,0.0353,0.139,0,0.123,0.807,102.322
-"426",426,"California Dreamin'","The Mamas & The Papas","C#","Minor","C# Minor",0.554,0.667,-10.226,0.0342,0.628,0,0.0486,0.597,112.749
-"427",427,"How Soon Is Now? - 2011 Remaster","The Smiths","B","Major","B Major",0.398,0.93,-6.76,0.0615,0.000854,0.121,0.0874,0.725,190.818
-"428",428,"Flava in Ya Ear Remix (feat. The Notorious B.I.G., LL Cool J, Busta Rhymes, Rampage)","Craig Mack","A","Major","A Major",0.52,0.847,-5.3,0.427,0.275,0,0.325,0.799,177.377
-"429",429,"Criminal","Fiona Apple","G","Minor","G Minor",0.595,0.804,-7.911,0.0326,0.0129,1.97e-05,0.299,0.586,89.846
-"430",430,"No Diggity","Blackstreet","C#","Minor","C# Minor",0.867,0.646,-4.674,0.288,0.303,0,0.279,0.67,88.634
-"431",431,"Mannish Boy","Muddy Waters","D","Major","D Major",0.598,0.735,-10.882,0.0973,0.44,0.000215,0.681,0.615,111.129
-"432",432,"Super Bass","Nicki Minaj","B","Major","B Major",0.723,0.86,-4.357,0.203,0.271,4.56e-06,0.598,0.667,126.979
-"433",433,"Rapper's Delight","The Sugarhill Gang","B","Minor","B Minor",0.9,0.845,-7.306,0.257,0.465,0,0.0724,0.914,111.187
-"434",434,"Sign of the Times","Harry Styles","F","Major","F Major",0.516,0.595,-4.63,0.0313,0.0275,0,0.109,0.222,119.972
-"435",435,"BREAK MY SOUL","Beyoncé","C#","Minor","C# Minor",0.693,0.887,-5.039,0.0795,0.0581,2.71e-06,0.27,0.864,114.942
-"436",436,"Under Pressure","Queen","D","Major","D Major",0.659,0.545,-12.768,0.0514,0.394,0,0.0859,0.406,113.458
-"437",437,"They Reminisce Over You (T.R.O.Y.)","Pete Rock & C.L. Smooth","D","Major","D Major",0.761,0.683,-10.889,0.164,0.141,0,0.342,0.671,101.787
-"438",438,"Adore - 2020 Remaster","Prince","G","Major","G Major",0.717,0.435,-11.57,0.07,0.46,6.39e-05,0.289,0.775,129.235
-"439",439,"Summertime Blues","Eddie Cochran","B","Minor","B Minor",0.714,0.886,-8.629,0.0554,0.116,0.184,0.18,0.954,156.351
-"440",440,"West End Girls - 2018 Remaster","Pet Shop Boys","E","Minor","E Minor",0.656,0.914,-7.471,0.0394,0.000943,0.0628,0.159,0.576,113.259
-"441",441,"Sheena Is a Punk Rocker - 2017 Remaster","Ramones","C","Major","C Major",0.42,0.965,-1.986,0.0403,0.0981,0.000335,0.0784,0.846,176.243
-"442",442,"Limelight","Rush","C#","Minor","C# Minor",0.581,0.854,-8.485,0.0428,0.00197,0.0013,0.111,0.788,131.18
-"443",443,"Call Me Maybe","Carly Rae Jepsen","G","Major","G Major",0.782,0.58,-6.548,0.0407,0.0114,2.28e-06,0.108,0.66,120.021
-"444",444,"Passionate Kisses","Lucinda Williams","E","Major","E Major",0.646,0.658,-6.429,0.0269,0.0537,0,0.0919,0.557,138.774
-"445",445,"Savage Remix (feat. Beyoncé)","Megan Thee Stallion","A#","Minor","A# Minor",0.822,0.743,-4.772,0.28,0.016,0,0.127,0.636,84.459
-"446",446,"La Vida Es Un Carnaval","Celia Cruz","C","Minor","C Minor",0.813,0.701,-6.508,0.0701,0.489,0.00116,0.294,0.855,104.019
-"447",447,"If I Ain't Got You","Alicia Keys","G","Major","G Major",0.609,0.444,-9.129,0.106,0.603,6.86e-06,0.104,0.166,118.402
-"448",448,"The House That Built Me","Miranda Lambert","F","Major","F Major",0.525,0.3,-8.005,0.0286,0.578,8.3e-06,0.116,0.206,80.993
-"449",449,"Ace of Spades","Motörhead","E","Major","E Major",0.342,0.91,-7.748,0.0758,4.02e-05,0.000121,0.0823,0.547,140.452
-"450",450,"Sugar, We're Goin Down","Fall Out Boy","G","Major","G Major",0.494,0.842,-4.784,0.0843,0.00579,0,0.122,0.574,162.011
-"451",451,"In Da Club","50 Cent","F#","Minor","F# Minor",0.904,0.72,-2.776,0.348,0.259,0,0.0749,0.805,90.062
-"452",452,"Cosmic Dancer - 2003 Remaster","T. Rex","C","Major","C Major",0.37,0.694,-11.713,0.0595,0.018,0.00363,0.182,0.65,155.072
-"453",453,"Rosalita (Come Out Tonight)","Bruce Springsteen","F","Major","F Major",0.282,0.938,-5.664,0.0808,0.0305,0.000161,0.25,0.741,154.385
-"454",454,"Help! - Remastered","The Beatles","F#","Minor","F# Minor",0.534,0.725,-7.576,0.0332,0.188,0,0.0994,0.763,95.003
-"455",455,"Tyrone - Live","Erykah Badu","C#","Minor","C# Minor",0.464,0.598,-10.051,0.112,0.0241,2.6e-05,0.977,0.353,130.373
-"456",456,"(Don't Fear) The Reaper","Blue Öyster Cult","A","Minor","A Minor",0.333,0.927,-8.55,0.0733,0.0029,0.000208,0.297,0.385,141.466
-"457",457,"Powderfinger","Cowboy Junkies","G","Major","G Major",0.245,0.226,-19.274,0.0372,0.491,0.000205,0.109,0.238,176.137
-"458",458,"Bad and Boujee (feat. Lil Uzi Vert)","Migos","B","Major","B Major",0.926,0.666,-5.314,0.244,0.0611,0,0.123,0.168,127.079
-"459",459,"Africa","TOTO","A","Major","A Major",0.671,0.373,-18.064,0.0323,0.257,8.01e-05,0.0481,0.732,92.718
-"460",460,"The Rain (Supa Dupa Fly)","Missy Elliott","F#","Major","F# Major",0.836,0.595,-9.338,0.201,0.141,0.00375,0.329,0.762,79.98
-"461",461,"Bam Bam","Sister Nancy","F","Major","F Major",0.722,0.605,-6.07,0.153,0.825,0.0178,0.248,0.709,165.998
-"462",462,"White Rabbit","Jefferson Airplane","D","Major","D Major",0.551,0.293,-12.503,0.0272,0.486,0.000273,0.0864,0.322,106.798
-"463",463,"Summertime Sadness","Lana Del Rey","C#","Minor","C# Minor",0.565,0.654,-6.826,0.0335,0.0542,1.8e-06,0.122,0.235,111.968
-"464",464,"A&W","Lana Del Rey","A#","Major","A# Major",0.429,0.239,-14.696,0.11,0.632,0.389,0.116,0.137,157.112
-"465",465,"Livin' On A Prayer","Bon Jovi","C","Major","C Major",0.532,0.887,-3.757,0.0335,0.0778,0.000206,0.294,0.794,122.509
-"466",466,"Loser","Beck","D","Major","D Major",0.654,0.611,-10.45,0.119,0.0337,0.000178,0.405,0.786,85.387
-"467",467,"No Ordinary Love","Sade","B","Minor","B Minor",0.629,0.364,-12.259,0.038,0.467,0.0204,0.0941,0.701,166.266
-"468",468,"Ku Klux Klan","Steel Pulse","A","Minor","A Minor",0.737,0.504,-12.201,0.238,0.0143,0,0.0543,0.825,130.56
-"469",469,"Crying","Roy Orbison","D","Major","D Major",0.35,0.293,-9.502,0.0258,0.758,8.21e-06,0.104,0.162,96.685
-"470",470,"Into the Mystic - 2013 Remaster","Van Morrison","G#","Major","G# Major",0.608,0.524,-10.266,0.0309,0.367,0.00254,0.115,0.797,86.204
-"471",471,"Boom Boom","John Lee Hooker","A#","Major","A# Major",0.441,0.455,-14.207,0.0485,0.62,0.00187,0.135,0.918,160.9
-"472",472,"Help Me","Joni Mitchell","A","Minor","A Minor",0.584,0.526,-10.081,0.0389,0.469,6.47e-05,0.0756,0.637,82.028
-"473",473,"Get Lucky (feat. Pharrell Williams and Nile Rodgers)","Daft Punk","F#","Minor","F# Minor",0.81,0.793,-9.404,0.0403,0.0378,1.77e-06,0.072,0.863,116.05
-"474",474,"Never Too Much","Luther Vandross","D","Major","D Major",0.734,0.586,-11.866,0.129,0.125,0,0.0367,0.762,109.933
-"475",475,"Come As You Are","Nirvana","E","Minor","E Minor",0.5,0.824,-5.846,0.0388,0.00016,0.00161,0.0916,0.539,120.125
-"476",476,"Fade Into You","Mazzy Star","A","Major","A Major",0.417,0.33,-13.925,0.0275,0.247,0.000689,0.0677,0.175,157.113
-"477",477,"Goodbye Earl","The Chicks","C","Major","C Major",0.705,0.7,-7.38,0.0295,0.0192,0,0.0755,0.765,122.841
-"478",478,"Midnight Train to Georgia","Gladys Knight & The Pips","A#","Minor","A# Minor",0.595,0.379,-12.058,0.0454,0.271,2.81e-05,0.1,0.448,92.006
-"479",479,"House Of The Rising Sun","The Animals","A","Minor","A Minor",0.295,0.584,-6.696,0.0345,0.000385,0.218,0.0996,0.228,117.2
-"480",480,"Solsbury Hill","Peter Gabriel","B","Major","B Major",0.683,0.63,-8.844,0.0296,0.363,0.000873,0.314,0.481,102.457
-"481",481,"Stand By Your Man","Tammy Wynette","A","Major","A Major",0.517,0.246,-11.992,0.0308,0.788,0.00105,0.133,0.525,105.24
-"482",482,"Move on Up - Single Edit","Curtis Mayfield","B","Minor","B Minor",0.538,0.969,-5.626,0.0906,0.417,0.00154,0.119,0.928,138.652
-"483",483,"Rhythm Nation","Janet Jackson","C#","Major","C# Major",0.633,0.931,-7.752,0.0686,0.0504,0.109,0.375,0.676,109.116
-"484",484,"Sunday Mornin' Comin' Down","Kris Kristofferson","A","Major","A Major",0.523,0.284,-14.147,0.0379,0.524,8.96e-05,0.114,0.486,79.527
-"485",485,"Our Lips Are Sealed - Single Version","The Go-Go's","G#","Major","G# Major",0.608,0.864,-7.101,0.0522,0.0444,3.49e-06,0.0341,0.947,131.199
-"486",486,"Back That Azz Up","JUVENILE","G","Major","G Major",0.873,0.714,-6.664,0.129,0.0157,0,0.0968,0.541,95.826
-"487",487,"Oye Como Va","Santana","G","Major","G Major",0.736,0.379,-13.208,0.0539,0.301,0.345,0.104,0.948,128.399
-"488",488,"Just a Friend","Biz Markie","C","Major","C Major",0.862,0.663,-9.004,0.21,0.12,0,0.318,0.837,85.308
-"489",489,"Cross Road Blues","Robert Johnson","A","Major","A Major",0.675,0.311,-11.959,0.0525,0.93,0.000261,0.102,0.638,97.159
-"490",490,"Bad Romance","Lady Gaga","C","Major","C Major",0.695,0.921,-3.752,0.0363,0.00314,5.26e-05,0.0842,0.714,119.007
-"491",491,"I Can't Help Myself (Sugar Pie, Honey Bunch)","Four Tops","C","Major","C Major",0.667,0.599,-8.894,0.0291,0.245,0,0.107,0.971,127.935
-"492",492,"Buddy Holly","Weezer","G#","Major","G# Major",0.556,0.92,-4.606,0.0367,0.00271,0.00021,0.117,0.771,121.138
-"493",493,"212","Azealia Banks","B","Minor","B Minor",0.846,0.772,-5.735,0.259,0.0123,0.000106,0.0769,0.622,125.998
-"494",494,"A Milli","Lil Wayne","F#","Minor","F# Minor",0.674,0.695,-8.636,0.278,0.0387,0.00202,0.194,0.773,151.486
-"495",495,"Cranes in the Sky","Solange","F#","Major","F# Major",0.719,0.615,-5.972,0.045,0.408,0.000147,0.235,0.465,96.988
-"496",496,"House Of Balloons / Glass Table Girls","The Weeknd","C","Major","C Major",0.65,0.711,-5.417,0.0377,0.0121,0.00995,0.301,0.32,89.019
-"497",497,"Cannonball","The Breeders","D#","Major","D# Major",0.502,0.758,-9.76,0.0407,0.00915,0.783,0.284,0.729,112.499
-"498",498,"Old Town Road","Lil Nas X","C#","Major","C# Major",0.907,0.53,-6.112,0.127,0.0578,2.23e-06,0.101,0.507,135.998
-"499",499,"Welcome To The Jungle","Guns N' Roses","G#","Major","G# Major",0.454,0.987,-4.485,0.0881,0.0195,0.279,0.268,0.316,123.61
-"500",500,"Tití Me Preguntó","Bad Bunny","F","Minor","F Minor",0.65,0.715,-5.198,0.253,0.0993,0.000291,0.126,0.187,106.672
+"top_100_number","song","artist","key","mode","key_mode","danceability","energy","loudness","speechiness","acousticness","instrumentalness","liveness","valence","tempo"
+1,"Respect","Aretha Franklin","C","Major","C Major",0.805,0.558,-5.226,0.041,0.164,2.2e-05,0.0546,0.965,114.95
+2,"Fight The Power","Public Enemy","D","Major","D Major",0.797,0.582,-12.97,0.255,0.00484,2.04e-06,0.517,0.415,105.974
+3,"A Change Is Gonna Come","Sam Cooke","A#","Major","A# Major",0.214,0.4,-10.042,0.0342,0.756,0,0.325,0.508,169.683
+4,"Like a Rolling Stone","Bob Dylan","C","Major","C Major",0.482,0.721,-6.839,0.0321,0.731,0,0.189,0.557,95.263
+5,"Smells Like Teen Spirit","Nirvana","C#","Major","C# Major",0.502,0.912,-4.556,0.0564,2.55e-05,0.000173,0.106,0.72,116.761
+6,"What's Going On","Marvin Gaye","C#","Minor","C# Minor",0.245,0.833,-5.555,0.116,0.105,0,0.359,0.805,205.375
+7,"Strawberry Fields Forever - Remastered","The Beatles","A#","Major","A# Major",0.39,0.502,-12.277,0.178,0.336,0.000138,0.0713,0.289,97.871
+8,"Get Ur Freak On","Missy Elliott","C","Major","C Major",0.797,0.75,-9.369,0.247,0.533,0.108,0.095,0.74,177.87
+9,"Dreams - 2004 Remaster","Fleetwood Mac","C","Major","C Major",0.828,0.492,-9.744,0.0276,0.0644,0.00428,0.128,0.789,120.151
+10,"Hey Ya!","Outkast","E","Minor","E Minor",0.727,0.974,-2.261,0.0664,0.103,0.000532,0.174,0.965,79.526
+11,"God Only Knows - Mono","The Beach Boys","F#","Minor","F# Minor",0.524,0.487,-7.525,0.0299,0.253,0,0.0579,0.482,117.108
+12,"Superstition - Single Version","Stevie Wonder","G#","Major","G# Major",0.633,0.634,-12.115,0.0725,0.038,0.0064,0.0385,0.872,100.499
+13,"Gimme Shelter","The Rolling Stones","C#","Minor","C# Minor",0.63,0.616,-8.128,0.0309,0.463,0.0408,0.173,0.509,118.65
+14,"Waterloo Sunset","The Kinks","C#","Minor","C# Minor",0.513,0.683,-7.996,0.0246,0.268,0,0.173,0.467,107.866
+15,"I Want To Hold Your Hand - Remastered","The Beatles","G","Major","G Major",0.492,0.722,-6.348,0.0395,0.581,4.47e-06,0.354,0.926,130.97
+16,"Crazy In Love (feat. Jay-Z)","Beyoncé","D","Minor","D Minor",0.646,0.77,-6.596,0.226,0.00249,0,0.0715,0.681,99.165
+17,"Bohemian Rhapsody - Remastered 2011","Queen","C","Minor","C Minor",0.411,0.404,-9.928,0.0511,0.271,0,0.3,0.226,71.068
+18,"Purple Rain","Prince","A#","Major","A# Major",0.367,0.452,-10.422,0.0307,0.0353,0.00228,0.689,0.189,113.066
+19,"Imagine - Remastered 2010","John Lennon","C","Major","C Major",0.547,0.257,-12.358,0.0252,0.907,0.183,0.0935,0.169,75.752
+20,"Dancing On My Own","Robyn","F#","Major","F# Major",0.678,0.871,-4.781,0.0342,0.0587,0.249,0.0928,0.28,117.029
+21,"Strange Fruit","Billie Holiday","F#","Major","F# Major",0.313,0.0437,-22.627,0.0315,0.989,0.148,0.209,0.0625,100.827
+22,"Be My Baby","The Ronettes","E","Major","E Major",0.511,0.769,-7.032,0.042,0.181,0,0.0921,0.818,129.657
+23,"Heroes - 2017 Remaster","David Bowie","G","Major","G Major",0.489,0.758,-6.491,0.0297,0.000678,0.49,0.092,0.435,112.113
+24,"A Day In The Life - Remastered","The Beatles","E","Minor","E Minor",0.364,0.457,-14.162,0.0675,0.29,0.000106,0.922,0.175,163.219
+25,"Runaway","Kanye West","C#","Minor","C# Minor",0.374,0.568,-3.825,0.109,0.219,0.00219,0.513,0.111,84.733
+26,"A Case of You","Joni Mitchell Tribute by Strings Attached","C","Major","C Major",0.283,0.182,-11.548,0.0292,0.686,0,0.169,0.129,69.261
+27,"Born to Run","Bruce Springsteen","E","Major","E Major",0.27,0.944,-4.199,0.0975,0.00501,2.05e-05,0.116,0.606,146.347
+28,"Once in a Lifetime","Talking Heads","D","Major","D Major",0.646,0.88,-7.753,0.0637,0.0623,0.157,0.355,0.802,116.916
+29,"Nuthin' But A ""G"" Thang","Dr. Dre","B","Minor","B Minor",0.669,0.821,-4.37,0.29,0.00182,0,0.147,0.684,94.895
+30,"Royals","Lorde","G","Major","G Major",0.674,0.426,-9.504,0.122,0.12,0,0.132,0.337,84.876
+31,"(I Can't Get No) Satisfaction - Mono Version / Remastered 2002","The Rolling Stones","D","Major","D Major",0.725,0.853,-7.842,0.0353,0.0348,0.127,0.196,0.904,136.282
+32,"Juicy - 2007 Remaster","The Notorious B.I.G.","A","Major","A Major",0.873,0.816,-4.645,0.256,0.483,0,0.146,0.79,96.067
+33,"Johnny B. Goode","Chuck Berry","A#","Major","A# Major",0.516,0.798,-9.049,0.083,0.738,0.000128,0.305,0.969,168.195
+34,"Papa's Got A Brand New Bag - Pt. 1","James Brown","E","Major","E Major",0.728,0.535,-9.2,0.0882,0.305,6.1e-06,0.0904,0.931,127.897
+35,"Tutti Frutti","Little Richard","A#","Major","A# Major",0.534,0.433,-10.135,0.0635,0.566,0,0.0514,0.963,184.899
+36,"Seven Nation Army","The White Stripes","C","Major","C Major",0.726,0.463,-7.828,0.0799,0.00817,0.447,0.255,0.321,123.881
+37,"When Doves Cry","Prince","A","Minor","A Minor",0.729,0.989,-4.613,0.049,0.0102,4.45e-05,0.443,0.84,126.47
+38,"(Sittin' On) the Dock of the Bay","Otis Redding","D","Major","D Major",0.768,0.367,-11.226,0.0315,0.683,1.79e-05,0.081,0.532,103.621
+39,"B.O.B. - Bombs Over Baghdad","Outkast","A","Major","A Major",0.746,0.978,-5.324,0.0978,0.0555,4.11e-05,0.026,0.653,153.809
+40,"All Along the Watchtower","Jimi Hendrix","G#","Major","G# Major",0.438,0.805,-6.237,0.0624,0.00255,5.69e-05,0.0842,0.564,113.253
+41,"Love Will Tear Us Apart - 2010 Remaster","Joy Division","D","Major","D Major",0.525,0.902,-8.662,0.0368,0.000989,0.691,0.137,0.907,146.83
+42,"Redemption Song","Bob Marley & The Wailers","G","Major","G Major",0.671,0.256,-10.743,0.0387,0.608,0,0.0737,0.694,115.871
+43,"My Girl","The Temptations","C","Major","C Major",0.572,0.418,-10.738,0.0349,0.635,0,0.0961,0.694,104.566
+44,"Billie Jean","Michael Jackson","B","Minor","B Minor",0.92,0.654,-3.051,0.0401,0.0236,0.0153,0.036,0.847,117.046
+45,"Alright","Kendrick Lamar","G","Major","G Major",0.796,0.766,-5.974,0.238,0.0742,0,0.0827,0.558,110.034
+46,"Paper Planes","M.I.A.","D","Major","D Major",0.447,0.848,-6.175,0.222,0.033,7.46e-05,0.65,0.485,172.253
+47,"Tiny Dancer","Elton John","C","Major","C Major",0.414,0.428,-11.097,0.0278,0.382,0.000243,0.148,0.282,145.075
+48,"Idioteque","Radiohead","D#","Major","D# Major",0.615,0.931,-7.8,0.273,0.0352,2.23e-05,0.0915,0.525,137.544
+49,"Doo Wop (That Thing)","Ms. Lauryn Hill","D","Minor","D Minor",0.535,0.505,-8.926,0.245,0.0393,0,0.0923,0.495,99.935
+50,"Gasolina","Daddy Yankee","C","Major","C Major",0.852,0.797,-6.543,0.0614,0.322,2.69e-06,0.0845,0.741,96.008
+51,"Walk on By","Dionne Warwick","F","Major","F Major",0.7,0.33,-9.027,0.0303,0.719,8.6e-05,0.136,0.524,98.605
+52,"I Feel Love","Donna Summer","C","Major","C Major",0.689,0.675,-16.248,0.0434,0.0127,0.647,0.0987,0.937,128.1
+53,"Good Vibrations - Remastered 2001","The Beach Boys","A#","Minor","A# Minor",0.396,0.473,-7.67,0.0345,0.326,0.000124,0.109,0.385,133.449
+54,"The Tracks Of My Tears","Smokey Robinson & The Miracles","G","Major","G Major",0.502,0.333,-10.914,0.0264,0.699,0,0.222,0.729,96.982
+55,"Like a Prayer","Madonna","F","Major","F Major",0.625,0.842,-5.285,0.0376,0.264,2.12e-05,0.181,0.26,111.038
+56,"Work It","Missy Elliott","C#","Major","C# Major",0.884,0.677,-5.603,0.283,0.0778,0,0.0732,0.584,101.868
+57,"Family Affair - Single Version","Sly & The Family Stone","D","Minor","D Minor",0.819,0.605,-13.83,0.132,0.669,0.0163,0.199,0.797,108.892
+58,"The Weight - Remastered","The Band","A","Major","A Major",0.63,0.519,-10.997,0.0528,0.225,4.3e-06,0.0974,0.502,143.942
+59,"The Message - Extended Version","Grandmaster Flash & The Furious Five","C#","Major","C# Major",0.947,0.626,-10.106,0.205,0.0227,3.37e-06,0.0853,0.724,100.6
+60,"Running Up That Hill (A Deal With God) - 2018 Remaster","Kate Bush","A#","Minor","A# Minor",0.625,0.533,-11.903,0.0596,0.659,0.00266,0.0546,0.139,108.296
+61,"Stairway to Heaven - Remaster","Led Zeppelin","A","Minor","A Minor",0.338,0.34,-12.049,0.0339,0.58,0.0032,0.116,0.197,82.433
+62,"One","U2","C","Major","C Major",0.511,0.536,-8.661,0.0302,0.256,0.00265,0.122,0.357,90.358
+63,"Jolene","Dolly Parton","C#","Minor","C# Minor",0.674,0.537,-10.971,0.0363,0.566,0,0.131,0.809,110.578
+64,"Blitzkrieg Bop","Ramones","A","Major","A Major",0.547,0.733,-6.558,0.0433,0.0103,0.131,0.117,0.962,176.198
+65,"September","Earth, Wind & Fire","A","Major","A Major",0.697,0.832,-7.264,0.0298,0.168,0.00131,0.269,0.979,125.926
+66,"Bridge Over Troubled Water","Simon & Garfunkel","D#","Major","D# Major",0.149,0.206,-13.888,0.0323,0.822,0.000649,0.115,0.264,79.764
+67,"Tangled up in Blue","Bob Dylan","A","Major","A Major",0.421,0.661,-13.126,0.0433,0.414,1.16e-06,0.0962,0.554,100.965
+68,"Good Times","CHIC","D","Major","D Major",0.87,0.657,-7.32,0.0522,0.149,0.0102,0.053,0.893,110.596
+69,"All Too Well (10 Minute Version) (Taylor's Version) (From The Vault)","Taylor Swift","C","Major","C Major",0.631,0.518,-8.771,0.0303,0.274,0,0.088,0.205,93.023
+70,"Suspicious Minds","Elvis Presley","G","Major","G Major",0.541,0.722,-5.067,0.0262,0.0517,1.15e-05,0.122,0.632,115.209
+71,"Fast Car","Tracy Chapman","E","Minor","E Minor",0.711,0.292,-15.523,0.037,0.313,0,0.131,0.194,103.951
+72,"Yesterday - Remastered","The Beatles","F","Major","F Major",0.332,0.179,-11.83,0.0326,0.879,0,0.0886,0.315,96.529
+73,"Formation","Beyoncé","F","Minor","F Minor",0.896,0.621,-6.857,0.237,0.00532,0,0.196,0.818,121.966
+74,"Hallelujah","Leonard Cohen","C","Major","C Major",0.28,0.344,-12.577,0.0293,0.715,0.00642,0.133,0.232,171.143
+75,"Common People - Full Length Version","Pulp","C","Major","C Major",0.314,0.797,-9.026,0.038,0.0057,5.59e-05,0.0718,0.569,145.393
+76,"I Walk the Line","Johnny Cash","A","Major","A Major",0.713,0.258,-14.59,0.0384,0.877,0.00606,0.0967,0.56,98.805
+77,"Roadrunner","The Modern Lovers","D","Major","D Major",0.462,0.84,-6.666,0.0346,4.98e-05,6.47e-05,0.0893,0.804,75.54
+78,"Reach Out I'll Be There","Four Tops","D#","Minor","D# Minor",0.607,0.599,-8.908,0.0282,0.0253,0,0.188,0.735,119.846
+79,"Back To Black","Amy Winehouse","A#","Major","A# Major",0.49,0.725,-3.304,0.0392,0.123,2.68e-05,0.0983,0.335,123.28
+80,"What'd I Say, Pt. 1 & 2","Ray Charles","E","Major","E Major",0.54,0.681,-5.44,0.0508,0.808,0,0.162,0.794,88.385
+81,"I'm Waiting For The Man","The Velvet Underground","G","Major","G Major",0.678,0.646,-9.765,0.0442,0.0324,0.869,0.152,0.826,125.844
+82,"Rolling in the Deep","Adele","G#","Major","G# Major",0.73,0.769,-5.114,0.0298,0.138,0,0.0473,0.507,104.948
+83,"Desolation Row","Bob Dylan","E","Major","E Major",0.432,0.605,-6.941,0.0306,0.673,0,0.129,0.647,109.227
+84,"Let's Stay Together","Al Green","G","Minor","G Minor",0.756,0.401,-10.702,0.0526,0.582,0.011,0.0541,0.514,101.954
+85,"Kiss","Prince","G","Major","G Major",0.898,0.271,-12.238,0.091,0.0135,0.00138,0.0461,0.742,111.485
+86,"Tumbling Dice","The Rolling Stones","B","Major","B Major",0.616,0.91,-4.248,0.0347,0.5,0.504,0.281,0.77,111.017
+87,"All My Friends","LCD Soundsystem","D","Major","D Major",0.701,0.788,-5.611,0.0425,0.148,0.625,0.0977,0.795,142.584
+88,"Sweet Child O' Mine","Guns N' Roses","F#","Major","F# Major",0.445,0.952,-5.321,0.0522,0.09,0.0843,0.112,0.624,125.304
+89,"Hey Jude - Remastered","The Beatles","A#","Major","A# Major",0.394,0.566,-9.435,0.0261,0.0304,3.64e-05,0.101,0.631,148.029
+90,"(You Make Me Feel Like) A Natural Woman","Aretha Franklin","F","Major","F Major",0.603,0.271,-10.083,0.0284,0.679,0,0.141,0.405,110.89
+91,"Int'l Players Anthem (I Choose You) (feat. Outkast)","UGK","E","Minor","E Minor",0.675,0.68,-5.01,0.256,0.0655,0,0.354,0.845,155.698
+92,"Good Golly Miss Molly","Little Richard","G","Major","G Major",0.557,0.873,-9.129,0.0444,0.481,0.00021,0.395,0.967,166.189
+93,"Since U Been Gone","Kelly Clarkson","C","Major","C Major",0.662,0.741,-5.406,0.0334,0.00165,0.0303,0.114,0.404,131
+94,"I Will Always Love You","Whitney Houston","E","Major","E Major",0.332,0.214,-12.518,0.0349,0.845,5.62e-06,0.0839,0.11,67.531
+95,"Wonderwall","Oasis","D","Major","D Major",0.41,0.854,-5.609,0.0366,0.00236,0,0.133,0.456,174.584
+96,"99 Problems","JAY-Z","F#","Minor","F# Minor",0.494,0.887,-4.297,0.398,0.00661,0,0.103,0.548,89.554
+97,"Gloria: In Excelsis Deo","Patti Smith","A","Major","A Major",0.422,0.814,-7.365,0.195,0.118,5.3e-06,0.115,0.411,147.065
+98,"In My Life - Remastered","The Beatles","A","Major","A Major",0.688,0.435,-11.359,0.0323,0.449,0,0.113,0.435,103.239
+99,"Stayin' Alive","Bee Gees","A#","Minor","A# Minor",0.703,0.827,-7.179,0.0343,0.032,0.00636,0.179,0.944,103.564
+100,"Blowin' in the Wind","Bob Dylan","D","Major","D Major",0.38,0.0993,-20.567,0.0509,0.914,2.32e-05,0.0605,0.44,174.874
+101,"Maps","Yeah Yeah Yeahs","G","Major","G Major",0.502,0.941,-5.194,0.0716,0.000346,0.319,0.553,0.124,119.783
+102,"Maybellene - Single Version","Chuck Berry","A#","Minor","A# Minor",0.768,0.851,-6.935,0.0959,0.829,0,0.131,0.775,117.523
+103,"You Oughta Know","Alanis Morissette","E","Major","E Major",0.66,0.831,-8.195,0.0557,0.204,0,0.736,0.43,105.32
+104,"I Want You Back","The Jackson 5","G#","Major","G# Major",0.469,0.538,-13.559,0.0575,0.305,0.000114,0.37,0.885,196.606
+105,"Life on Mars? - 2015 Remaster","David Bowie","A#","Major","A# Major",0.445,0.384,-14.642,0.0417,0.635,7.74e-05,0.0539,0.216,123.295
+106,"Sympathy For The Devil","The Rolling Stones","A","Major","A Major",0.566,0.673,-10.814,0.306,0.565,1.13e-06,0.0438,0.583,114.385
+107,"C.R.E.A.M. (Cash Rules Everything Around Me) (feat. Method Man, Raekwon, Inspectah Deck & Buddha Monk)","Wu-Tang Clan","B","Minor","B Minor",0.512,0.514,-11.562,0.387,0.555,0.00958,0.126,0.565,181.033
+108,"Just like Heaven","The Cure","A","Major","A Major",0.43,0.971,-3.845,0.0524,0.0271,2.16e-05,0.185,0.764,151.219
+109,"Everyday People","Sly & The Family Stone","G","Major","G Major",0.813,0.619,-8.203,0.0294,0.245,0.0151,0.113,0.774,114.58
+110,"Something - Remastered 2009","The Beatles","C","Major","C Major",0.406,0.338,-10.872,0.0303,0.195,2.57e-06,0.138,0.379,132.875
+111,"Thunder Road","Bruce Springsteen","F","Major","F Major",0.369,0.758,-5.871,0.0364,0.623,1.78e-05,0.531,0.663,140.71
+112,"Losing My Religion","R.E.M.","A","Minor","A Minor",0.666,0.855,-5.051,0.0295,0.179,1.2e-06,0.0987,0.803,125.639
+113,"Higher Ground","Stevie Wonder","G#","Major","G# Major",0.716,0.85,-9.949,0.0426,0.0631,0.00133,0.189,0.821,125.474
+114,"Toxic","Britney Spears","F","Minor","F Minor",0.774,0.838,-3.914,0.114,0.0249,0.025,0.242,0.924,143.04
+115,"At Last","Etta James","F","Major","F Major",0.274,0.348,-8.631,0.0293,0.547,0.0133,0.334,0.328,87.43
+116,"It Takes Two","Rob Base & DJ EZ Rock","D","Major","D Major",0.8,0.723,-9.719,0.158,0.00228,0,0.26,0.651,111.593
+117,"I Say a Little Prayer","Aretha Franklin","A","Major","A Major",0.592,0.355,-14.051,0.0352,0.478,0,0.0585,0.499,133.032
+118,"Creep","Radiohead","G","Major","G Major",0.515,0.43,-9.935,0.0372,0.0097,0.000133,0.129,0.104,91.844
+119,"I Heard It Through The Grapevine","Marvin Gaye","G#","Minor","G# Minor",0.729,0.324,-13.017,0.0393,0.195,0,0.101,0.679,116.855
+120,"Oh Bondage Up Yours!","X-Ray Spex","D","Major","D Major",0.138,0.937,-2.436,0.0984,0.0273,0.821,0.903,0.291,174.391
+121,"Let It Be - Remastered","The Beatles","C","Major","C Major",0.443,0.403,-8.339,0.0322,0.631,0,0.111,0.41,143.462
+122,"People Get Ready - Single Version","The Impressions","C#","Major","C# Major",0.423,0.227,-15.978,0.0414,0.486,0.000242,0.246,0.37,143.346
+123,"This Must Be the Place (Naive Melody) - 2005 Remaster","Talking Heads","G","Major","G Major",0.942,0.641,-10.15,0.0333,0.331,0.179,0.028,0.966,114.443
+124,"That'll Be The Day","Buddy Holly","D","Major","D Major",0.536,0.637,-7.774,0.0343,0.467,0,0.0838,0.798,115.24
+125,"Anarchy In The UK","Sex Pistols","C","Major","C Major",0.359,0.949,-7.649,0.101,0.0556,0.000396,0.236,0.212,134.118
+126,"Freedom! '90","George Michael","F","Major","F Major",0.675,0.873,-7.697,0.0441,0.0998,1.48e-05,0.0541,0.817,91.77
+127,"Waterfalls","TLC","C#","Major","C# Major",0.769,0.505,-7.345,0.0829,0.311,7.49e-05,0.0777,0.757,171.804
+128,"Whole Lotta Love - 1990 Remaster","Led Zeppelin","A","Major","A Major",0.412,0.902,-11.6,0.405,0.0484,0.131,0.405,0.422,89.74
+129,"Hold On, We're Going Home","Drake","F#","Minor","F# Minor",0.777,0.414,-7.44,0.0946,0.00421,2.73e-05,0.0724,0.287,100.002
+130,"Dancing In The Street","Martha Reeves & The Vandellas","D","Major","D Major",0.557,0.578,-9.423,0.0395,0.0121,0.000488,0.121,0.292,126.019
+131,"Stand By Me","Ben E. King","A","Major","A Major",0.65,0.306,-9.443,0.0393,0.57,7.07e-06,0.0707,0.605,118.068
+132,"Paid In Full","Eric B. & Rakim","G","Major","G Major",0.878,0.851,-8.971,0.232,0.00228,0.00125,0.0509,0.404,99.014
+133,"Don't Stop Believin'","Journey","E","Major","E Major",0.5,0.748,-9.072,0.0363,0.127,0,0.447,0.514,118.852
+134,"What's Love Got to Do with It","Tina Turner","C#","Major","C# Major",0.851,0.406,-11.631,0.0661,0.219,6.41e-06,0.0853,0.792,97.84
+135,"She Loves You - Mono Version / Remastered 2009","The Beatles","G","Major","G Major",0.321,0.895,-5.157,0.0463,0.389,0,0.177,0.904,149.807
+136,"Try a Little Tenderness","Otis Redding","A","Minor","A Minor",0.587,0.133,-15.151,0.0565,0.186,2.26e-05,0.258,0.068,102.938
+137,"thank u, next","Ariana Grande","C#","Major","C# Major",0.72,0.654,-5.634,0.0647,0.227,0,0.101,0.411,106.976
+138,"Heart Of Glass","Blondie","E","Major","E Major",0.77,0.654,-6.107,0.0361,0.0548,0.000498,0.0819,0.686,114.82
+139,"Vogue","Madonna","F#","Major","F# Major",0.737,0.88,-6.449,0.0433,0.00379,0.00351,0.417,0.329,115.997
+140,"No Woman No Cry","Bob Marley & The Wailers","C","Major","C Major",0.863,0.433,-11.1,0.0383,0.0699,0,0.0553,0.712,97.067
+141,"Maggie May","Rod Stewart","D","Major","D Major",0.603,0.574,-10.536,0.0371,0.56,0.114,0.0684,0.535,129.42
+142,"He Stopped Loving Her Today","George Jones","G#","Major","G# Major",0.43,0.173,-18.597,0.0321,0.594,0.000111,0.224,0.365,72.103
+143,"London Calling - Remastered","The Clash","C","Major","C Major",0.651,0.801,-7.34,0.0514,0.123,0,0.0825,0.776,133.769
+144,"Jumpin' Jack Flash - Mono","The Rolling Stones","D#","Major","D# Major",0.596,0.901,-7.373,0.0482,0.0361,0.755,0.0698,0.621,137.359
+145,"Ms. Jackson","Outkast","E","Minor","E Minor",0.843,0.806,-5.946,0.269,0.143,0,0.0771,0.613,94.948
+146,"Fire and Rain","James Taylor","F","Major","F Major",0.611,0.35,-14.48,0.0356,0.499,7.84e-06,0.0844,0.36,76.064
+147,"Blueberry Hill - Non Stop Edit","Fats Domino","B","Major","B Major",0.368,0.362,-11.538,0.0308,0.503,4.14e-06,0.127,0.672,92.769
+148,"Kashmir - 1990 Remaster","Led Zeppelin","D","Major","D Major",0.48,0.536,-11.166,0.0427,0.488,4.22e-05,0.155,0.581,80.617
+149,"Rocket Man (I Think It's Going To Be A Long, Long Time)","Elton John","A#","Major","A# Major",0.601,0.532,-9.119,0.0286,0.433,5.95e-06,0.0925,0.342,136.576
+150,"Basket Case","Green Day","D#","Major","D# Major",0.442,0.943,-3.205,0.0602,0.00293,8.71e-06,0.091,0.781,85.064
+151,"Will You Love Me Tomorrow","The Shirelles","C","Major","C Major",0.55,0.382,-6.429,0.0263,0.312,1.11e-05,0.221,0.464,136.128
+152,"Proud Mary","Creedence Clearwater Revival","D","Major","D Major",0.699,0.641,-7.564,0.0289,0.13,0.000218,0.0601,0.728,120.745
+153,"Super Freak","Rick James","A","Minor","A Minor",0.838,0.794,-8.245,0.0531,0.22,0,0.0575,0.962,132.446
+154,"Spoonful","Howlin' Wolf","C","Major","C Major",0.821,0.376,-13.622,0.0487,0.669,1.39e-05,0.106,0.824,119.039
+155,"Last Nite","The Strokes","C","Major","C Major",0.624,0.899,-5.709,0.0296,0.0221,0.000137,0.0975,0.79,104.061
+156,"Louie Louie","The Kingsmen","C#","Minor","C# Minor",0.623,0.709,-9.818,0.0636,0.102,0,0.0967,0.948,122.394
+157,"Teen Age Riot (Album Version)","Sonic Youth","G","Major","G Major",0.286,0.907,-9.67,0.0374,0.000277,0.202,0.0837,0.746,156.395
+158,"Cissy Strut","The Meters","C","Major","C Major",0.507,0.763,-12.732,0.0945,0.172,0.886,0.324,0.708,176.193
+159,"Baba O'Riley","The Who","F","Major","F Major",0.489,0.724,-8.367,0.0352,0.313,0.185,0.287,0.15,117.292
+160,"Nightswimming","R.E.M.","G","Major","G Major",0.566,0.385,-11.272,0.0304,0.796,7.63e-06,0.103,0.571,114.227
+161,"Into the Groove","Madonna","A#","Minor","A# Minor",0.731,0.856,-4.164,0.0351,0.0664,0.00857,0.0691,0.805,116.472
+162,"Pink Moon","Nick Drake","D#","Major","D# Major",0.642,0.427,-8.471,0.0402,0.871,0.0904,0.124,0.404,82.344
+163,"Landslide","Fleetwood Mac","G","Minor","G Minor",0.414,0.161,-22.32,0.0318,0.883,0.000223,0.117,0.423,159.375
+164,"Mr. Tambourine Man","Bob Dylan","F","Major","F Major",0.39,0.31,-14.545,0.0676,0.794,0,0.379,0.584,177.515
+165,"I'm So Lonesome I Could Cry","Hank Williams","E","Major","E Major",0.526,0.257,-14.827,0.0286,0.828,0.00153,0.318,0.352,111.919
+166,"All the Young Dudes","Mott The Hoople","E","Minor","E Minor",0.429,0.668,-7.539,0.044,0.208,0,0.538,0.398,77.737
+167,"Lose Yourself","Eminem","D","Major","D Major",0.692,0.744,-4.565,0.257,0.00868,0.000423,0.359,0.0612,171.374
+168,"Son of a Preacher Man","Dusty Springfield","E","Major","E Major",0.401,0.498,-10.682,0.0757,0.394,0,0.13,0.816,181.701
+169,"American Girl","Tom Petty and the Heartbreakers","D","Major","D Major",0.55,0.824,-5.988,0.0334,0.448,0.000127,0.366,0.777,114.512
+170,"In The Still of the Night","The Five Satins","F#","Major","F# Major",0.43,0.33,-10.621,0.0353,0.876,0,0.105,0.316,108.824
+171,"What A Wonderful World","Louis Armstrong","F","Major","F Major",0.271,0.165,-20.652,0.0351,0.726,1.54e-06,0.118,0.202,77.082
+172,"Mississippi Goddam","Nina Simone","E","Minor","E Minor",0.598,0.274,-15.065,0.0623,0.389,0,0.979,0.789,147.218
+173,"Marquee Moon","Television","G","Major","G Major",0.49,0.536,-10.83,0.0382,0.0391,0.371,0.116,0.732,118.008
+174,"Radio Free Europe","R.E.M.","E","Major","E Major",0.367,0.685,-14.831,0.0464,0.00304,0.0478,0.109,0.854,154.953
+175,"I Only Have Eyes for You","The Flamingos","F","Major","F Major",0.552,0.313,-12.41,0.0296,0.916,0.0017,0.12,0.303,88.554
+176,"You Really Got Me","The Kinks","G#","Major","G# Major",0.575,0.948,-6.173,0.0945,0.333,0,0.0656,0.948,137.408
+177,"Jump - 2015 Remaster","Van Halen","C","Major","C Major",0.572,0.835,-6.219,0.0317,0.171,0.000377,0.0702,0.795,129.981
+178,"bad guy","Billie Eilish","G","Major","G Major",0.701,0.425,-10.965,0.375,0.328,0.13,0.1,0.562,135.128
+179,"Comfortably Numb","Pink Floyd","B","Minor","B Minor",0.472,0.366,-12.595,0.0286,0.15,0.312,0.0837,0.171,127.163
+180,"Walk On the Wild Side","Lou Reed","C","Major","C Major",0.575,0.318,-16.729,0.109,0.683,0.000202,0.0934,0.385,104.522
+181,"Eight Miles High","The Byrds","A","Major","A Major",0.365,0.77,-10.492,0.0764,0.21,0.136,0.503,0.37,130.603
+182,"The Sound of Silence - Acoustic Version","Simon & Garfunkel","F#","Major","F# Major",0.525,0.216,-13.551,0.0301,0.837,0,0.107,0.328,106.761
+183,"You Are The Sunshine Of My Life","Stevie Wonder","B","Major","B Major",0.519,0.46,-14.53,0.0688,0.823,5.97e-05,0.243,0.675,132.082
+184,"Nothing Compares 2 U","Sinéad O'Connor","F","Major","F Major",0.511,0.574,-7.016,0.0273,0.0425,2.33e-05,0.105,0.161,119.917
+185,"Beat It","Michael Jackson","D#","Minor","D# Minor",0.762,0.8,-6.244,0.0449,0.027,5.83e-05,0.17,0.9,138.823
+186,"I'll Take You There","The Staple Singers","C","Major","C Major",0.846,0.595,-8.372,0.0439,0.0904,1.96e-06,0.063,0.78,101.632
+187,"Subterranean Homesick Blues","Bob Dylan","E","Minor","E Minor",0.576,0.727,-9.973,0.05,0.702,0,0.324,0.751,173.854
+188,"Little Wing","Jimi Hendrix","F#","Major","F# Major",0.515,0.534,-8.045,0.0768,0.181,0.00278,0.0547,0.426,70.776
+189,"Space Oddity - 2015 Remaster","David Bowie","C","Major","C Major",0.31,0.403,-13.664,0.0326,0.0726,9.27e-05,0.139,0.466,134.48
+190,"Fuck Tha Police","N.W.A.","G#","Minor","G# Minor",0.859,0.75,-8.325,0.303,0.0193,0,0.0538,0.857,98.691
+191,"Ode To Billie Joe","Bobbie Gentry","G","Major","G Major",0.637,0.189,-10.726,0.0471,0.721,0,0.0939,0.695,120.142
+192,"Mind Playing Tricks on Me","Geto Boys","A#","Minor","A# Minor",0.886,0.512,-11.825,0.237,0.207,0,0.0991,0.454,93.997
+193,"Wild Horses - 2009 Mix","The Rolling Stones","G","Major","G Major",0.432,0.389,-6.517,0.0255,0.687,0.0109,0.0788,0.158,139.462
+194,"Rid Of Me","PJ Harvey","A","Minor","A Minor",0.715,0.0885,-20.682,0.0521,0.00485,0.00694,0.155,0.544,125.383
+195,"Crazy - Single Version","Patsy Cline","A#","Major","A# Major",0.471,0.021,-24.385,0.0366,0.931,1.19e-06,0.103,0.356,107.765
+196,"Get Up (I Feel Like Being A) Sex Machine - Pt. 1 & 2","James Brown","A#","Minor","A# Minor",0.835,0.692,-6.514,0.114,0.248,0.000161,0.295,0.829,108.296
+197,"I Can't Stand the Rain","Ann Peebles","C#","Major","C# Major",0.727,0.387,-12.333,0.0412,0.248,0.0102,0.0625,0.966,160.395
+198,"Sexual Healing","Marvin Gaye","C","Minor","C Minor",0.805,0.602,-9.7,0.0579,0.119,0.000122,0.0581,0.744,94.382
+199,"Dream On","Aerosmith","C#","Major","C# Major",0.307,0.433,-10.057,0.029,0.388,9.08e-05,0.332,0.224,160.9
+200,"Changes - 2015 Remaster","David Bowie","C","Major","C Major",0.559,0.308,-11.75,0.0376,0.505,0,0.109,0.414,113.633
+201,"Ring of Fire","Johnny Cash","G","Major","G Major",0.661,0.518,-8.004,0.0269,0.267,0.000158,0.431,0.676,104.565
+202,"Your Song - Remastered","Elton John","D#","Major","D# Major",0.555,0.336,-9.916,0.0296,0.821,2.17e-06,0.089,0.303,127.792
+203,"Signed, Sealed, Delivered (I'm Yours)","Stevie Wonder","F","Major","F Major",0.675,0.597,-11.329,0.0337,0.0534,0,0.0986,0.828,108.875
+204,"Young Americans - 2016 Remaster","David Bowie","E","Minor","E Minor",0.614,0.763,-8.949,0.133,0.171,0,0.119,0.885,84.236
+205,"...Baby One More Time","Britney Spears","C","Minor","C Minor",0.759,0.699,-5.745,0.0307,0.202,0.000131,0.443,0.907,92.96
+206,"Wichita Lineman - Remastered 2001","Glen Campbell","F","Major","F Major",0.192,0.392,-11.667,0.0327,0.326,0.000199,0.248,0.392,172.312
+207,"Killing In The Name","Rage Against The Machine","G","Major","G Major",0.466,0.833,-4.215,0.304,0.0266,0,0.0327,0.661,88.785
+208,"Doll Parts","Hole","G","Major","G Major",0.245,0.542,-7.159,0.0324,0.147,4.05e-06,0.102,0.365,204.824
+209,"The Boys Of Summer","Don Henley","F#","Major","F# Major",0.516,0.549,-13.741,0.0373,0.501,0.00572,0.184,0.907,176.941
+210,"One Nation Under a Groove","Funkadelic","E","Minor","E Minor",0.788,0.852,-8.157,0.0419,0.416,0.00116,0.288,0.869,122.375
+211,"With Or Without You","U2","D","Major","D Major",0.54,0.429,-11.822,0.0285,0.000202,0.355,0.141,0.113,110.171
+212,"More Than a Feeling","Boston","G","Major","G Major",0.377,0.681,-8.039,0.0298,0.00088,0.0023,0.0504,0.285,108.789
+213,"Paint It, Black","The Rolling Stones","C#","Major","C# Major",0.464,0.795,-9.267,0.0926,0.0493,0.00244,0.399,0.612,158.691
+214,"Deacon Blues","Steely Dan","C","Major","C Major",0.745,0.586,-12.487,0.0359,0.457,0.000295,0.119,0.604,115.857
+215,"Shook Ones, Pt. II","Mobb Deep","A#","Minor","A# Minor",0.763,0.786,-6.472,0.229,0.0146,0.0114,0.0817,0.504,93.857
+216,"Jailhouse Rock","Elvis Presley","A#","Minor","A# Minor",0.647,0.582,-9.538,0.0755,0.41,1.93e-06,0.0715,0.915,167.396
+217,"Edge of Seventeen","Stevie Nicks","C","Major","C Major",0.59,0.828,-6.28,0.0439,0.277,5.57e-06,0.0868,0.636,111.353
+218,"In the Midnight Hour","Wilson Pickett","E","Major","E Major",0.75,0.444,-8.63,0.0403,0.12,3.69e-06,0.118,0.849,111.919
+219,"Free Fallin'","Tom Petty","F","Major","F Major",0.623,0.449,-13.333,0.0253,0.212,0,0.0613,0.573,84.383
+220,"Bizarre Love Triangle","New Order","A#","Major","A# Major",0.613,0.885,-7.463,0.052,0.0804,0.746,0.0997,0.919,118.506
+221,"River Deep - Mountain High","Ike & Tina Turner","G#","Major","G# Major",0.621,0.972,-3.791,0.0724,0.472,0.000585,0.195,0.866,155.113
+222,"Suite: Judy Blue Eyes - 2005 Remaster","Crosby, Stills & Nash","A","Major","A Major",0.458,0.364,-13.126,0.0431,0.467,0,0.197,0.3,154.215
+223,"Stan","Eminem","F#","Minor","F# Minor",0.78,0.768,-4.325,0.238,0.0371,2.34e-06,0.518,0.507,80.063
+224,"Layla - 40th Anniversary Version / 2010 Remastered","Derek & The Dominos","C#","Major","C# Major",0.404,0.903,-3.88,0.0668,0.577,0.297,0.287,0.498,115.672
+225,"Both Sides Now - Live","Joni Mitchell","G","Major","G Major",0.599,0.522,-7.753,0.0421,0.83,0,0.95,0.54,104.181
+226,"There Is a Light That Never Goes Out - 2011 Remaster","The Smiths","E","Major","E Major",0.523,0.769,-5.855,0.0269,0.04,0,0.136,0.876,136.162
+227,"Fortunate Son","Creedence Clearwater Revival","C","Major","C Major",0.64,0.663,-7.516,0.0374,0.201,0.00806,0.152,0.663,132.77
+228,"Single Ladies (Put a Ring on It)","Beyoncé","C#","Major","C# Major",0.426,0.584,-5.293,0.296,0.0383,0,0.188,0.272,193.437
+229,"This Land is Your Land","Woody Guthrie","D#","Major","D# Major",0.606,0.0977,-15.668,0.0451,0.962,0.00148,0.126,0.551,105.593
+230,"Mr. Tambourine Man","The Byrds","D","Major","D Major",0.456,0.47,-9.564,0.0294,0.513,3.76e-05,0.444,0.639,120.336
+231,"I Wanna Dance with Somebody (Who Loves Me)","Whitney Houston","C#","Major","C# Major",0.709,0.824,-8.824,0.0453,0.207,0.000307,0.0888,0.867,118.818
+232,"My Generation - Stereo Version","The Who","D","Minor","D Minor",0.412,0.782,-9.186,0.058,0.308,0.00822,0.0775,0.705,96.732
+233,"Groove Is in the Heart","Deee-Lite","C#","Minor","C# Minor",0.694,0.881,-4.053,0.0701,0.0153,0.0196,0.0851,0.924,121.554
+234,"You Keep Me Hangin' On","The Supremes","G#","Minor","G# Minor",0.682,0.612,-7.004,0.0381,0.284,0,0.0783,0.845,127.647
+235,"Blue Monday","New Order","C","Major","C Major",0.762,0.651,-13.34,0.0655,0.00198,0.856,0.111,0.941,130.395
+236,"Lean on Me","Bill Withers","C","Major","C Major",0.619,0.22,-13.843,0.0672,0.782,1.19e-05,0.124,0.426,75.143
+237,"Your Cheatin' Heart","Hank Williams","C","Major","C Major",0.669,0.219,-12.028,0.0285,0.879,0.00047,0.233,0.671,127.878
+238,"Are You That Somebody","Aaliyah","A","Minor","A Minor",0.85,0.657,-7.078,0.166,0.14,0.0192,0.0939,0.843,137.971
+239,"September Gurls","Big Star","E","Major","E Major",0.373,0.85,-4.567,0.0342,0.000199,0.0077,0.124,0.629,114.029
+240,"I Want It That Way","Backstreet Boys","F#","Minor","F# Minor",0.689,0.694,-5.83,0.027,0.257,0,0.148,0.482,99.039
+241,"The Humpty Dance","Digital Underground","A#","Minor","A# Minor",0.813,0.693,-8,0.266,0.0343,0,0.121,0.618,103.508
+242,"Great Balls of Fire","Jerry Lee Lewis","A#","Major","A# Major",0.592,0.627,-10.14,0.0662,0.55,0,0.43,0.909,79.567
+243,"Eleanor Rigby - Remastered 2009","The Beatles","E","Minor","E Minor",0.581,0.28,-9.091,0.0381,0.936,1.56e-05,0.305,0.813,137.831
+244,"Summer Babe (Winter Version)","Pavement","D","Major","D Major",0.37,0.854,-5.91,0.0288,4.84e-06,0.845,0.0617,0.568,97.51
+245,"Sabotage","Beastie Boys","F#","Minor","F# Minor",0.324,0.938,-7.332,0.102,0.032,0.0321,0.0961,0.543,168.131
+246,"Ooh La La","Faces","D","Major","D Major",0.601,0.574,-8.166,0.03,0.579,1.14e-05,0.216,0.8,147.964
+247,"River","Joni Mitchell","C","Major","C Major",0.211,0.154,-12.572,0.0336,0.917,0.000945,0.0841,0.231,179.326
+248,"Straight Outta Compton","N.W.A.","G#","Major","G# Major",0.834,0.878,-9.484,0.15,0.0461,0,0.334,0.418,102.848
+249,"Bad Reputation","Joan Jett & the Blackhearts","F#","Major","F# Major",0.378,0.974,-4.055,0.194,0.00192,0.0139,0.0588,0.824,203.715
+250,"Purple Haze","Jimi Hendrix","D","Major","D Major",0.527,0.891,-5.209,0.0759,0.0068,0.723,0.0618,0.458,108.57
+251,"I Will Survive - Single Version","Gloria Gaynor","C","Major","C Major",0.777,0.725,-8.681,0.05,0.0131,0.00805,0.246,0.529,116.669
+252,"Flash Light","Parliament","G","Minor","G Minor",0.702,0.735,-10.458,0.0465,0.243,0.117,0.474,0.687,105.177
+253,"Blue Eyes Crying In the Rain","Willie Nelson","E","Major","E Major",0.626,0.04,-19.994,0.0405,0.928,0.00178,0.11,0.418,117.136
+254,"Stop! In The Name Of Love","The Supremes","C","Major","C Major",0.612,0.444,-12.752,0.0293,0.531,0,0.126,0.503,114.961
+255,"Coal Miner's Daughter","Loretta Lynn","A","Major","A Major",0.602,0.47,-9.333,0.0287,0.884,0.341,0.163,0.633,137.163
+256,"Master of Puppets (Remastered)","Metallica","E","Minor","E Minor",0.539,0.828,-9.108,0.035,0.00067,0.421,0.154,0.562,105.25
+257,"(Love Is Like A) Heat Wave","Martha Reeves & The Vandellas","C","Minor","C Minor",0.514,0.624,-9.287,0.0842,0.513,0.00517,0.307,0.755,166.726
+258,"The Revolution Will Not Be Televised","Gil Scott-Heron","B","Minor","B Minor",0.56,0.767,-9.825,0.191,0.51,0,0.103,0.961,180.641
+259,"Heart of Gold - 2009 Remaster","Neil Young","E","Minor","E Minor",0.541,0.459,-10.433,0.0297,0.189,0.0274,0.099,0.802,171.163
+260,"Get Up, Stand Up","Bob Marley & The Wailers","F#","Minor","F# Minor",0.826,0.546,-9.518,0.385,0.321,5.13e-05,0.068,0.866,148.244
+261,"Pusherman","Curtis Mayfield","A#","Major","A# Major",0.851,0.669,-9.562,0.0379,0.239,0.0852,0.108,0.911,126.624
+262,"American Tune","Paul Simon","C","Major","C Major",0.383,0.208,-16.035,0.03,0.818,3.36e-05,0.189,0.219,84.699
+263,"Coat of Many Colors","Dolly Parton","F","Major","F Major",0.624,0.257,-13.341,0.0444,0.93,7.56e-05,0.138,0.681,85.617
+264,"Let's Get It On","Marvin Gaye","D#","Major","D# Major",0.539,0.599,-10.638,0.0483,0.0375,0,0.0754,0.636,167.7
+265,"Left of the Dial - 2008 Remaster","The Replacements","A","Major","A Major",0.264,0.953,-7.531,0.098,0.00391,0.012,0.179,0.316,150.795
+266,"Kill Bill","SZA","G#","Major","G# Major",0.644,0.728,-5.75,0.0351,0.0543,0.169,0.161,0.43,88.993
+267,"King Tubby Meets Rockers Uptown","King Tubby","C#","Major","C# Major",0.802,0.581,-11.424,0.0435,0.0178,0.872,0.0924,0.454,131.983
+268,"Take Care","Drake","C","Minor","C Minor",0.629,0.515,-10.358,0.265,0.0267,1.22e-05,0.0888,0.299,121.845
+269,"Shout, Pts. 1 & 2","The Isley Brothers","A#","Major","A# Major",0.467,0.831,-7.661,0.0683,0.549,0,0.95,0.547,137.355
+270,"Unchained Melody","The Righteous Brothers","C","Major","C Major",0.361,0.219,-16.553,0.0285,0.563,0,0.558,0.26,98.532
+271,"Closer","Nine Inch Nails","A#","Minor","A# Minor",0.547,0.714,-8.628,0.044,0.000242,0.636,0.122,0.541,89.996
+272,"A Whiter Shade of Pale - Original Single Version","Procol Harum","C","Major","C Major",0.249,0.66,-6.905,0.0342,0.504,0.0026,0.0891,0.435,149.813
+273,"The Boys Are Back In Town","Thin Lizzy","G#","Major","G# Major",0.445,0.706,-9.803,0.0461,0.234,0.000252,0.205,0.768,80.823
+274,"Killing Me Softly With His Song","Roberta Flack","F","Minor","F Minor",0.476,0.381,-10.238,0.0342,0.727,0,0.0614,0.33,121.948
+275,"Love and Happiness","Al Green","F#","Major","F# Major",0.823,0.457,-10.961,0.234,0.206,0.000183,0.0763,0.735,99.163
+276,"Sail Away - 2002 Remaster","Randy Newman","F","Major","F Major",0.341,0.161,-12.324,0.0326,0.936,0.000488,0.12,0.0961,134.75
+277,"Ever Fallen in Love (With Someone You Shouldn't've?) - 1996 Remastered Version","Buzzcocks","E","Major","E Major",0.266,0.831,-9.07,0.0453,0.000862,0,0.0555,0.778,175.514
+278,"Bo Diddley","Bo Diddley","C","Major","C Major",0.81,0.706,-12.5,0.055,0.187,0,0.195,0.608,105.682
+279,"Pressure Drop","Toots & The Maytals","G#","Major","G# Major",0.658,0.571,-11.972,0.0432,0.106,0,0.0286,0.985,148.964
+280,"Karma Police","Radiohead","G","Major","G Major",0.36,0.501,-9.129,0.0258,0.0638,9.32e-05,0.172,0.324,74.807
+281,"Spring Day","BTS","G#","Major","G# Major",0.539,0.846,-3.192,0.0354,0.00631,1.71e-06,0.13,0.462,106.994
+282,"Grindin'","Clipse","C#","Major","C# Major",0.592,0.77,-3.402,0.318,0.122,1.22e-06,0.103,0.361,191.692
+283,"Never Tear Us Apart","INXS","C","Major","C Major",0.665,0.686,-5.849,0.0268,0.0518,0.000176,0.174,0.275,96.848
+284,"Georgia on My Mind - Original Master Recording","Ray Charles","G","Major","G Major",0.138,0.399,-8.756,0.0311,0.782,3.65e-06,0.188,0.296,179.93
+285,"Suzanne","Leonard Cohen","F#","Minor","F# Minor",0.409,0.172,-16.44,0.0389,0.922,0.00112,0.111,0.352,132.151
+286,"Say My Name","Destiny's Child","F","Minor","F Minor",0.713,0.678,-3.525,0.102,0.273,0,0.149,0.734,138.009
+287,"Dancing Queen","ABBA","A","Major","A Major",0.539,0.884,-6.53,0.0403,0.382,0.00166,0.76,0.752,100.812
+288,"You Shook Me All Night Long","AC/DC","G","Major","G Major",0.532,0.767,-5.509,0.0574,0.00287,0.000513,0.39,0.755,127.361
+289,"That's the Joint","Funky 4 + 1","C#","Major","C# Major",0.851,0.954,-4.994,0.0961,0.153,0,0.319,0.86,105.406
+290,"Atlantic City","Bruce Springsteen","E","Major","E Major",0.475,0.429,-10.577,0.0367,0.311,0,0.376,0.34,108.034
+291,"Yeah! (feat. Lil Jon & Ludacris)","USHER","D","Major","D Major",0.894,0.791,-4.699,0.112,0.0183,0,0.0388,0.583,105.018
+292,"In The Air Tonight - 2015 Remastered","Phil Collins","C","Major","C Major",0.446,0.239,-13.945,0.0316,0.551,4.1e-06,0.0697,0.298,189.507
+293,"Can I Kick It?","A Tribe Called Quest","C","Major","C Major",0.848,0.666,-6.547,0.274,0.173,0.000699,0.129,0.744,96.662
+294,"Penny Lane","The Beatles","A","Major","A Major",0.633,0.385,-9.967,0.0358,0.411,8.72e-05,0.095,0.647,113.96
+295,"School's Out","Alice Cooper","F","Major","F Major",0.294,0.745,-9.138,0.0461,0.05,0.125,0.676,0.347,134.364
+296,"Sweet Jane - Full Length Version; 2015 Remaster","The Velvet Underground","D","Major","D Major",0.619,0.637,-7.369,0.0286,0.015,0,0.374,0.936,105.205
+297,"Won't Get Fooled Again - Original Album Version","The Who","D","Major","D Major",0.686,0.92,-6.231,0.0566,0.301,0.27,0.0807,0.225,135.027
+298,"Rebel Girl","Bikini Kill","G#","Minor","G# Minor",0.435,0.939,-3.845,0.111,0.0122,0.00466,0.0614,0.559,134.938
+299,"Wouldn't It Be Nice","The Beach Boys","F","Major","F Major",0.392,0.629,-7.056,0.0334,0.718,3.65e-06,0.129,0.72,124.511
+300,"Jungleland","Bruce Springsteen","F","Major","F Major",0.299,0.584,-5.984,0.0334,0.374,0.126,0.073,0.183,133.712
+301,"I Put a Spell On You","Screamin' Jay Hawkins","A#","Minor","A# Minor",0.733,0.399,-12.086,0.094,0.59,0.0254,0.0766,0.9,173.781
+302,"Rock Lobster","The B-52's","G#","Major","G# Major",0.6,0.814,-11.51,0.0481,0.0462,0.0268,0.0509,0.482,92.225
+303,"Night Moves","Bob Seger","C#","Major","C# Major",0.705,0.743,-6.631,0.042,0.432,0.0133,0.103,0.374,118.552
+304,"Wish You Were Here","Pink Floyd","G","Major","G Major",0.481,0.262,-15.73,0.0414,0.735,0.0114,0.832,0.375,122.861
+305,"No Scrubs","TLC","G#","Minor","G# Minor",0.743,0.675,-4.267,0.0953,0.0251,0.000717,0.0685,0.59,92.909
+306,"Trans-Europe Express - 2009 Remaster","Kraftwerk","C#","Major","C# Major",0.878,0.611,-12.221,0.118,0.0559,0.838,0.0527,0.718,107.65
+307,"Every Breath You Take - Remastered 2003","The Police","C#","Major","C# Major",0.82,0.452,-9.796,0.0348,0.543,0.00294,0.0701,0.74,117.401
+308,"Chain of Fools","Aretha Franklin","A#","Major","A# Major",0.721,0.567,-9.516,0.0389,0.221,0,0.465,0.914,116.643
+309,"Crazy","Gnarls Barkley","G#","Major","G# Major",0.836,0.741,-1.609,0.0339,0.0172,0.0583,0.0826,0.611,111.963
+310,"Divorce Song - 2018 Remaster","Liz Phair","C#","Major","C# Major",0.635,0.805,-4.776,0.0268,0.0581,0,0.191,0.744,120.384
+311,"Ain't No Sunshine","Bill Withers","E","Minor","E Minor",0.527,0.415,-11.451,0.122,0.457,1.72e-05,0.117,0.515,78.169
+312,"Light My Fire","The Doors","D#","Minor","D# Minor",0.413,0.725,-5.787,0.0324,0.369,2.16e-05,0.0905,0.44,124.618
+313,"Hotel California - 2013 Remaster","Eagles","D","Major","D Major",0.579,0.508,-9.484,0.027,0.00574,0.000494,0.0575,0.609,147.125
+314,"Walk On By","Isaac Hayes","F#","Major","F# Major",0.261,0.604,-10.634,0.0844,0.0654,0.145,0.066,0.508,69.606
+315,"The Tears Of A Clown","Smokey Robinson & The Miracles","C#","Major","C# Major",0.593,0.607,-9.886,0.0283,0.147,0,0.128,0.953,128.365
+316,"I Wanna Be Your Dog","The Stooges","E","Major","E Major",0.527,0.871,-8.708,0.0354,0.0229,0.155,0.419,0.107,120.722
+317,"A Love Supreme Pt. I - Acknowledgement - Live In Juan-les-Pins, France/1965","John Coltrane","F","Minor","F Minor",0.256,0.582,-8.403,0.0522,0.433,6.36e-05,0.255,0.516,78.185
+318,"Leader Of The Pack","The Shangri-Las","C","Major","C Major",0.417,0.546,-8.71,0.0858,0.725,0,0.543,0.31,126.224
+319,"Visions of Johanna","Bob Dylan","A","Major","A Major",0.59,0.484,-10.424,0.0339,0.321,0,0.0625,0.652,93.428
+320,"Hound Dog","Big Mama Thornton","A","Major","A Major",0.563,0.542,-10.862,0.0962,0.706,3.59e-05,0.355,0.785,133.285
+321,"Everybody Wants To Rule The World","Tears For Fears","G","Major","G Major",0.645,0.795,-12.095,0.0527,0.347,0.00389,0.104,0.535,112.067
+322,"California Love - Original Version","2Pac","G","Major","G Major",0.761,0.847,-3.068,0.0417,0.0292,2.26e-06,0.39,0.765,91.519
+323,"Blank Space","Taylor Swift","F","Major","F Major",0.753,0.678,-5.421,0.0644,0.085,1.64e-06,0.13,0.583,96.006
+324,"I Still Haven't Found What I'm Looking For - Remastered 2007","U2","C#","Major","C# Major",0.565,0.764,-9.43,0.0351,0.0139,0.00488,0.079,0.686,100.891
+325,"After the Goldrush","Neil Young","D#","Major","D# Major",0.216,0.0282,-21.51,0.042,0.971,0.00471,0.133,0.0765,171.817
+326,"All I Have to Do Is Dream","The Everly Brothers","E","Major","E Major",0.534,0.462,-8.172,0.0266,0.839,0,0.129,0.534,96.195
+327,"Scenes from an Italian Restaurant","Billy Joel","F","Major","F Major",0.415,0.931,-4.988,0.126,0.407,0.000501,0.114,0.339,97.953
+328,"Lust For Life","Iggy Pop","A","Major","A Major",0.387,0.97,-5.61,0.0432,0.0306,1.22e-06,0.0981,0.689,104.028
+329,"Portions for Foxes","Rilo Kiley","D","Major","D Major",0.474,0.807,-3.635,0.035,0.000938,0.0121,0.154,0.302,138.913
+330,"Real Love","Mary J. Blige","C","Major","C Major",0.769,0.781,-5.472,0.0797,0.12,0.00037,0.0506,0.826,95.021
+331,"Under the Bridge","Red Hot Chili Peppers","E","Major","E Major",0.559,0.345,-13.496,0.0459,0.0576,0.000105,0.141,0.458,84.581
+332,"Safaera","Bad Bunny","D","Major","D Major",0.607,0.829,-4.074,0.379,0.0103,0,0.107,0.685,96.172
+333,"Big Poppa - 2007 Remaster","The Notorious B.I.G.","A","Minor","A Minor",0.765,0.671,-5.249,0.278,0.344,0,0.0506,0.798,84.5
+334,"Please Mr. Postman - Single Version / Mono","The Marvelettes","D","Major","D Major",0.785,0.776,-5.259,0.0312,0.729,0,0.181,0.967,121.505
+335,"Umbrella","Rihanna","C#","Major","C# Major",0.585,0.828,-4.603,0.124,0.00906,0,0.0426,0.584,174.034
+336,"Papa Was A Rollin' Stone - Single Version","The Temptations","A#","Minor","A# Minor",0.817,0.405,-13.513,0.0811,0.451,0.0507,0.0468,0.898,121.467
+337,"Ripple - 2020 Remaster","Grateful Dead","G","Major","G Major",0.603,0.44,-13.284,0.0328,0.392,0.000144,0.578,0.671,128.021
+338,"Move Your Body","Marshall Jefferson","E","Minor","E Minor",0.791,0.801,-6.344,0.07,0.00531,0.189,0.509,0.609,124.985
+339,"She's Gone","Daryl Hall & John Oates","E","Major","E Major",0.523,0.341,-14.034,0.0388,0.313,0.000114,0.621,0.355,77.487
+340,"Believe","Cher","F#","Major","F# Major",0.652,0.917,-6.72,0.0548,0.0082,0,0.0509,0.459,132.975
+341,"Paranoid - 2012 - Remaster","Black Sabbath","E","Minor","E Minor",0.412,0.658,-12.051,0.0708,4.52e-05,0.000774,0.176,0.454,163.071
+342,"1999","Prince","F","Major","F Major",0.866,0.73,-8.201,0.0767,0.137,0,0.0843,0.625,118.523
+343,"(White Man) in Hammersmith Palais","The Clash","A","Major","A Major",0.692,0.694,-6.398,0.0369,0.132,5.88e-06,0.0855,0.832,102.769
+344,"I'm a Believer - 2006 Remaster","The Monkees","C","Major","C Major",0.526,0.775,-6.05,0.0352,0.707,2.05e-05,0.217,0.962,80.106
+345,"Promised Land","Chuck Berry","C","Major","C Major",0.477,0.895,-6.63,0.0586,0.723,0,0.791,0.963,167.201
+346,"What a Fool Believes","The Doobie Brothers","G#","Minor","G# Minor",0.758,0.378,-15.308,0.0449,0.284,0,0.049,0.985,120.736
+347,"Iron Man","Black Sabbath","A","Major","A Major",0.332,0.769,-11.503,0.0765,0.00367,0.00413,0.0372,0.525,157.378
+348,"It's Too Late","Carole King","A","Minor","A Minor",0.45,0.442,-12.718,0.0353,0.493,0.00564,0.134,0.812,208.282
+349,"Dynamite","BTS","F#","Minor","F# Minor",0.746,0.765,-4.41,0.0993,0.0112,0,0.0936,0.737,114.044
+350,"Heartbreak Hotel","Elvis Presley","E","Major","E Major",0.696,0.21,-11.922,0.067,0.84,1.62e-06,0.107,0.717,93.543
+351,"Virginia Plain","Roxy Music","F#","Major","F# Major",0.588,0.708,-7.823,0.0352,0.442,3.67e-05,0.293,0.579,131.195
+352,"Time of the Season","The Zombies","E","Minor","E Minor",0.536,0.696,-6.818,0.0365,0.134,3.17e-06,0.287,0.683,117.179
+353,"Angel from Montgomery","John Prine","C","Major","C Major",0.617,0.421,-14.231,0.0318,0.541,0.00227,0.125,0.39,131.653
+354,"Ponta De Lança Africano","Jorge Ben Jor","C#","Minor","C# Minor",0.651,0.91,-3.834,0.2,0.253,0,0.472,0.654,96.792
+355,"It Was A Good Day","Ice Cube","G","Minor","G Minor",0.798,0.744,-5.328,0.136,0.33,0.000106,0.292,0.794,82.356
+356,"Sweet Dreams (Are Made of This) - Remastered","Eurythmics","C","Minor","C Minor",0.692,0.711,-7.498,0.0317,0.225,0,0.12,0.875,125.135
+357,"Rock with You - Single Version","Michael Jackson","C#","Major","C# Major",0.808,0.535,-12.521,0.0353,0.179,9.91e-05,0.158,0.848,114.031
+358,"Don't Leave Me This Way","Thelma Houston","C","Minor","C Minor",0.553,0.839,-5.844,0.116,0.153,6e-05,0.13,0.673,121.819
+359,"Surrender","Cheap Trick","C","Major","C Major",0.524,0.955,-7.081,0.0411,0.00717,8.77e-06,0.659,0.869,133.849
+360,"Because the Night","Patti Smith","B","Minor","B Minor",0.466,0.763,-7.748,0.0391,0.0542,0,0.119,0.473,123.539
+361,"Killing Me Softly With His Song","Fugees","E","Minor","E Minor",0.765,0.289,-17.125,0.147,0.0268,1.77e-06,0.562,0.501,92.413
+362,"Little Red Corvette - Single Version","Prince","C#","Major","C# Major",0.777,0.7,-11.046,0.0869,0.235,8.02e-06,0.836,0.802,122.941
+363,"The Harder They Come","Jimmy Cliff","C#","Major","C# Major",0.668,0.65,-6.292,0.0583,0.7,0,0.125,0.848,103.512
+364,"Merry Go 'Round","Kacey Musgraves","F#","Major","F# Major",0.651,0.466,-9.403,0.0305,0.541,0.0027,0.116,0.326,86.953
+365,"Could You Be Loved","Bob Marley & The Wailers","C","Major","C Major",0.916,0.72,-8.548,0.1,0.36,0.00016,0.0958,0.761,103.314
+366,"Box of Rain - 2013 Remaster","Grateful Dead","D","Major","D Major",0.52,0.49,-12.828,0.0286,0.413,0,0.121,0.76,117.755
+367,"God Save the Queen","Sex Pistols","A","Major","A Major",0.274,0.908,-5.419,0.0691,0.00103,0.00219,0.154,0.483,148.246
+368,"Da Doo Ron Ron (When He Walked Me Home)","The Crystals","D#","Major","D# Major",0.535,0.797,-7.533,0.0459,0.48,3.42e-05,0.141,0.613,148.835
+369,"Thinkin Bout You","Frank Ocean","C","Major","C Major",0.721,0.339,-11.195,0.0532,0.409,0.00153,0.0973,0.2,129.83
+370,"Black Hole Sun","Soundgarden","F#","Major","F# Major",0.35,0.828,-5.373,0.041,0.000217,0.000161,0.0774,0.147,105.435
+371,"Just What I Needed","The Cars","E","Major","E Major",0.62,0.579,-9.307,0.0473,0.0152,6.4e-05,0.0858,0.691,127.215
+372,"Peggy Sue","Buddy Holly","A","Major","A Major",0.676,0.424,-8.132,0.0329,0.947,0.000494,0.119,0.493,148.373
+373,"Bennie And The Jets - Remastered 2014","Elton John","C","Major","C Major",0.665,0.673,-7.95,0.0493,0.259,7.62e-06,0.497,0.779,132.642
+374,"I Can't Make You Love Me","Bonnie Raitt","G","Minor","G Minor",0.588,0.149,-16.728,0.0319,0.846,9.65e-05,0.236,0.113,124.689
+375,"Hotline Bling","Drake","D","Major","D Major",0.891,0.628,-7.863,0.0551,0.00258,0.00019,0.0504,0.552,134.966
+376,"Be Thankful for What You Got","William DeVaughn","B","Minor","B Minor",0.866,0.493,-13.017,0.122,0.675,0.384,0.0891,0.868,91.982
+377,"Up on the Roof","The Drifters","G#","Major","G# Major",0.584,0.489,-6.182,0.0277,0.755,0,0.133,0.777,121.891
+378,"Mama Tried","Merle Haggard","D","Major","D Major",0.738,0.538,-10.118,0.0374,0.719,1.35e-05,0.0653,0.81,97.487
+379,"Pictures of You - 2010 Remaster","The Cure","A","Major","A Major",0.484,0.776,-6.48,0.0312,0.00371,0.109,0.131,0.495,171.935
+380,"drivers license","Olivia Rodrigo","A#","Major","A# Major",0.561,0.431,-8.81,0.0578,0.768,1.42e-05,0.106,0.137,143.875
+381,"Mr. Brightside","The Killers","C#","Major","C# Major",0.352,0.911,-5.23,0.0747,0.00121,0,0.0995,0.236,148.033
+382,"Untitled (How Does It Feel)","D'Angelo","E","Minor","E Minor",0.838,0.304,-9.975,0.0626,0.16,0.0267,0.0828,0.221,112.618
+383,"Radiation Vibe","Fountains Of Wayne","A","Major","A Major",0.593,0.78,-6.281,0.0253,0.000125,0.000164,0.166,0.507,109.529
+384,"Typical Girls","The Slits","A","Major","A Major",0.488,0.714,-9.835,0.0432,2.43e-05,0.6,0.0672,0.726,157.604
+385,"Paper Bag","Fiona Apple","C","Major","C Major",0.709,0.446,-9.904,0.037,0.716,2.39e-05,0.11,0.843,140.993
+386,"Redbone","Childish Gambino","C#","Major","C# Major",0.745,0.353,-10.614,0.0983,0.174,0.00662,0.118,0.598,160.111
+387,"I Like It","Cardi B","F","Minor","F Minor",0.816,0.726,-3.998,0.129,0.099,0,0.372,0.65,136.048
+388,"I'm Coming Out","Diana Ross","F","Major","F Major",0.72,0.828,-9.211,0.0462,0.185,0.429,0.0839,0.768,110.071
+389,"Lola - 2014 Remastered Version","The Kinks","A","Major","A Major",0.468,0.839,-7.406,0.0361,0.449,0.481,0.147,0.934,151.827
+390,"Personality Crisis","New York Dolls","G","Major","G Major",0.429,0.914,-9.594,0.0505,0.0321,9.26e-05,0.436,0.685,155.588
+391,"Party Up","DMX","B","Major","B Major",0.51,0.931,-3.302,0.337,0.0738,0,0.5,0.533,201.932
+392,"Brass in Pocket - 2006 Remaster","Pretenders","A","Major","A Major",0.751,0.703,-5.687,0.0287,0.368,0.00123,0.196,0.907,97.931
+393,"Enter Sandman","Metallica","F#","Minor","F# Minor",0.579,0.824,-8.71,0.03,0.00206,0.00903,0.059,0.635,123.331
+394,"Springsteen","Eric Church","D","Major","D Major",0.692,0.809,-5.935,0.0255,0.1,9.91e-05,0.186,0.927,104.022
+395,"Fix You","Coldplay","D#","Major","D# Major",0.209,0.417,-8.74,0.0338,0.164,0.00196,0.113,0.124,138.178
+396,"Say It Loud - I'm Black And I'm Proud","James Brown","D#","Major","D# Major",0.853,0.529,-9.692,0.22,0.288,0.0118,0.0452,0.934,115.131
+397,"Grace","Jeff Buckley","B","Minor","B Minor",0.546,0.867,-4.235,0.0354,0.0256,0.000229,0.221,0.189,127.988
+398,"Planet Rock","Afrika Bambaataa","F#","Minor","F# Minor",0.915,0.807,-9.636,0.13,0.011,0.000122,0.201,0.708,127.35
+399,"Alison","Elvis Costello","C#","Minor","C# Minor",0.557,0.32,-10.792,0.0438,0.739,3.99e-05,0.112,0.377,176.647
+400,"Bring The Noise","Public Enemy","E","Minor","E Minor",0.795,0.824,-12.23,0.238,0.0668,0,0.0728,0.794,110.202
+401,"Hungry Like the Wolf - 2009 Remaster","Duran Duran","C","Major","C Major",0.691,0.812,-7.772,0.0558,0.0433,1.16e-06,0.299,0.685,127.568
+402,"You Make Me Feel (Mighty Real)","Sylvester","F","Minor","F Minor",0.629,0.851,-11.182,0.0294,0.0309,0.303,0.0947,0.961,130.7
+403,"Station to Station - 2016 Remaster","David Bowie","G","Major","G Major",0.47,0.728,-12.031,0.0942,0.117,0.000886,0.0426,0.641,121.346
+404,"Cruel Summer","Taylor Swift","A","Major","A Major",0.552,0.702,-5.707,0.157,0.117,2.06e-05,0.105,0.564,169.994
+405,"Go Your Own Way - 2004 Remaster","Fleetwood Mac","F","Major","F Major",0.583,0.947,-5.12,0.0378,0.0185,0.00109,0.0679,0.803,135.448
+406,"Ella Baila Sola","Eslabon Armado","F","Minor","F Minor",0.668,0.758,-5.176,0.0332,0.483,1.89e-05,0.0837,0.834,147.989
+407,"Lovely Day","Bill Withers","A","Major","A Major",0.692,0.651,-8.267,0.0324,0.292,0.00241,0.105,0.706,97.923
+408,"Ain't Nobody","Chaka Khan","C#","Major","C# Major",0.8,0.878,-7.109,0.0434,0.189,0.000104,0.14,0.816,104.282
+409,"Rock And Roll All Nite","KISS","C#","Major","C# Major",0.654,0.929,-5.906,0.0998,0.0474,0,0.0538,0.902,144.769
+410,"Amor Prohibido","Selena","G","Major","G Major",0.681,0.504,-11.099,0.0284,0.672,0,0.142,0.706,89.994
+411,"Sucker M.C.'s (Krush-Groove 1)","Run–D.M.C.","F#","Major","F# Major",0.919,0.975,-5.636,0.0886,0.0898,0.00253,0.248,0.884,102.982
+412,"Free Bird","Lynyrd Skynyrd","C","Major","C Major",0.249,0.834,-8.21,0.0574,0.0742,9.69e-05,0.0924,0.337,118.222
+413,"Father And Son","Yusuf / Cat Stevens","G","Major","G Major",0.495,0.326,-12.29,0.0365,0.541,8.85e-05,0.0996,0.371,136.243
+414,"Everlong","Foo Fighters","B","Minor","B Minor",0.413,0.881,-5.541,0.0367,5.99e-05,0.000308,0.0805,0.364,158.066
+415,"Whipping Post","Allman Brothers Band","E","Minor","E Minor",0.315,0.64,-9.256,0.0339,0.329,0.341,0.0879,0.583,97.968
+416,"Heavy Metal Drummer","Wilco","G","Major","G Major",0.661,0.66,-9.061,0.0373,0.0257,0.00977,0.256,0.814,120.617
+417,"Buffalo Stance","Neneh Cherry","C#","Major","C# Major",0.708,0.627,-11.155,0.0614,0.0113,3.13e-05,0.338,0.764,107.246
+418,"Gloria (feat. Van Morrison) - Mono Version","Them","A","Major","A Major",0.621,0.939,-6.761,0.0817,0.22,0.014,0.185,0.595,128.434
+419,"Dreaming","Blondie","D","Major","D Major",0.293,0.92,-3.377,0.0562,0.0048,0.000199,0.122,0.673,161.846
+420,"Essence (feat. Tems)","Wizkid","C","Major","C Major",0.849,0.707,-6.002,0.113,0.0266,8.58e-06,0.618,0.602,104.027
+421,"Enjoy the Silence - 2006 Remaster","Depeche Mode","C","Minor","C Minor",0.38,0.591,-11.966,0.0321,0.348,0.0146,0.127,0.22,113.003
+422,"Alive","Pearl Jam","B","Minor","B Minor",0.284,0.875,-6.069,0.0422,0.00752,0.000461,0.402,0.595,75.009
+423,"Uptown Funk (feat. Bruno Mars)","Mark Ronson","C","Major","C Major",0.856,0.609,-7.223,0.0824,0.00801,8.15e-05,0.0344,0.928,114.988
+424,"Green Onions","Booker T. & the M.G.'s","A#","Major","A# Major",0.816,0.514,-8.741,0.0339,0.767,0.949,0.0899,0.912,136.837
+425,"Fantasy","Mariah Carey","G","Major","G Major",0.669,0.727,-7.588,0.0353,0.139,0,0.123,0.807,102.322
+426,"California Dreamin'","The Mamas & The Papas","C#","Minor","C# Minor",0.554,0.667,-10.226,0.0342,0.628,0,0.0486,0.597,112.749
+427,"How Soon Is Now? - 2011 Remaster","The Smiths","B","Major","B Major",0.398,0.93,-6.76,0.0615,0.000854,0.121,0.0874,0.725,190.818
+428,"Flava in Ya Ear Remix (feat. The Notorious B.I.G., LL Cool J, Busta Rhymes, Rampage)","Craig Mack","A","Major","A Major",0.52,0.847,-5.3,0.427,0.275,0,0.325,0.799,177.377
+429,"Criminal","Fiona Apple","G","Minor","G Minor",0.595,0.804,-7.911,0.0326,0.0129,1.97e-05,0.299,0.586,89.846
+430,"No Diggity","Blackstreet","C#","Minor","C# Minor",0.867,0.646,-4.674,0.288,0.303,0,0.279,0.67,88.634
+431,"Mannish Boy","Muddy Waters","D","Major","D Major",0.598,0.735,-10.882,0.0973,0.44,0.000215,0.681,0.615,111.129
+432,"Super Bass","Nicki Minaj","B","Major","B Major",0.723,0.86,-4.357,0.203,0.271,4.56e-06,0.598,0.667,126.979
+433,"Rapper's Delight","The Sugarhill Gang","B","Minor","B Minor",0.9,0.845,-7.306,0.257,0.465,0,0.0724,0.914,111.187
+434,"Sign of the Times","Harry Styles","F","Major","F Major",0.516,0.595,-4.63,0.0313,0.0275,0,0.109,0.222,119.972
+435,"BREAK MY SOUL","Beyoncé","C#","Minor","C# Minor",0.693,0.887,-5.039,0.0795,0.0581,2.71e-06,0.27,0.864,114.942
+436,"Under Pressure","Queen","D","Major","D Major",0.659,0.545,-12.768,0.0514,0.394,0,0.0859,0.406,113.458
+437,"They Reminisce Over You (T.R.O.Y.)","Pete Rock & C.L. Smooth","D","Major","D Major",0.761,0.683,-10.889,0.164,0.141,0,0.342,0.671,101.787
+438,"Adore - 2020 Remaster","Prince","G","Major","G Major",0.717,0.435,-11.57,0.07,0.46,6.39e-05,0.289,0.775,129.235
+439,"Summertime Blues","Eddie Cochran","B","Minor","B Minor",0.714,0.886,-8.629,0.0554,0.116,0.184,0.18,0.954,156.351
+440,"West End Girls - 2018 Remaster","Pet Shop Boys","E","Minor","E Minor",0.656,0.914,-7.471,0.0394,0.000943,0.0628,0.159,0.576,113.259
+441,"Sheena Is a Punk Rocker - 2017 Remaster","Ramones","C","Major","C Major",0.42,0.965,-1.986,0.0403,0.0981,0.000335,0.0784,0.846,176.243
+442,"Limelight","Rush","C#","Minor","C# Minor",0.581,0.854,-8.485,0.0428,0.00197,0.0013,0.111,0.788,131.18
+443,"Call Me Maybe","Carly Rae Jepsen","G","Major","G Major",0.782,0.58,-6.548,0.0407,0.0114,2.28e-06,0.108,0.66,120.021
+444,"Passionate Kisses","Lucinda Williams","E","Major","E Major",0.646,0.658,-6.429,0.0269,0.0537,0,0.0919,0.557,138.774
+445,"Savage Remix (feat. Beyoncé)","Megan Thee Stallion","A#","Minor","A# Minor",0.822,0.743,-4.772,0.28,0.016,0,0.127,0.636,84.459
+446,"La Vida Es Un Carnaval","Celia Cruz","C","Minor","C Minor",0.813,0.701,-6.508,0.0701,0.489,0.00116,0.294,0.855,104.019
+447,"If I Ain't Got You","Alicia Keys","G","Major","G Major",0.609,0.444,-9.129,0.106,0.603,6.86e-06,0.104,0.166,118.402
+448,"The House That Built Me","Miranda Lambert","F","Major","F Major",0.525,0.3,-8.005,0.0286,0.578,8.3e-06,0.116,0.206,80.993
+449,"Ace of Spades","Motörhead","E","Major","E Major",0.342,0.91,-7.748,0.0758,4.02e-05,0.000121,0.0823,0.547,140.452
+450,"Sugar, We're Goin Down","Fall Out Boy","G","Major","G Major",0.494,0.842,-4.784,0.0843,0.00579,0,0.122,0.574,162.011
+451,"In Da Club","50 Cent","F#","Minor","F# Minor",0.904,0.72,-2.776,0.348,0.259,0,0.0749,0.805,90.062
+452,"Cosmic Dancer - 2003 Remaster","T. Rex","C","Major","C Major",0.37,0.694,-11.713,0.0595,0.018,0.00363,0.182,0.65,155.072
+453,"Rosalita (Come Out Tonight)","Bruce Springsteen","F","Major","F Major",0.282,0.938,-5.664,0.0808,0.0305,0.000161,0.25,0.741,154.385
+454,"Help! - Remastered","The Beatles","F#","Minor","F# Minor",0.534,0.725,-7.576,0.0332,0.188,0,0.0994,0.763,95.003
+455,"Tyrone - Live","Erykah Badu","C#","Minor","C# Minor",0.464,0.598,-10.051,0.112,0.0241,2.6e-05,0.977,0.353,130.373
+456,"(Don't Fear) The Reaper","Blue Öyster Cult","A","Minor","A Minor",0.333,0.927,-8.55,0.0733,0.0029,0.000208,0.297,0.385,141.466
+457,"Powderfinger","Cowboy Junkies","G","Major","G Major",0.245,0.226,-19.274,0.0372,0.491,0.000205,0.109,0.238,176.137
+458,"Bad and Boujee (feat. Lil Uzi Vert)","Migos","B","Major","B Major",0.926,0.666,-5.314,0.244,0.0611,0,0.123,0.168,127.079
+459,"Africa","TOTO","A","Major","A Major",0.671,0.373,-18.064,0.0323,0.257,8.01e-05,0.0481,0.732,92.718
+460,"The Rain (Supa Dupa Fly)","Missy Elliott","F#","Major","F# Major",0.836,0.595,-9.338,0.201,0.141,0.00375,0.329,0.762,79.98
+461,"Bam Bam","Sister Nancy","F","Major","F Major",0.722,0.605,-6.07,0.153,0.825,0.0178,0.248,0.709,165.998
+462,"White Rabbit","Jefferson Airplane","D","Major","D Major",0.551,0.293,-12.503,0.0272,0.486,0.000273,0.0864,0.322,106.798
+463,"Summertime Sadness","Lana Del Rey","C#","Minor","C# Minor",0.565,0.654,-6.826,0.0335,0.0542,1.8e-06,0.122,0.235,111.968
+464,"A&W","Lana Del Rey","A#","Major","A# Major",0.429,0.239,-14.696,0.11,0.632,0.389,0.116,0.137,157.112
+465,"Livin' On A Prayer","Bon Jovi","C","Major","C Major",0.532,0.887,-3.757,0.0335,0.0778,0.000206,0.294,0.794,122.509
+466,"Loser","Beck","D","Major","D Major",0.654,0.611,-10.45,0.119,0.0337,0.000178,0.405,0.786,85.387
+467,"No Ordinary Love","Sade","B","Minor","B Minor",0.629,0.364,-12.259,0.038,0.467,0.0204,0.0941,0.701,166.266
+468,"Ku Klux Klan","Steel Pulse","A","Minor","A Minor",0.737,0.504,-12.201,0.238,0.0143,0,0.0543,0.825,130.56
+469,"Crying","Roy Orbison","D","Major","D Major",0.35,0.293,-9.502,0.0258,0.758,8.21e-06,0.104,0.162,96.685
+470,"Into the Mystic - 2013 Remaster","Van Morrison","G#","Major","G# Major",0.608,0.524,-10.266,0.0309,0.367,0.00254,0.115,0.797,86.204
+471,"Boom Boom","John Lee Hooker","A#","Major","A# Major",0.441,0.455,-14.207,0.0485,0.62,0.00187,0.135,0.918,160.9
+472,"Help Me","Joni Mitchell","A","Minor","A Minor",0.584,0.526,-10.081,0.0389,0.469,6.47e-05,0.0756,0.637,82.028
+473,"Get Lucky (feat. Pharrell Williams and Nile Rodgers)","Daft Punk","F#","Minor","F# Minor",0.81,0.793,-9.404,0.0403,0.0378,1.77e-06,0.072,0.863,116.05
+474,"Never Too Much","Luther Vandross","D","Major","D Major",0.734,0.586,-11.866,0.129,0.125,0,0.0367,0.762,109.933
+475,"Come As You Are","Nirvana","E","Minor","E Minor",0.5,0.824,-5.846,0.0388,0.00016,0.00161,0.0916,0.539,120.125
+476,"Fade Into You","Mazzy Star","A","Major","A Major",0.417,0.33,-13.925,0.0275,0.247,0.000689,0.0677,0.175,157.113
+477,"Goodbye Earl","The Chicks","C","Major","C Major",0.705,0.7,-7.38,0.0295,0.0192,0,0.0755,0.765,122.841
+478,"Midnight Train to Georgia","Gladys Knight & The Pips","A#","Minor","A# Minor",0.595,0.379,-12.058,0.0454,0.271,2.81e-05,0.1,0.448,92.006
+479,"House Of The Rising Sun","The Animals","A","Minor","A Minor",0.295,0.584,-6.696,0.0345,0.000385,0.218,0.0996,0.228,117.2
+480,"Solsbury Hill","Peter Gabriel","B","Major","B Major",0.683,0.63,-8.844,0.0296,0.363,0.000873,0.314,0.481,102.457
+481,"Stand By Your Man","Tammy Wynette","A","Major","A Major",0.517,0.246,-11.992,0.0308,0.788,0.00105,0.133,0.525,105.24
+482,"Move on Up - Single Edit","Curtis Mayfield","B","Minor","B Minor",0.538,0.969,-5.626,0.0906,0.417,0.00154,0.119,0.928,138.652
+483,"Rhythm Nation","Janet Jackson","C#","Major","C# Major",0.633,0.931,-7.752,0.0686,0.0504,0.109,0.375,0.676,109.116
+484,"Sunday Mornin' Comin' Down","Kris Kristofferson","A","Major","A Major",0.523,0.284,-14.147,0.0379,0.524,8.96e-05,0.114,0.486,79.527
+485,"Our Lips Are Sealed - Single Version","The Go-Go's","G#","Major","G# Major",0.608,0.864,-7.101,0.0522,0.0444,3.49e-06,0.0341,0.947,131.199
+486,"Back That Azz Up","JUVENILE","G","Major","G Major",0.873,0.714,-6.664,0.129,0.0157,0,0.0968,0.541,95.826
+487,"Oye Como Va","Santana","G","Major","G Major",0.736,0.379,-13.208,0.0539,0.301,0.345,0.104,0.948,128.399
+488,"Just a Friend","Biz Markie","C","Major","C Major",0.862,0.663,-9.004,0.21,0.12,0,0.318,0.837,85.308
+489,"Cross Road Blues","Robert Johnson","A","Major","A Major",0.675,0.311,-11.959,0.0525,0.93,0.000261,0.102,0.638,97.159
+490,"Bad Romance","Lady Gaga","C","Major","C Major",0.695,0.921,-3.752,0.0363,0.00314,5.26e-05,0.0842,0.714,119.007
+491,"I Can't Help Myself (Sugar Pie, Honey Bunch)","Four Tops","C","Major","C Major",0.667,0.599,-8.894,0.0291,0.245,0,0.107,0.971,127.935
+492,"Buddy Holly","Weezer","G#","Major","G# Major",0.556,0.92,-4.606,0.0367,0.00271,0.00021,0.117,0.771,121.138
+493,"212","Azealia Banks","B","Minor","B Minor",0.846,0.772,-5.735,0.259,0.0123,0.000106,0.0769,0.622,125.998
+494,"A Milli","Lil Wayne","F#","Minor","F# Minor",0.674,0.695,-8.636,0.278,0.0387,0.00202,0.194,0.773,151.486
+495,"Cranes in the Sky","Solange","F#","Major","F# Major",0.719,0.615,-5.972,0.045,0.408,0.000147,0.235,0.465,96.988
+496,"House Of Balloons / Glass Table Girls","The Weeknd","C","Major","C Major",0.65,0.711,-5.417,0.0377,0.0121,0.00995,0.301,0.32,89.019
+497,"Cannonball","The Breeders","D#","Major","D# Major",0.502,0.758,-9.76,0.0407,0.00915,0.783,0.284,0.729,112.499
+498,"Old Town Road","Lil Nas X","C#","Major","C# Major",0.907,0.53,-6.112,0.127,0.0578,2.23e-06,0.101,0.507,135.998
+499,"Welcome To The Jungle","Guns N' Roses","G#","Major","G# Major",0.454,0.987,-4.485,0.0881,0.0195,0.279,0.268,0.316,123.61
+500,"Tití Me Preguntó","Bad Bunny","F","Minor","F Minor",0.65,0.715,-5.198,0.253,0.0993,0.000291,0.126,0.187,106.672
