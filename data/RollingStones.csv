@@ -1,4 +1,4 @@
-"top_100_number","song","artist","key","mode","key_mode","danceability","energy","loudness","speechiness","acousticness","instrumentalness","liveness","valence","tempo"
+"top_500_number","song","artist","key","mode","key_mode","danceability","energy","loudness","speechiness","acousticness","instrumentalness","liveness","valence","tempo"
 1,"Respect","Aretha Franklin","C","Major","C Major",0.805,0.558,-5.226,0.041,0.164,2.2e-05,0.0546,0.965,114.95
 2,"Fight The Power","Public Enemy","D","Major","D Major",0.797,0.582,-12.97,0.255,0.00484,2.04e-06,0.517,0.415,105.974
 3,"A Change Is Gonna Come","Sam Cooke","A#","Major","A# Major",0.214,0.4,-10.042,0.0342,0.756,0,0.325,0.508,169.683
