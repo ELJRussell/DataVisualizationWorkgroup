@@ -16,7 +16,7 @@ form235answers <- form235 |>
 
 answerlevels <- levels(form235answers$name)
 
-form235final <- form235 |> 
+CrewSurvey <- form235 |> 
   select(eventend,gender,race,focusGroup,identifier,subtext,value) |> 
   mutate(value=factor(value, levels=answerlevels)) |> 
   mutate(month=month(eventend),
@@ -27,9 +27,8 @@ form235final <- form235 |>
   filter(month!="7") |> 
   select(-month,-eventend)
 
-save(form235final, file=here("data","CrewSurvey.RData"))
+save(CrewSurvey, file=here("data","CrewSurvey.RData"))
 
-form235final |> 
-  filter(identifier=="1") |> 
+CrewSurvey |> 
   ggplot(aes(x=subtext,fill=value)) +
   geom_bar(position="dodge") +facet_wrap(~time, scales="free") + theme_minimal()
