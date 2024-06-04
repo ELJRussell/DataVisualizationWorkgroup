@@ -1,0 +1,86 @@
+---
+title: "Looking at the Crew Survey"
+format: html
+---
+
+```{r}
+library(tidyverse)
+
+load(url("https://github.com/ELJRussell/DataVisualizationWorkgroup/raw/main/data/CrewSurvey.RData"))
+
+## This dataset represents the past two years of our most common 
+## survey, the Crew survey. In order to preserve some level of
+## anonymity, I have scrubbed districts, schools and open-ended 
+## questions from the survey. However, I have preserved the following
+## variables:
+## 1) gender
+## 2) race
+## 3) time of year (beginning of year, middle of year, end of year)
+## I have also already cleaned the data to make it friendly to graphing
+## In other words, the data is in a tidy format, where every row is an
+## answer to a question, and the values of the answers are already 
+## cleanly factored (e.g., Very effective is next to effective, even 
+## though it is next to Very ineffective in alphabetical order)
+```
+
+## Learning a few helpful functions
+### colnames
+```{r}
+colnames(CrewSurvey)
+## notice what happens in the output - this is *extremely* helpful
+## when you want to copy and paste a column name
+```
+
+### distinct
+```{r}
+## sometimes you just want to see what unique categories there are of something. distinct will take a dataset and take out all duplicates. Here we can use it to easily see the Crew Survey
+distinct(CrewSurvey, identifier, subtext)
+```
+
+### filter (without the pipe)
+```{r}
+
+## filter is a function that allows you to filter rows of a dataset
+?filter
+
+Q1 <- filter(CrewSurvey,identifier=="1")
+## notice the double = sign - this is because one = was originally equivalent to <-
+view(Q1)
+```
+
+### filter (with the pipe)
+```{r}
+## the tidyverse didn't just introduce a grammar of graphics,
+## it also introduced a way to chain functions together using the
+## pipe operator in a way that reads nicely
+
+## the pipe that I use is newer than the pipe in the book. Its
+## shortcut is ctrl+shift+m, and looks like |> 
+
+## the following has the same result as above
+
+Q1 <- CrewSurvey |> 
+  filter(identifier=="1")
+
+## the pipe always moves the first argument, which is usually your 
+## dataset, out in front of the function. You don't need to know it, 
+## but it gets talked about in Chapter 5. Pipes are not massively
+## important for data visualization, but they are absolutely necessary
+## for cleaning data in a way that makes it readable for others
+```
+
+## Our work today
+One of the first things that was told to me in my first few months at EL was that it was normal for there to be a noticeable dip in surveys from beginning to end of year as students got a bit more jaded at school. Our work here is a perfect opportunity to start to think about whether that is true or not.
+
+You work today is to do the following:
+1) Pick a question and filter it out (I recommend using identifier as the key variable, as subtext is a bit more difficult to work with)
+2) Graph the data using ggplot (I recommend x=subtext, as it will keep the wording of the question in the graph)
+3) Play with the following:
+   - using fill=value as an aesthetic map in ggplot
+   - using position="fill" and position="dodge" in geom_bar. position="fill" is what is typically done in Dimensions
+4) Use facet_wrap(~time) to see if there is a noticeable difference in the data. Try facet_wrap(~time, scales="free") to see how it changes the scales. What is this useful for?
+5) Compare your work. How noticeable is the difference? What would you want to do as a next step?
+6) Let's say you wanted to check if this difference is more pronounced for women than men. Change facet_wrap to facet_grid(gender~time)
+```{r}
+
+```

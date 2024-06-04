@@ -20,10 +20,10 @@ CrewSurvey <- form235 |>
   select(eventend,gender,race,focusGroup,identifier,subtext,value) |> 
   mutate(value=factor(value, levels=answerlevels)) |> 
   mutate(month=month(eventend),
-         time=case_when(month %in% c("8","9","10") ~ "Beginning of Year (Aug-Oct)",
-                        month %in% c("11","12","1","2") ~ "Middle of Year (Nov-Feb)",
-                        month %in% c("3","4","5","6") ~ "End of Year (March-June)"),
-         time=factor(time,levels=c("Beginning of Year (Aug-Oct)","Middle of Year (Nov-Feb)","End of Year (March-June)"))) |>
+         time=case_when(month %in% c("8","9","10") ~ "Beginning of Year\n(Aug-Oct)",
+                        month %in% c("11","12","1","2") ~ "Middle of Year\n(Nov-Feb)",
+                        month %in% c("3","4","5","6") ~ "End of Year\n(March-June)"),
+         time=factor(time,levels=c("Beginning of Year\n(Aug-Oct)","Middle of Year\n(Nov-Feb)","End of Year\n(March-June)"))) |>
   filter(month!="7") |> 
   select(-month,-eventend)
 
