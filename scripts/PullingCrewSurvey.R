@@ -23,9 +23,21 @@ CrewSurvey <- form235 |>
          time=case_when(month %in% c("8","9","10") ~ "Beginning of Year\n(Aug-Oct)",
                         month %in% c("11","12","1","2") ~ "Middle of Year\n(Nov-Feb)",
                         month %in% c("3","4","5","6") ~ "End of Year\n(March-June)"),
-         time=factor(time,levels=c("Beginning of Year\n(Aug-Oct)","Middle of Year\n(Nov-Feb)","End of Year\n(March-June)"))) |>
+         time=factor(time,levels=c("Beginning of Year\n(Aug-Oct)","Middle of Year\n(Nov-Feb)","End of Year\n(March-June)")),
+         gender=case_when(gender=="man" ~ "man",
+                          gender=="woman" ~ "woman",
+                          .default="other"),
+         race=case_when(!(race %in% c("white","black","latinx","asian",
+                                      "multiracial","native american",
+                                      "middle eastern","hawaiian/pacific islander")) ~ "other",
+                        .default=race),
+         subtext=case_when(subtext=="How much has Crew has helped you think about what is important to you? " ~ 
+                             "How much has Crew helped you think about what is important to you? ",
+                           .default=subtext)) |>
   filter(month!="7") |> 
   select(-month,-eventend)
+
+CrewSurvey <- mutate(CrewSurvey, question=str_wrap(subtext, width=25))
 
 save(CrewSurvey, file=here("data","CrewSurvey.RData"))
 
