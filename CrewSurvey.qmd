@@ -6,6 +6,7 @@ format: html
 ```{r}
 library(tidyverse)
 
+
 load(url("https://github.com/ELJRussell/DataVisualizationWorkgroup/raw/main/data/CrewSurvey.RData"))
 ```
 
@@ -29,7 +30,7 @@ colnames(CrewSurvey)
 ## when you want to copy and paste a column name
 ```
 
-### distinct
+### distinct and unique
 
 ```{r}
 ## sometimes you just want to see what unique categories there are of something. distinct will take a dataset and take out all duplicates. Here we can use it to easily see the Crew Survey
@@ -88,10 +89,11 @@ You work today is to do the following:
 6.  Let's say you wanted to check if this difference is more pronounced for women than men. Change facet_wrap to facet_grid(gender~time). What happens?
 
 ```{r}
-Q_ <- CrewSurvey |> 
-  filter(indicator=="__")
+Q9 <- CrewSurvey |> 
+  filter(identifier=="9")
 
-ggplot(Q___,mapping=aes(x=question,fill=value)) +
-  geom_bar(position="fill")
+ggplot(Q9,mapping=aes(x=question,fill=value)) +
+  geom_bar(position="dodge") + facet_wrap(~gender,scales="free")
+
 
 ```
