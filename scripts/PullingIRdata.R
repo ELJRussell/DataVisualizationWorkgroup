@@ -45,7 +45,11 @@ IRs <- IRlongACTIVE |>
   arrange(year,schoolid,category) |> 
   mutate(Credentialed=case_when(Credentialed %in% c("Credentialed", "Overdue for Renewal",
                                                     "Pathway School","Provisional Credential") ~ "Credentialed",
-                                Credentialed %in% c("Not Credentialed","No Longer Credentialed") ~ "Not Credentialed"))
+                                Credentialed %in% c("Not Credentialed","No Longer Credentialed") ~ "Not Credentialed")) |> 
+  mutate(year=case_when(year=="2022-2023" ~ "2023",
+                        year=="2023-2024" ~ "2024"),
+         year=as.numeric(year),
+         `Partnership Year`=as.numeric(`Partnership Year`))
          
  save(IRs,file=here("data","SY22_23andSY23_24IRs.RData"))          
       

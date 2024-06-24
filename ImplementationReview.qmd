@@ -1,0 +1,116 @@
+---
+title: "Implementation Reviews"
+format: html
+---
+
+```{r}
+library(tidyverse)
+
+
+load(url("https://github.com/ELJRussell/DataVisualizationWorkgroup/raw/main/data/SY22_23andSY23_24IRs.RData"))
+```
+
+This dataset represents the past two years of the Implementation Review. In order to preserve some level of anonymity, I have scrubbed school names. However, what I have also done is added a few things that are known about each school. In particular, I have added:
+
+1. Region
+2. Credentialed Status
+3. Socioeconomic variables
+4. Partnership Year
+
+While I have cleaned the data, it is not incredibly useful on its own without using some of the commands that were introduced in Chapter 5. So this will give us that opportunity.
+
+## If you want to explore trends in overall score
+To explore this, we would need to figure out what the overall score would be for each school and year.
+
+To do this, think about what you would need to group and then sum up.
+
+I'm going to use the pipe here, as it makes this easier to read
+```{r}
+## Try 1
+IR_overall <- IRs |> 
+  group_by(schoolid,year) |> 
+  summarise(overall=sum(score))
+view(IR_overall)
+
+## Notice that group_by drops columns that aren't being grouped. We want those equity variables in, so we should keep them in the grouping
+```
+
+```{r}
+## Try 2
+IR_overall <- IRs |> 
+  group_by(schoolid,year,Region,Credentialed,StudentsofColor,Poverty,`Partnership Year`) |> 
+  summarise(overall=sum(score))
+```
+
+## My interest #1 - Partnership Year and Overall Score
+There used to be a target score within EL for the IR based on the number of years you were within EL. I was always curious if that score made sense.
+
+```{r}
+## make a variable that states the time between the time of the IR and the time of the Partnership's first year
+IR_overall <- IR_overall |> 
+  mutate(number_years=year-`Partnership Year`)
+
+## You can also use the pipe with ggplot
+p <- IR_overall |> 
+  ggplot(mapping=aes(x=number_years,y=overall)) + 
+  geom_point() + geom_smooth(se=FALSE) +
+  ## let's add a horizontal line at 90 for Credential
+  geom_hline(yintercept=90, linetype="dotted")
+```
+
+```{r}
+## Let's make it a little bit nicer
+IR_overall |> 
+  ggplot(mapping=aes(x=number_years,y=overall)) + 
+  geom_point(mapping=aes(color=Credentialed)) + geom_smooth(se=FALSE) +
+  ## let's add a horizontal line at 90 for Credential
+  geom_hline(yintercept=90, linetype="dotted") +
+  theme_minimal() +
+  labs(title="IR scores by year in EL",
+       subtitle="Scores steadily rise until around year 10",
+       x="Number of years in EL",
+       y="IR score")
+```
+
+## Interest 2 - Helping with the Credential Roadmap
+A part of the work of the Credential Roadmap group is to figure out the best path through the 26 core practices that are a part of the IR for schools on their way to the Credential.
+
+A data-oriented way to think about this may be to figure out the practices that show the least and greatest differences between Credentialed and non-Credentialed schools
+```{r}
+IRCredential <- IRs |> 
+  ## Part to fill in based on discussion
+  group_by(category,rubric,Credentialed) |> 
+  summarise(score=mean(score))
+
+## The code below will create the text for us to annotate
+IRCredential <- IRCredential |> 
+  group_by(category,rubric) |> 
+  mutate(difference=round(max(score)-min(score),1),
+            position=mean(score))
+```
+
+```{r}
+ggplot(data=IRCredential, mapping=aes(x=rubric,y=score)) +
+  geom_point(mapping=aes(color=Credentialed)) +coord_flip() +
+  geom_line(mapping=aes(group=rubric)) +
+  geom_text(mapping=aes(label=difference,y=position)) +
+  facet_wrap(~category,ncol=1,scales="free_y")
+```
+
+## Let's do one more playing with order
+```{r}
+ggplot(data=IRCredential, mapping=aes(x=reorder(rubric,difference),y=score)) +
+  geom_point(mapping=aes(color=Credentialed)) +coord_flip() +
+  geom_line(mapping=aes(group=rubric),alpha=.25) +
+  geom_text(mapping=aes(label=difference,y=position)) +
+  facet_wrap(~category,ncol=1,scales="free_y") +
+  theme_light() +
+  labs(y="",x="")
+```
+
+```{r}
+ggsave("CredentialDifferences.png")
+```
+
+## Your turn (if we have time)
+There are other variables to explore here specific to equity and the IR. If you would like, try to group IR by one of them in order to see if there are differences that stick out (understanding that the composition of our schools have also subtly changed over time as another possible explanatory variable).
