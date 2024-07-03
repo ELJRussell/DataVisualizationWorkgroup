@@ -1,0 +1,423 @@
+---
+title: "Chapter 7 - Data Visualization Primer"
+format: html
+---
+## Load Libraries
+
+```{r}
+
+library(gapminder)
+library(tidyverse)
+library(ggrepel)
+library(socviz)
+```
+
+
+## 7.1 Map U.S. state-level data
+
+```{r}
+election %>% select(state, total_vote,
+                    r_points, pct_trump, party, census) %>%
+    sample_n(5)
+```
+
+
+```{r}
+
+# Hex color codes for Dem Blue and Rep Red
+party_colors <- c("#2E74C0", "#CB454A") 
+
+p0 <- ggplot(data = subset(election, st %nin% "DC"),
+             mapping = aes(x = r_points,
+                           y = reorder(state, r_points),
+                           color = party))
+
+p1 <- p0 + geom_vline(xintercept = 0, color = "gray30") +
+    geom_point(size = 2)
+
+p2 <- p1 + scale_color_manual(values = party_colors)
+
+p3 <- p2 + scale_x_continuous(breaks = c(-30, -20, -10, 0, 10, 20, 30, 40),
+                              labels = c("30\n (Clinton)", "20", "10", "0",
+                                         "10", "20", "30", "40\n(Trump)"))
+
+p3 + facet_wrap(~ census, ncol=1, scales="free_y") +
+    guides(color=FALSE) + labs(x = "Point Margin", y = "") +
+    theme(axis.text=element_text(size=8))
+
+```
+```{r}
+## Run the line below if the library does not load
+## install.packages("maps")
+library(maps)
+us_states <- map_data("state")
+head(us_states)
+dim(us_states)
+```
+
+
+```{r}
+
+p <- ggplot(data = us_states,
+            mapping = aes(x = long, y = lat,
+                          group = group))
+
+p + geom_polygon(fill = "white", color = "black")
+
+```
+
+
+```{r}
+
+p <- ggplot(data = us_states,
+            aes(x = long, y = lat,
+                group = group, fill = region))
+
+p + geom_polygon(color = "gray90", size = 0.1) + guides(fill = FALSE)
+
+```
+
+```{r}
+##install.packages ("mapproj")
+
+p <- ggplot(data = us_states,
+            mapping = aes(x = long, y = lat,
+                          group = group, fill = region))
+
+p + geom_polygon(color = "gray90", size = 0.1) +
+    coord_map(projection = "albers", lat0 = 39, lat1 = 45) +
+    guides(fill = FALSE)
+
+```
+
+```{r}
+
+election$region <- tolower(election$state)
+us_states_elec <- left_join(us_states, election)
+
+```
+
+
+```{r}
+
+p <- ggplot(data = us_states_elec,
+            aes(x = long, y = lat,
+                group = group, fill = party))
+
+p + geom_polygon(color = "gray90", size = 0.1) +
+    coord_map(projection = "albers", lat0 = 39, lat1 = 45) 
+
+```
+
+
+```{r}
+
+theme_map <- function(base_size=9, base_family="") {
+    require(grid)
+    theme_bw(base_size=base_size, base_family=base_family) %+replace%
+        theme(axis.line=element_blank(),
+              axis.text=element_blank(),
+              axis.ticks=element_blank(),
+              axis.title=element_blank(),
+              panel.background=element_blank(),
+              panel.border=element_blank(),
+              panel.grid=element_blank(),
+              panel.spacing=unit(0, "lines"),
+              plot.background=element_blank(),
+              legend.justification = c(0,0),
+              legend.position = c(0,0)
+              )
+}
+
+```
+
+
+```{r}
+
+p0 <- ggplot(data = us_states_elec,
+             mapping = aes(x = long, y = lat,
+                           group = group, fill = party))
+p1 <- p0 + geom_polygon(color = "gray90", size = 0.1) +
+    coord_map(projection = "albers", lat0 = 39, lat1 = 45) 
+p2 <- p1 + scale_fill_manual(values = party_colors) +
+    labs(title = "Election Results 2016", fill = NULL)
+p2 + theme_map() 
+
+```
+
+
+```{r}
+
+p0 <- ggplot(data = us_states_elec,
+             mapping = aes(x = long, y = lat, group = group, fill = pct_trump))
+
+p1 <- p0 + geom_polygon(color = "gray90", size = 0.1) +
+    coord_map(projection = "albers", lat0 = 39, lat1 = 45) 
+
+p1 + labs(title = "Trump vote") + theme_map() + labs(fill = "Percent")
+
+p2 <- p1 + scale_fill_gradient(low = "white", high = "#CB454A") +
+        labs(title = "Trump vote") 
+p2 + theme_map() + labs(fill = "Percent")
+
+```
+
+
+```{r}
+
+p0 <- ggplot(data = us_states_elec,
+             mapping = aes(x = long, y = lat, group = group, fill = d_points))
+
+p1 <- p0 + geom_polygon(color = "gray90", size = 0.1) +
+    coord_map(projection = "albers", lat0 = 39, lat1 = 45) 
+
+p2 <- p1 + scale_fill_gradient2() + labs(title = "Winning margins") 
+p2 + theme_map() + labs(fill = "Percent")
+
+p3 <- p1 + scale_fill_gradient2(low = "red", mid = scales::muted("purple"),
+                                high = "blue", breaks = c(-25, 0, 25, 50, 75)) +
+    labs(title = "Winning margins") 
+p3 + theme_map() + labs(fill = "Percent")
+
+```
+
+
+```{r}
+
+p0 <- ggplot(data = subset(us_states_elec,
+                           region %nin% "district of columbia"),
+             aes(x = long, y = lat, group = group, fill = d_points))
+
+p1 <- p0 + geom_polygon(color = "gray90", size = 0.1) +
+    coord_map(projection = "albers", lat0 = 39, lat1 = 45) 
+
+p2 <- p1 + scale_fill_gradient2(low = "red",
+                                mid = scales::muted("purple"),
+                                high = "blue") +
+    labs(title = "Winning margins") 
+p2 + theme_map() + labs(fill = "Percent")
+```
+
+## 7.2 America's ur-choropleths
+
+```{r}
+county_map %>% sample_n(5)
+```
+
+
+```{r}
+county_data %>%
+    select(id, name, state, pop_dens, pct_black) %>%
+    sample_n(5)
+```
+
+
+```{r}
+county_full <- left_join(county_map, county_data, by = "id")
+```
+
+
+```{r}
+
+p <- ggplot(data = county_full,
+            mapping = aes(x = long, y = lat,
+                          fill = pop_dens, 
+                          group = group))
+
+p1 <- p + geom_polygon(color = "gray90", size = 0.05) + coord_equal()
+
+p2 <- p1 + scale_fill_brewer(palette="Blues",
+                             labels = c("0-10", "10-50", "50-100", "100-500",
+                                        "500-1,000", "1,000-5,000", ">5,000"))
+
+p2 + labs(fill = "Population per\nsquare mile") +
+    theme_map() +
+    guides(fill = guide_legend(nrow = 1)) + 
+    theme(legend.position = "bottom")
+```
+
+
+```{r}
+
+p <- ggplot(data = county_full,
+            mapping = aes(x = long, y = lat, fill = pct_black, 
+                          group = group))
+p1 <- p + geom_polygon(color = "gray90", size = 0.05) + coord_equal()
+p2 <- p1 + scale_fill_brewer(palette="Greens")
+
+p2 + labs(fill = "US Population, Percent Black") +
+    guides(fill = guide_legend(nrow = 1)) + 
+    theme_map() + theme(legend.position = "bottom")
+
+```
+
+
+```{r}
+
+orange_pal <- RColorBrewer::brewer.pal(n = 6, name = "Oranges")
+orange_pal
+
+orange_rev <- rev(orange_pal)
+orange_rev
+
+```
+
+
+```{r}
+
+gun_p <- ggplot(data = county_full,
+            mapping = aes(x = long, y = lat,
+                          fill = su_gun6, 
+                          group = group))
+
+gun_p1 <- gun_p + geom_polygon(color = "gray90", size = 0.05) + coord_equal()
+
+gun_p2 <- gun_p1 + scale_fill_manual(values = orange_pal)
+
+gun_p2 + labs(title = "Gun-Related Suicides, 1999-2015",
+              fill = "Rate per 100,000 pop.") +
+    theme_map() +
+    theme(legend.position = "bottom")
+
+
+pop_p <- ggplot(data = county_full,
+            mapping = aes(x = long, y = lat,
+                          fill = pop_dens6, 
+                          group = group))
+
+pop_p1 <- pop_p + geom_polygon(color = "gray90", size = 0.05) + coord_equal()
+
+pop_p2 <- pop_p1 + scale_fill_manual(values = orange_rev)
+
+pop_p2 + labs(title = "Reverse-coded Population Density",
+              fill = "People per square mile") +
+    theme_map() +
+    theme(legend.position = "bottom")
+
+```
+
+
+## 7.3 Statebins
+
+```{r}
+## install.packages("statebins")
+library(statebins)
+
+statebins(state_data = election, state_col = "state",
+                     value_col = "pct_trump",
+          name="Percent Trump",
+                     palette="Reds", font_size = 3) + 
+  theme_statebins(legend_position="top")
+
+statebins(state_data = subset(election, st %nin% "DC"),
+                     state_col = "state",
+                     value_col = "pct_clinton",
+          name="Percent Clinton",
+                     palette="Blues", font_size = 3) +
+  theme_statebins(legend_position="top")
+```
+
+
+```{r}
+
+statebins(state_data = election, state_col = "st",
+                 value_col = "party",
+                 font_size = 3, name="Winner",
+          ggplot2_scale_function=scale_fill_manual,
+          values=c(Republican="darkred",Democratic="royalblue"),
+                 labels=c("Trump", "Clinton")) + theme_statebins(legend_position = "right")
+
+
+election <- election |> 
+  mutate(trump=as.character(ntile(pct_trump,4)))
+
+statebins(state_data = election,          
+          state_col = "state", value_col = "pct_trump",
+          palette="Reds"
+) + theme_statebins(legend_position = "bottom")
+
+```
+
+
+## 7.4 Small-multiple maps
+
+```{r}
+opiates
+```
+
+
+```{r}
+
+opiates$region <- tolower(opiates$state)
+opiates_map <- left_join(us_states, opiates)
+
+```
+
+```{r opiatemap, fig.cap='A small multiple map. States in grey reported too few deaths for a reliable population estimate in that year. States in white reported no data.', out.width="100%", fig.width=8, fig.height=12, fig.show = "hold", fig.fullwidth=TRUE, tidy = FALSE, message = FALSE}
+#install.packages(viridis)
+library(viridis)
+
+p0 <- ggplot(data = subset(opiates_map, year > 1999),
+             mapping = aes(x = long, y = lat,
+                 group = group,
+                 fill = adjusted))
+
+p1 <- p0 + geom_polygon(color = "gray90", size = 0.05) +
+    coord_map(projection = "albers", lat0 = 39, lat1 = 45) 
+
+p2 <- p1 + scale_fill_viridis_c(option = "plasma")
+
+p2 + theme_map() + facet_wrap(~ year, ncol = 3) +
+    theme(legend.position = "bottom",
+          strip.background = element_blank()) +
+    labs(fill = "Death rate per 100,000 population ",
+         title = "Opiate Related Deaths by State, 2000-2014")  
+
+```
+
+
+## 7.6 Is your data really spatial?
+
+```{r}
+
+p <- ggplot(data = opiates,
+            mapping = aes(x = year, y = adjusted,
+                          group = state))
+p + geom_line(color = "gray70") 
+```
+
+```{r}
+p0 <- ggplot(data = drop_na(opiates, division_name),
+            mapping = aes(x = year, y = adjusted))
+            
+p1 <- p0 + geom_line(color = "gray70", 
+              mapping = aes(group = state)) 
+```
+
+```{r}
+
+p2 <- p1 + geom_smooth(mapping = aes(group = division_name),
+                       se = FALSE)
+
+```
+
+
+
+```{r}
+p3 <- p2 + geom_text_repel(data = subset(opiates,
+                                         year == max(year) & abbr !="DC"),
+                     mapping = aes(x = year, y = adjusted, label = abbr),
+                     size = 1.8, segment.color = NA, nudge_x = 30) +
+         coord_cartesian(c(min(opiates$year), 
+                    max(opiates$year)))
+```
+
+
+
+```{r fig.width=8, fig.height=12}
+
+p3 + labs(x = "", y = "Rate per 100,000 population",
+       title = "State-Level Opiate Death Rates by Census Division, 1999-2014") +
+    facet_wrap(~ reorder(division_name, -adjusted, na.rm = TRUE), nrow  = 3)
+
+```
