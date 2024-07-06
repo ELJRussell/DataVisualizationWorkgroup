@@ -74,11 +74,11 @@ display.brewer.all(type="qual", colorblindFriendly = TRUE)
 ## Let's look at a basic graph and color it
 ```{r}
 titanic <- ggplot(as.data.frame(Titanic), mapping=aes(x=Survived, y=Freq)) +
-  geom_col(mapping=aes(fill=Class)) +
+  geom_col(mapping=aes(fill=Class),position="dodge") +
   labs(title="Survival of Titanic Passengers by Age and Gender",
        x="Age",
        y="Survived") +
-  facet_grid(Age~Sex, scales="free_y")
+  facet_grid(Age~Sex, scales="free")
 ```
 
 Notice that color is attached to the "fill" variable. We can use this when describing color.
@@ -144,7 +144,7 @@ graph1 <- ggplot(data=IR_overall,
 ## Graph 2 - Schools who took the IR by Region
 graph2 <- ggplot(data=IR_counts,
                  mapping=aes(x=Credentialed)) +
-  geom_bar(aes(fill=Region)) +
+  geom_bar(aes(fill=Region), position="dodge") +
   labs(title="Number of schools who took the IR by Credential and Region",
        x="Credential Status",
        y="Number of schools",
@@ -156,7 +156,7 @@ graph2 <- ggplot(data=IR_counts,
 graph3 <- IR_counts |> 
   filter(Poverty!="No data available") |> 
   ggplot(aes(x=Credentialed)) +
-  geom_bar(aes(fill=Poverty)) +
+  geom_bar(aes(fill=Poverty), position="dodge") +
   labs(title="Number of schools who took the IR by Credential and Percentage Students of Color",
        x="Credential Status",
        y="Number of schools",
@@ -180,6 +180,6 @@ graph4 <- ggplot(data=IRCredential,
 Take any one of these graphs and clean it up by changing the color. You can use any of the three methods above to change the color, but be ready to explain why you chose what you chose. The EL palette is available to you, but carefully consider what it means to use it.
 
 ```{r}
-graph1 + scale_color_brewer(palette="Set2")
+graph1 + scale_color_brewer(palette="Paired")
 ```
 
