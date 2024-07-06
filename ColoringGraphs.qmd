@@ -1,0 +1,185 @@
+---
+title: "Looking at Color"
+format: html
+---
+
+```{r}
+library(tidyverse)
+library(RColorBrewer)
+library(dichromat)
+```
+
+## Exploring color
+
+### Manual entry of colors
+Colors can be entered manually, and saved to be used later. Let's see EL's palette. R automatically colors in the code when we have entered a color. Hexadecimal is the easiest way to enter colors - it is a representation of how much red (first 2 characters), green (next 2 characters), and blue (last 2 characters) are in the color. You can also enter 2 more characters to represent the transparency of the color. 
+
+```{r}
+EL_palette <- c("#c6123f", "#211651", "#97daeb", "#ffa409", "#d3cb8c", "#303e48", "#c7c7c7", "#634347","#f3e5b1")
+EL_palette_shortened <- c("#c6123f", "#211651")
+```
+
+## Making a palette between colors
+It can also be helpful to have your endpoint colors and have R make a palette between them. There are two calls that help with this:
+- colorRampPalette - this function creates a function that interpolates between colors. That is, you can make any palette you want by specifying the number of items you want to interpolate between.
+
+```{r}
+EL_palette_ramp <- colorRampPalette(c("#211651","white","#c6123f"))
+EL_divergent <- EL_palette_ramp(12)
+## The function below is just a way to show color
+scales::show_col(EL_divergent)
+```
+
+## Note on color-friendliness
+It is important to consider color-friendliness when creating visualizations. This is especially important when creating visualizations for people with colorblindness.
+
+Kieran Healy's book introduces the dichromat package, which will mimic a colorblind person's view of your palette.
+
+```{r}
+protan <- dichromat(EL_palette, type = "protan")
+deutan <- dichromat(EL_palette, type = "deutan")
+tritan <- dichromat(EL_palette, type = "tritan")
+scales::show_col(EL_palette)
+scales::show_col(protan)
+scales::show_col(deutan)
+scales::show_col(tritan)
+```
+## Using RColorBrewer for established color-friendly palettes
+
+Cynthia Brewer, a cartographer, wanted a way to create color palettes for maps, many of which were colorblind-friendly. The palettes that she started have made their way into the RColorBrewer package in R, probably the most popular package for color palettes.
+
+Viridis is another package that has color palettes that are colorblind-friendly, and are also good for black-and-white printing.
+
+## Three types of palettes (RColorBrewer)
+Color palettes are typically organized in one of three ways:
+- Sequential - colors that go from light to dark, or dark to light. These are good for continuous data.
+- Diverging - colors that go from two different colors to a third color. These are good for data that has a middle value.
+- Qualitative - colors that are distinct from each other. These are good for categorical data.
+
+### Sequential
+```{r}
+display.brewer.all(type="seq", colorblindFriendly = TRUE)
+```
+
+### Diverging
+```{r}
+display.brewer.all(type="div", colorblindFriendly = TRUE)
+```
+
+### Qualitative (this one is the hardest to create)
+```{r}
+display.brewer.all(type="qual")
+display.brewer.all(type="qual", colorblindFriendly = TRUE)
+```
+## Let's look at a basic graph and color it
+```{r}
+titanic <- ggplot(as.data.frame(Titanic), mapping=aes(x=Survived, y=Freq)) +
+  geom_col(mapping=aes(fill=Class)) +
+  labs(title="Survival of Titanic Passengers by Age and Gender",
+       x="Age",
+       y="Survived") +
+  facet_grid(Age~Sex, scales="free_y")
+```
+
+Notice that color is attached to the "fill" variable. We can use this when describing color.
+
+There are three easy ways to change the color of a graph:
+- scale_fill_brewer and scale_color_brewer will change the color according to one of the RColorBrewer palettes.
+```{r}
+titanic + scale_fill_brewer(palette="Dark2")
+```
+- scale_fill_viridis and scale_color_viridis will change the color according to one of the Viridis palettes, defaulting to its most common one. It needs to know if the scale is continuous or discrete.
+```{r}
+titanic + scale_fill_viridis(discrete=TRUE)
+```
+
+- scale_fill_manual and scale_color_manual will change the color according to a manual entry of colors. This allows you to make your own palette
+
+```{r}
+titanic_palette <- c("darkred","darkblue","darkorange","lightblue")
+titanic + scale_fill_manual(values=titanic_palette)
+```
+
+
+## Let's use color in our graphs!
+```{r}
+load(url("https://github.com/ELJRussell/DataVisualizationWorkgroup/raw/main/data/SY22_23andSY23_24IRs.RData"))
+
+IR_overall <- IRs |> 
+  group_by(schoolid,year,Region,Credentialed,StudentsofColor,Poverty,`Partnership Year`) |> 
+  summarise(overall=sum(score)) |> 
+  mutate(number_years=year-`Partnership Year`)
+
+IR_counts <- IRs |> 
+  filter(year=="2023") |> 
+  distinct(schoolid,Region,Credentialed,StudentsofColor,Poverty,`Partnership Year`)
+
+IRCredential <- IRs |> 
+  ## Part to fill in based on discussion - change Credentialed to a different category if interested
+  group_by(category,rubric,Credentialed) |> 
+  summarise(score=mean(score)) |> 
+  group_by(category,rubric) |> 
+  mutate(difference=round(max(score)-min(score),1),
+            position=mean(score)) |> 
+  ungroup()
+```
+
+
+```{r}
+## Graph 1 - Overall IR scores by year in EL, with Credential as a color
+graph1 <- ggplot(data=IR_overall,
+                 mapping=aes(x=number_years,y=overall)) +
+  geom_smooth(se=FALSE) +
+  geom_point(aes(color=Credentialed)) + 
+  annotate(geom = "text", x = 22, y = 87,
+             label = "Credential Application", hjust = 0, alpha=.5) +
+  labs(title="IR scores by year in EL",
+       subtitle="Scores steadily rise until around year 10",
+       x="Number of years in EL",
+       y="IR score",
+       color="") +
+  theme_minimal() +
+  theme(legend.position="bottom")
+
+## Graph 2 - Schools who took the IR by Region
+graph2 <- ggplot(data=IR_counts,
+                 mapping=aes(x=Credentialed)) +
+  geom_bar(aes(fill=Region)) +
+  labs(title="Number of schools who took the IR by Credential and Region",
+       x="Credential Status",
+       y="Number of schools",
+       fill="") +
+  theme_minimal() +
+  theme(legend.position="bottom")
+
+## Graph 3 - Schools who took the IR by Credential and Students who receive Free and Reduced Lunch
+graph3 <- IR_counts |> 
+  filter(Poverty!="No data available") |> 
+  ggplot(aes(x=Credentialed)) +
+  geom_bar(aes(fill=Poverty)) +
+  labs(title="Number of schools who took the IR by Credential and Percentage Students of Color",
+       x="Credential Status",
+       y="Number of schools",
+       fill="") +
+  theme_minimal() +
+  theme(legend.position="bottom")
+
+## Graph 4 - Difference in IR scores by rubric and Credential
+graph4 <- ggplot(data=IRCredential,
+                 mapping=aes(x=reorder(rubric,difference),
+                             y=score)) +
+  geom_point(mapping=aes(color=Credentialed)) +coord_flip() +
+  geom_line(mapping=aes(group=rubric),alpha=.25) +
+  geom_text(mapping=aes(label=difference,y=position)) +
+  facet_wrap(~category,ncol=1,scales="free_y") +
+  theme_light() +
+  labs(y="",x="")
+```
+
+## Your turn
+Take any one of these graphs and clean it up by changing the color. You can use any of the three methods above to change the color, but be ready to explain why you chose what you chose. The EL palette is available to you, but carefully consider what it means to use it.
+
+```{r}
+
+```
+
