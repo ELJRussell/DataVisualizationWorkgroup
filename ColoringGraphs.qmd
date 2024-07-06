@@ -180,6 +180,6 @@ graph4 <- ggplot(data=IRCredential,
 Take any one of these graphs and clean it up by changing the color. You can use any of the three methods above to change the color, but be ready to explain why you chose what you chose. The EL palette is available to you, but carefully consider what it means to use it.
 
 ```{r}
-
+graph1 + scale_color_brewer(palette="Set2")
 ```
 
