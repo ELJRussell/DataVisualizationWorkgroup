@@ -174,13 +174,20 @@ graph4 <- ggplot(data=IRCredential,
   geom_line(mapping=aes(group=rubric),alpha=.25) +
   geom_text(mapping=aes(label=difference,y=position)) +
   facet_wrap(~category,ncol=1,scales="free_y") +
-  theme_light() +
+  theme_light() 
   labs(y="",x="")
 ```
 
 ## Your turn
 Take any one of these graphs and clean it up by changing the color. You can use any of the three methods above to change the color, but be ready to explain why you chose what you chose. The EL palette is available to you, but carefully consider what it means to use it.
 
+Tiny note - color is attached to the following variables:
+- graph1 - color
+- graph2 - fill
+- graph3 - fill
+- graph4 - color
+
+One example below
 ```{r}
 graph1 + scale_color_brewer(palette="Paired")
 ```
