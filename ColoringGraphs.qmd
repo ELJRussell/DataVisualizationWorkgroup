@@ -7,6 +7,9 @@ format: html
 library(tidyverse)
 library(RColorBrewer)
 library(dichromat)
+
+## If the packages are not loading, delete the ## and run the code below
+## install.packages(c("dichromat","RColorBrewer"))
 ```
 
 ## Exploring color
