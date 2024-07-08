@@ -20,7 +20,7 @@ EL_palette_shortened <- c("#c6123f", "#211651")
 ```
 
 ## Making a palette between colors
-It can also be helpful to have your endpoint colors and have R make a palette between them. There are two calls that help with this:
+It can also be helpful to have your endpoint colors and have R make a palette between them. There is a function to help with this:
 - colorRampPalette - this function creates a function that interpolates between colors. That is, you can make any palette you want by specifying the number of items you want to interpolate between.
 
 ```{r}
@@ -31,7 +31,7 @@ scales::show_col(EL_divergent)
 ```
 
 ## Note on color-friendliness
-It is important to consider color-friendliness when creating visualizations. This is especially important when creating visualizations for people with colorblindness.
+It is important to consider color-friendliness when creating visualizations. This is especially important when creating visualizations for a general audience where there may be people with colorblindness.
 
 Kieran Healy's book introduces the dichromat package, which will mimic a colorblind person's view of your palette.
 
@@ -79,6 +79,8 @@ titanic <- ggplot(as.data.frame(Titanic), mapping=aes(x=Survived, y=Freq)) +
        x="Age",
        y="Survived") +
   facet_grid(Age~Sex, scales="free")
+
+titanic
 ```
 
 Notice that color is attached to the "fill" variable. We can use this when describing color.
