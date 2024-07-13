@@ -10,7 +10,7 @@ library(dichromat)
 library(viridis)
 
 ## If the packages are not loading, delete the ## and run the code below
-## install.packages(c("dichromat","RColorBrewer"))
+## install.packages(c("dichromat","RColorBrewer","viridis"))
 ```
 
 ## Exploring color
