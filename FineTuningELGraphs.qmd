@@ -1,0 +1,112 @@
+---
+title: "Fine tuning EL Graphs"
+format: html
+---
+We will be playing with fonts - to do this there are a few extra steps
+```{r}
+library(extrafont)
+## font_import() ## this only has to be done once. R will remember it in the future - we will do this in the opener, for those who make it
+loadfonts()
+```
+
+
+```{r}
+library(tidyverse)
+library(RColorBrewer)
+library(viridis)
+library(extrafont)
+
+EL_palette <- c("#c6123f", "#211651", "#97daeb", "#ffa409", "#d3cb8c", "#303e48", "#c7c7c7", "#634347","#f3e5b1")
+EL_palette_shortened <- c("#c6123f", "#211651")
+
+load(url("https://github.com/ELJRussell/DataVisualizationWorkgroup/raw/main/data/SY22_23andSY23_24IRs.RData"))
+
+IR_overall <- IRs |> 
+  group_by(schoolid,year,Region,Credentialed,StudentsofColor,Poverty,`Partnership Year`) |> 
+  summarise(overall=sum(score)) |> 
+  mutate(number_years=year-`Partnership Year`)
+
+IR_counts <- IRs |> 
+  filter(year=="2023") |> 
+  distinct(schoolid,Region,Credentialed,StudentsofColor,Poverty,`Partnership Year`)
+
+IRCredential <- IRs |> 
+  ## Part to fill in based on discussion - change Credentialed to a different category if interested
+  group_by(category,rubric,Credentialed) |> 
+  summarise(score=mean(score)) |> 
+  group_by(category,rubric) |> 
+  mutate(difference=round(max(score)-min(score),1),
+            position=mean(score)) |> 
+  ungroup()
+
+## Graph 1
+graph1 <- ggplot(data=IR_overall,
+                 mapping=aes(x=number_years,y=overall)) +
+  geom_smooth(se=FALSE) +
+  geom_point(aes(color=Credentialed)) + 
+  geom_hline(yintercept=90, linetype="dashed") +
+  annotate(geom = "text", x = 22, y = 87,
+             label = "Credential Application", hjust = 0, alpha=.5) +
+  labs(title="IR scores by year in EL",
+       subtitle="Scores steadily rise until around year 10",
+       x="Number of years in EL",
+       y="",
+       color="")
+```
+## Differentiating between scale and theme
+We used scale functions last week in color - what is important is that the scale functions correspond to variables that are mapped in the aesthetic command. Thus, they give you control over what is being plotted and how. Last week we played with color. In graph 1, that would mean *scale_color_<COLORSCALE>* like so
+```{r}
+graph1 + scale_color_manual(values=EL_palette_shortened)
+```
+
+But if you look at the ggplot call, fill was one aesthetic - x and y were another. Let's say you wanted the IR cutoffscore of 90 to show up. You know your data is continuous, so you want to add a break there.
+
+```{r}
+graph1 + scale_color_manual(values=EL_palette_shortened) +
+  scale_y_continuous(limits=c(40, 130),breaks=c(40,65,90,115), labels=(c("40","65","Credential Line - 90","115")))
+```
+
+This is different than the *theme* call, which controls everything that does not relate directly to the data itself. You can use a theme that already exists, or you can control your own.
+
+```{r}
+## Progressively more minimal themes
+graph1 + scale_color_manual(values=EL_palette_shortened) + theme_bw()
+graph1 + scale_color_manual(values=EL_palette_shortened) + theme_minimal()
+graph1 + scale_color_manual(values=EL_palette_shortened) + theme_void() ## too much!
+```
+
+You can also call the theme to make your own, or because ggplot uses the grammar of graphics, you can start with a theme that exists, and then tailor it by overwriting later on
+```{r}
+graph1 + scale_color_manual(values=EL_palette_shortened) + theme_minimal()
+graph1 + scale_color_manual(values=EL_palette_shortened) + theme_minimal() +
+  theme(plot.title.position="plot",
+        ##aligns the title with the plot instead of the graphing panel
+        legend.position="bottom",
+        text=element_text(family="Calibri" )) ##this works because of the extrafont library
+```
+```{r}
+ggsave("CredentialPathway.png", bg="white", width=7, height=6)
+```
+
+## Your turn- let's use the scale and theme to make an EL appropriate graph
+
+```{r}
+graph2 <- ggplot(data=IRCredential,
+                 mapping=aes(x=reorder(rubric,difference),
+                             y=score)) +
+  geom_point(mapping=aes(color=Credentialed), shape=15) +coord_flip() +
+  geom_line(mapping=aes(group=rubric),alpha=.5) +
+  geom_text(mapping=aes(label=difference,y=position)) +
+  facet_wrap(~category,ncol=1,scales="free_y") +
+  labs(y="",x="") +
+  scale_y_continuous(limits=c(2,4.5),breaks=c(2,3,4), minor_breaks = NULL)
+```
+
+## Place to make your graph
+```{r}
+graph2 + scale_color_brewer(palette="Paired")
+```
+
+```{r}
+ggsave("IRComponents.png", bg="white",height=11, width=6)
+```
