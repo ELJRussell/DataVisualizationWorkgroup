@@ -6,7 +6,6 @@ We will be playing with fonts - to do this there are a few extra steps
 ```{r}
 library(extrafont)
 ## font_import() ## this only has to be done once. R will remember it in the future - we will do this in the opener, for those who make it
-loadfonts()
 ```
 
 
@@ -14,7 +13,6 @@ loadfonts()
 library(tidyverse)
 library(RColorBrewer)
 library(viridis)
-library(extrafont)
 
 EL_palette <- c("#c6123f", "#211651", "#97daeb", "#ffa409", "#d3cb8c", "#303e48", "#c7c7c7", "#634347","#f3e5b1")
 EL_palette_shortened <- c("#c6123f", "#211651")
@@ -97,16 +95,16 @@ graph2 <- ggplot(data=IRCredential,
   geom_point(mapping=aes(color=Credentialed), shape=15) +coord_flip() +
   geom_line(mapping=aes(group=rubric),alpha=.5) +
   geom_text(mapping=aes(label=difference,y=position)) +
-  facet_wrap(~category,ncol=1,scales="free_y") +
+  facet_wrap(~category,ncol=1,scales="free") +
   labs(y="",x="") +
   scale_y_continuous(limits=c(2,4.5),breaks=c(2,3,4), minor_breaks = NULL)
 ```
 
-## Place to make your graph
+## Place to make your graph. Feel free to play with color and theme
 ```{r}
 graph2 + scale_color_brewer(palette="Paired")
 ```
 
 ```{r}
-ggsave("IRComponents.png", bg="white",height=11, width=6)
+ggsave("figures/IRComponents.png", bg="white",height=11, width=6)
 ```
